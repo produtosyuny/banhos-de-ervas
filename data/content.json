@@ -2,8 +2,15 @@
   "titulo": "Banhos de Ervas",
   "subtitulo": "Guia Prático de Uso Pessoal — Mundo Cigana Tarot",
   "descricao": "48 banhos de ervas organizados por finalidade, com medidas, modo de preparo, intenção e ficha completa de 35 ervas. Um guia da Mundo Cigana Tarot.",
+  "versao": "Versão 1.3 · setembro de 2026",
+  "acesso": {
+    "url": "https://script.google.com/macros/s/AKfycbyjTeaWIsrqJiGcdoJ3DUusWChGlmTm9RoTWfACkhW4YgWX2Q0u9Ozf6keTzW9m8J0/exec",
+    "produto": "banhos",
+    "mensagem_compra": "Olá, Maria! Tenho interesse em adquirir o acesso ao guia de Banhos de Ervas.",
+    "mensagem_senha": "Olá, Maria! Esqueci a senha do guia de Banhos de Ervas. Meu e-mail é:"
+  },
   "como_usar": "Este guia foi criado para quem deseja iniciar ou aprofundar sua prática pessoal. São 48 banhos preparados com flores, folhas, cascas, sementes e raízes, organizados por finalidade. Escolha primeiro o que você quer trabalhar, leia o banho inteiro antes de começar e confira sempre os cuidados indicados. Se tiver só algumas ervas em casa, use a busca \"Tenho em casa\" para descobrir o que dá para preparar.",
-  "aviso_tradicao": "As propriedades e associações descritas neste guia vêm da tradição popular e do uso espiritual das ervas. São referências simbólicas para orientar a sua intenção, e não efeitos comprovados, garantidos ou terapêuticos.",
+  "aviso_tradicao": "As associações apresentadas neste guia refletem a prática e a perspectiva da Maria, baseadas na tradição popular e no uso espiritual das ervas. São uma entre várias interpretações possíveis: referências simbólicas para orientar a sua intenção, e não efeitos comprovados, garantidos ou terapêuticos.",
   "modulos": {
     "mod1": "São preparações feitas com plantas escolhidas de acordo com uma finalidade. A escolha não deve ser aleatória: cada erva precisa ter uma razão para estar naquele banho. A regra de ouro é: a finalidade vem antes da erva.",
     "mod2": "Na tradição popular, as ervas são classificadas como quentes, mornas ou frias, conforme a intensidade do trabalho. Neste guia, essa classificação define como e com que frequência cada banho é tomado. Todo banho que leva ao menos uma erva ou especiaria quente é tomado do pescoço para baixo.",
@@ -14,7 +21,7 @@
       },
       {
         "nivel": "Ativação",
-        "texto": "Banhos de ervas mornas, às vezes aquecidos com especiarias como canela, cravo e gengibre. Faça em ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos."
+        "texto": "Banhos de ervas mornas, às vezes aquecidos com especiarias como canela, cravo e gengibre. Faça em ciclos de 3 ou 7 dias seguidos. Depois de um ciclo, faça uma pausa de pelo menos o mesmo número de dias antes de repetir o mesmo banho."
       },
       {
         "nivel": "Harmonização",
@@ -67,9 +74,9 @@
       "titulo": "Respeite a frequência",
       "texto": "Cada banho indica a sua frequência. Em resumo:",
       "itens": [
-        "Descarrego: no máximo uma vez por semana, sempre seguido de um banho de Harmonização.",
-        "Ativação: em ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
-        "Harmonização: sempre que sentir necessidade."
+        "Descarrego: no máximo uma vez por semana. Faça um banho de Harmonização no mesmo dia, algumas horas depois, ou no dia seguinte.",
+        "Ativação: em ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois do ciclo, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
+        "Harmonização: sempre que sentir necessidade, inclusive logo depois de um descarrego."
       ]
     },
     {
@@ -94,6 +101,60 @@
     "Como me senti durante o banho?",
     "O que percebi nas horas e nos dias seguintes?",
     "Eu repetiria? O que mudaria?"
+  ],
+  "glossario": [
+    {
+      "termo": "Erva quente",
+      "texto": "Erva de ação forte, usada para limpeza profunda, corte e defesa. Pede cuidado com a frequência e é aplicada do pescoço para baixo."
+    },
+    {
+      "termo": "Erva morna",
+      "texto": "Erva de equilíbrio, usada para ativar, atrair e movimentar energias. É a base da maioria dos banhos."
+    },
+    {
+      "termo": "Erva fria",
+      "texto": "Erva suave, usada para acalmar, acolher e harmonizar."
+    },
+    {
+      "termo": "Descarrego",
+      "texto": "Banho de limpeza forte, com ervas quentes de limpeza. Retira cargas densas e deve ser seguido de um banho de harmonização."
+    },
+    {
+      "termo": "Ativação",
+      "texto": "Banho que direciona a intenção para um objetivo, como prosperidade, amor ou caminhos. Feito em ciclos de dias seguidos."
+    },
+    {
+      "termo": "Harmonização",
+      "texto": "Banho suave que acalma e recompõe o campo energético, principalmente depois de um descarrego."
+    },
+    {
+      "termo": "Direcionamento",
+      "texto": "Indica que o banho é dedicado a uma força espiritual específica, como Exu ou Pombagira."
+    },
+    {
+      "termo": "Firmeza",
+      "texto": "Estabilidade espiritual: a sensação de estar com os pés no chão e o campo protegido."
+    },
+    {
+      "termo": "Intenção",
+      "texto": "A frase que você mentaliza ou diz enquanto despeja o banho. É ela que dá direção às ervas."
+    },
+    {
+      "termo": "Abafar",
+      "texto": "Deixar as ervas na água quente com a panela tampada, fora do fogo, para liberar o aroma e as propriedades."
+    },
+    {
+      "termo": "Do pescoço para baixo",
+      "texto": "Forma de aplicação dos banhos com ervas quentes: a água não passa pela cabeça."
+    },
+    {
+      "termo": "Da cabeça aos pés",
+      "texto": "Forma de aplicação dos banhos suaves, sem ervas quentes, quando a sua tradição permitir."
+    },
+    {
+      "termo": "Fechamento de corpo",
+      "texto": "Expressão tradicional para a proteção do campo energético contra influências negativas."
+    }
   ],
   "seguranca": [
     {
@@ -485,7 +546,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Força de rumo e corte de inércia.",
       "ervas": [
         "Alecrim",
@@ -531,7 +592,7 @@
       ],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Firmeza, corte de demandas e abertura de picada.",
       "ervas": [
         "Aroeira",
@@ -577,7 +638,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Movimento material e quebra de estagnação mental.",
       "ervas": [
         "Casca de Bergamota",
@@ -612,7 +673,7 @@
       ],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Aterramento bruto e blindagem contra baixas vibrações.",
       "ervas": [
         "Raiz de Vetiver",
@@ -647,7 +708,7 @@
       ],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Limpeza de energias de recuo e retomada de atitude.",
       "ervas": [
         "Poejo",
@@ -688,7 +749,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Prosperidade de corte, foco e realização nos negócios.",
       "ervas": [
         "Folha de Abacateiro",
@@ -724,7 +785,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Magnetismo pessoal e atração de respeito.",
       "ervas": [
         "Rosa Vermelha",
@@ -759,7 +820,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Fascínio, doçura no trato e clareza de posicionamento.",
       "ervas": [
         "Rosa Amarela",
@@ -794,7 +855,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Presença marcante, intuição afiada e empoderamento sutil.",
       "ervas": [
         "Hibisco",
@@ -829,7 +890,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Equilíbrio emocional profundo aliado a um encanto magnético.",
       "ervas": [
         "Rosa Vermelha",
@@ -869,7 +930,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Abertura afetiva madura, leveza e magnetismo sereno.",
       "ervas": [
         "Jasmim",
@@ -898,7 +959,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Autonomia, poder pessoal e clareza de limites nas relações.",
       "ervas": [
         "Rosa Branca",
@@ -931,7 +992,7 @@
       "finalidades_extras": [],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Limpeza profunda de cargas densas e de inveja.",
       "ervas": [
         "Guiné",
@@ -974,7 +1035,7 @@
       "finalidades_extras": [],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Descarrego do ambiente mental e alívio do peso energético.",
       "ervas": [
         "Eucalipto",
@@ -1044,7 +1105,7 @@
       "finalidades_extras": [],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Retirada de cargas acumuladas após o dia a dia intenso.",
       "ervas": [
         "Alecrim",
@@ -1089,7 +1150,7 @@
       ],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Corte de energias de oposição sutil.",
       "ervas": [
         "Espada-de-São-Jorge",
@@ -1164,7 +1225,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Atração de parcerias sadias, calor e reciprocidade afetiva.",
       "ervas": [
         "Rosa Vermelha",
@@ -1224,7 +1285,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Brilho no olhar, alegria contagiante e valorização pessoal.",
       "ervas": [
         "Rosa Amarela",
@@ -1257,7 +1318,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Intensidade, entrega consciente e magnetismo relacional.",
       "ervas": [
         "Hibisco",
@@ -1317,7 +1378,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Expansão da autoconfiança para viver o amor sem amarras.",
       "ervas": [
         "Rosa Amarela",
@@ -1350,7 +1411,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Abertura de portas profissionais e clareza em reuniões.",
       "ervas": [
         "Louro",
@@ -1383,7 +1444,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Disposição mental para solucionar impasses no trabalho.",
       "ervas": [
         "Hortelã",
@@ -1416,7 +1477,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Foco em metas, crescimento de carreira e visibilidade justa.",
       "ervas": [
         "Anis-Estrelado",
@@ -1449,7 +1510,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Organização de ideias, foco operacional e alívio de estresse laboral.",
       "ervas": [
         "Capim-Limão",
@@ -1484,7 +1545,7 @@
       ],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Proteção energética em ambientes de trabalho densos e competitivos.",
       "ervas": [
         "Espada-de-São-Jorge",
@@ -1529,7 +1590,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Aterramento e firmeza para assumir novas responsabilidades.",
       "ervas": [
         "Raiz de Vetiver",
@@ -1562,7 +1623,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Ímã de oportunidades financeiras e expansão de ganhos.",
       "ervas": [
         "Anis-Estrelado",
@@ -1600,7 +1661,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Disciplina e visão estratégica para multiplicação de recursos.",
       "ervas": [
         "Noz-Moscada",
@@ -1633,7 +1694,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Sustentação material, fartura e blindagem contra escassez.",
       "ervas": [
         "Louro",
@@ -1666,7 +1727,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Dinamismo financeiro e quebra de bloqueios de merecimento.",
       "ervas": [
         "Casca de Tangerina",
@@ -1704,7 +1765,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Brilho e prosperidade associados ao valor do próprio trabalho.",
       "ervas": [
         "Anis-Estrelado",
@@ -1744,7 +1805,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Construção de bases sólidas para a estabilidade material.",
       "ervas": [
         "Raiz de Vetiver",
@@ -1777,7 +1838,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Resgate do poder pessoal, dignidade e altivez.",
       "ervas": [
         "Alecrim",
@@ -1806,7 +1867,7 @@
       ],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Reconhecimento do próprio valor sem autocobrança excessiva.",
       "ervas": [
         "Calêndula",
@@ -1839,7 +1900,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Força de vontade e coragem para ocupar espaço.",
       "ervas": [
         "Raiz de Gengibre",
@@ -1907,7 +1968,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Radiância, vitalidade expressiva e confiança corporal.",
       "ervas": [
         "Hibisco",
@@ -1967,7 +2028,7 @@
       "finalidades_extras": [],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Escudo energético semanal contra energias externas densas.",
       "ervas": [
         "Guiné",
@@ -2010,7 +2071,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Proteção e aterramento contra a drenagem de energia.",
       "ervas": [
         "Raiz de Vetiver",
@@ -2077,7 +2138,7 @@
       ],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Limpeza de egrégoras pesadas e fechamento de corpo.",
       "ervas": [
         "Aroeira",
@@ -2125,7 +2186,7 @@
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Cabeça aos pés",
-      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, um banho por dia. Depois, faça uma pausa de pelo menos o mesmo número de dias antes de repetir.",
       "finalidade": "Equilíbrio entre firmeza defensiva e serenidade espiritual.",
       "ervas": [
         "Alecrim",
@@ -2152,7 +2213,7 @@
       "finalidades_extras": [],
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
-      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização, no mesmo dia ou no dia seguinte.",
       "finalidade": "Vigilância energética, corte de intrigas e proteção de caminhos.",
       "ervas": [
         "Espada-de-São-Jorge",
