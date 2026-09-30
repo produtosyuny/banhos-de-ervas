@@ -263,9 +263,58 @@
         .cta .btn { background: #fff; color: var(--accent-rose-dark); border-color: #fff; }
         .cta .btn.ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.6); }
         .cta .btn.ghost:hover { background: rgba(255,255,255,0.1); }
+        .suporte { font-size: 0.9rem; color: var(--text-muted); margin-top: 12px; }
+        .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 6px 0 18px; }
+        .fact { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 12px 14px; }
+        .fact .k { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); font-weight: 600; margin-bottom: 2px; }
+        .fact .v { font-size: 0.95rem; font-weight: 500; color: var(--accent-rose-dark); line-height: 1.35; }
+        .fact.nivel-Descarrego { border-top: 3px solid #c89a92; }
+        .fact.nivel-Ativação { border-top: 3px solid #d7b977; }
+        .fact.nivel-Harmonização { border-top: 3px solid #9fb898; }
+        .finalidade-lead { font-family: 'Cormorant Garamond', serif; font-size: 1.45rem; line-height: 1.35; color: var(--text-main); margin-bottom: 10px; }
+        .block { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 22px 26px; margin-bottom: 14px; }
+        .block > h2 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.14em; font-weight: 600; color: var(--accent-rose); margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+        .block > h2 .n { display: inline-flex; width: 22px; height: 22px; border-radius: 50%; background: var(--accent-rose-dark); color: #fff; align-items: center; justify-content: center; font-size: 0.72rem; letter-spacing: 0; }
+        .block > p:last-child { margin-bottom: 0; }
+        .block.intencao { background: var(--bg-card); border-left: 3px solid var(--accent-soft); }
+        .block.intencao blockquote { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.4rem; line-height: 1.4; color: var(--accent-rose-dark); }
+        .block.intencao .dica { font-size: 0.85rem; color: var(--text-muted); margin: 10px 0 0; }
+        .steps { counter-reset: s; list-style: none; }
+        .steps li { counter-increment: s; position: relative; padding: 0 0 12px 34px; }
+        .steps li:last-child { padding-bottom: 0; }
+        .steps li::before { content: counter(s); position: absolute; left: 0; top: 2px; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--accent-soft); color: var(--accent-rose-dark); font-size: 0.75rem; font-weight: 600; display: flex; align-items: center; justify-content: center; }
+        .tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+        .tag-row a { text-decoration: none; font-size: 0.82rem; padding: 3px 10px; border-radius: 999px; background: var(--bg-card); border: 1px solid var(--border-subtle); color: var(--accent-rose-dark); }
+        .tag-row a:hover { border-color: var(--accent-soft); }
+        .tag-row a .c { color: var(--text-muted); margin-left: 4px; }
+        .ficha-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 0 4px; }
+        .ficha-grid h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); font-weight: 600; margin: 0 0 8px; }
+        .journey { list-style: none; counter-reset: j; }
+        .journey > li { counter-increment: j; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 20px 24px 20px 70px; margin-bottom: 12px; position: relative; }
+        .journey > li::before { content: counter(j); position: absolute; left: 22px; top: 20px; width: 32px; height: 32px; border-radius: 50%; background: var(--accent-rose-dark); color: #fff; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; }
+        .journey h2 { font-size: 1.45rem; color: var(--accent-rose-dark); margin-bottom: 4px; }
+        .journey ul { margin: 8px 0 0 18px; }
+        .journey ul li { margin-bottom: 4px; }
+        .journey p { margin: 0; }
+        .diario { width: 100%; border-collapse: collapse; margin-top: 12px; background: var(--bg-surface); }
+        .diario th { text-align: left; font-weight: 500; font-size: 0.9rem; color: var(--accent-rose-dark); padding: 10px 12px; border: 1px solid var(--border-subtle); width: 42%; vertical-align: top; }
+        .diario td { border: 1px solid var(--border-subtle); height: 56px; }
+        @media (max-width: 768px) {
+            .facts { grid-template-columns: 1fr 1fr; }
+            .block { padding: 18px 18px; }
+            .ficha-grid { grid-template-columns: 1fr; }
+            .journey > li { padding: 18px 18px 18px 60px; }
+            .journey > li::before { left: 16px; }
+        }
+        @media print {
+            .facts { grid-template-columns: repeat(4, 1fr); }
+            .block, .fact, .journey > li { border-color: #ccc; break-inside: avoid; }
+            .suporte { display: none; }
+            .diario td { height: 80px; }
+        }
         .aviso { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
         .sidebar-contact { padding: 14px 24px 18px; border-top: 1px solid var(--border-subtle); display: flex; gap: 8px; flex-wrap: wrap; }
-        .sidebar-contact a { flex: 1; text-align: center; justify-content: center; font-size: 0.82rem; padding: 7px 10px; }
+        .sidebar-contact a { flex: 1; text-align: center; justify-content: center; font-size: 0.8rem; padding: 7px 8px; white-space: nowrap; }
         .sobre-wrap { display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap; }
         .sobre-wrap img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--bg-surface); box-shadow: 0 0 0 1px var(--border-subtle); }
         .sobre-wrap .bio { flex: 1; min-width: 240px; white-space: pre-line; }
@@ -436,13 +485,16 @@
         }
 
         function footer() {
-            return `<p class="footer">Uso externo. Leia os <a href="#/seguranca">cuidados de segurança</a> antes de preparar qualquer banho. © ${new Date().getFullYear()} Mundo Cigana Tarot. Todos os direitos reservados.</p>`;
+            const l = data ? contatoLinks() : {};
+            return `<p class="footer">${l.suporte ? `Dúvidas sobre o guia? <a href="${esc(l.suporte)}" target="_blank" rel="noopener">Fale pelo WhatsApp</a>. ` : ''}Uso externo. Leia os <a href="#/seguranca">cuidados de segurança</a> antes de preparar qualquer banho. © ${new Date().getFullYear()} Mundo Cigana Tarot. Todos os direitos reservados.</p>`;
         }
 
         function contatoLinks() {
             const c = data.contato || {};
+            const wa = msg => c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}` + (msg ? `?text=${encodeURIComponent(msg)}` : '') : '';
             return {
-                whats: c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}` + (c.whatsapp_mensagem ? `?text=${encodeURIComponent(c.whatsapp_mensagem)}` : '') : '',
+                whats: wa(c.mensagem_leitura),
+                suporte: wa(c.mensagem_suporte),
                 insta: c.instagram ? `https://www.instagram.com/${String(c.instagram).replace(/^@/, '')}/` : '',
                 handle: c.instagram ? '@' + String(c.instagram).replace(/^@/, '') : '',
             };
@@ -453,9 +505,14 @@
             const l = contatoLinks();
             if (!l.whats && !l.insta) return '';
             return `<div class="cta"><p>${esc(c.texto_cta)}</p><div class="cta-actions">
-                ${l.whats ? `<a class="btn" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>` : ''}
+                ${l.whats ? `<a class="btn" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar leitura de tarot</a>` : ''}
                 ${l.insta ? `<a class="btn ghost" href="${esc(l.insta)}" target="_blank" rel="noopener">Ver no Instagram</a>` : ''}
             </div></div>`;
+        }
+
+        function suporte() {
+            const l = contatoLinks();
+            return l.suporte ? `<p class="suporte">Tem alguma dúvida sobre o guia? <a href="${esc(l.suporte)}" target="_blank" rel="noopener">Fale com a gente pelo WhatsApp</a>.</p>` : '';
         }
 
         const avisoTradicao = () => data.aviso_tradicao ? `<p class="aviso">${esc(data.aviso_tradicao)}</p>` : '';
@@ -597,41 +654,45 @@
             const extras = [b.categoria, ...(b.finalidades_extras || [])].filter((c, i, a) => a.indexOf(c) === i);
 
             const alertas = (b.alertas || []);
+            const minutos = [...b.preparo.matchAll(/(\d+)\s*minutos/g)].reduce((t, m) => t + Number(m[1]), 0);
+            const passos = b.preparo.split(/(?<=\.)\s+(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ])/).filter(Boolean);
+            const freqCurta = { 'Descarrego': '1 vez por semana, no máximo', 'Ativação': 'Ciclos de 3 ou 7 dias', 'Harmonização': 'Quando sentir necessidade' }[b.nivel] || b.frequencia;
+            let n = 0;
+            const bloco = (titulo, corpo, cls = '') => `<section class="block ${cls}"><h2><span class="n">${++n}</span>${titulo}</h2>${corpo}</section>`;
             render(`
                 <p class="breadcrumb"><a href="${catHref}">${esc(catLabel)}</a> › Banho ${b.id} de ${data.banhos.length}</p>
                 <h1 class="page-title">${esc(b.titulo)}</h1>
-                <div class="badges">
-                    ${badgeNivel(b)}
-                    <span class="badge">${esc(b.corpo)}</span>
-                    ${b.direcionamento !== 'Geral' ? `<span class="badge">Direcionamento: ${esc(b.direcionamento)}</span>` : ''}
+                <p class="finalidade-lead">${esc(b.finalidade)}</p>
+                <div class="tag-row" style="margin-bottom:16px;">
+                    ${extras.map(c => `<a href="#/categoria/${catSlug(c)}">${esc(c)}</a>`).join('')}
+                    ${b.direcionamento !== 'Geral' ? `<a href="#/categoria/${catSlug(b.direcionamento)}">Direcionamento: ${esc(b.direcionamento)}</a>` : ''}
+                </div>
+                <div class="facts">
+                    <div class="fact nivel-${esc(b.nivel)}"><span class="k">Intensidade</span><span class="v">${esc(b.nivel)}</span></div>
+                    <div class="fact"><span class="k">Aplicação</span><span class="v">${esc(b.corpo)}</span></div>
+                    <div class="fact"><span class="k">Frequência</span><span class="v">${esc(freqCurta)}</span></div>
+                    <div class="fact"><span class="k">Preparo</span><span class="v">${minutos ? 'Cerca de ' + minutos + ' min' : '—'}<br><small style="color:var(--text-muted);font-weight:400;">+ tempo para amornar</small></span></div>
                 </div>
                 <div class="actions">
                     <button class="btn" type="button" data-share>Compartilhar</button>
                     <button class="btn" type="button" data-print>Imprimir</button>
                 </div>
-                <div class="recipe-card">
-                    <h4>Finalidade</h4>
-                    <p>${esc(b.finalidade)}</p>
-                    <p style="font-size:0.88rem;color:var(--text-muted);margin-top:-8px;">Indicado para: ${extras.map(c => `<a class="herb-link" href="#/categoria/${catSlug(c)}">${esc(c)}</a>`).join(', ')}</p>
 
-                    <h4>Ingredientes</h4>
+                ${alertas.length ? `<div class="alert" role="note"><strong>Cuidados com este banho</strong><ul>${alertas.map(a => `<li><b>${esc(a.erva)}:</b> ${esc(a.texto)}</li>`).join('')}</ul></div>` : ''}
+
+                ${bloco('Ingredientes', `
                     <ul class="ingredients">
                         ${b.ervas.map(e => `<li><a class="herb-link" href="#/erva/${slug(e)}">${esc(e)}</a><span class="qty">${esc((b.quantidades || {})[e] || '')}</span></li>`).join('')}
-                    </ul>
+                    </ul>`)}
 
-                    ${alertas.length ? `<div class="alert" role="note"><strong>Cuidados com este banho</strong><ul>${alertas.map(a => `<li><b>${esc(a.erva)}:</b> ${esc(a.texto)}</li>`).join('')}</ul></div>` : ''}
+                ${bloco('Modo de preparo', `<ol class="steps">${passos.map(t => `<li>${esc(t)}</li>`).join('')}</ol>`)}
 
-                    <h4>O que cada erva representa na tradição</h4>
-                    <p>${esc(b.explicacao)}</p>
+                ${bloco('Intenção', `<blockquote>“${esc(b.intencao)}”</blockquote><p class="dica">Repita em voz alta ou em pensamento enquanto despeja o banho.</p>`, 'intencao')}
 
-                    <div class="intention-box"><small>Intenção</small>“${esc(b.intencao)}”</div>
+                ${bloco('Frequência', `<p>${esc(b.frequencia)}${b.nivel === 'Descarrego' ? ' Sugestão de harmonização: <a class="herb-link" href="#/banho/18">Reestruturação da Aura</a>.' : ''}</p>`)}
 
-                    <h4>Modo de preparo</h4>
-                    <p>${esc(b.preparo)}</p>
+                ${bloco('O que cada erva representa na tradição', `<p>${esc(b.explicacao)}</p>`)}
 
-                    <h4>Frequência</h4>
-                    <p style="margin-bottom:0;">${esc(b.frequencia)}${b.nivel === 'Descarrego' ? ' Sugestão: <a class="herb-link" href="#/banho/18">Reestruturação da Aura</a>.' : ''}</p>
-                </div>
                 ${b.direcionamento !== 'Geral' ? `<div class="note-box"><p>${esc(data.nota_linhagem)}</p></div>` : ''}
                 ${avisoTradicao()}
                 ${cta()}
@@ -656,14 +717,16 @@
 
         const filtros = { finalidade: null, nivel: null, direcionamento: null };
 
-        function pageTodos(q) {
+        function pageTodos(q, ervaSlug) {
             q = q || '';
+            const ervaFiltro = ervaSlug ? data.fichas_ervas.find(f => slug(f.nome) === ervaSlug) : null;
             $('#searchInput').value = q;
             const nq = norm(q);
             const lista = data.banhos.filter(b => {
                 if (filtros.finalidade && !(b.categoria === filtros.finalidade || (b.finalidades_extras || []).includes(filtros.finalidade))) return false;
                 if (filtros.nivel && b.nivel !== filtros.nivel) return false;
                 if (filtros.direcionamento && b.direcionamento !== filtros.direcionamento) return false;
+                if (ervaFiltro && !b.ervas.includes(ervaFiltro.nome)) return false;
                 if (nq) {
                     const hay = norm([b.titulo, b.finalidade, b.categoria, ...(b.finalidades_extras || []), b.direcionamento, b.intencao, b.explicacao, ...b.ervas].join(' '));
                     if (!nq.split(/\s+/).every(t => hay.includes(t))) return false;
@@ -676,28 +739,29 @@
                 </div></fieldset>`;
             const ervasEncontradas = nq ? data.fichas_ervas.filter(f => norm(f.nome).includes(nq)) : [];
             render(`
-                <h1 class="page-title">${q ? 'Busca: “' + esc(q) + '”' : 'Todos os banhos'}</h1>
+                <h1 class="page-title">${ervaFiltro ? 'Banhos com ' + esc(ervaFiltro.nome) : q ? 'Busca: “' + esc(q) + '”' : 'Todos os banhos'}</h1>
+                ${ervaFiltro ? `<p class="breadcrumb"><a href="#/erva/${slug(ervaFiltro.nome)}">Ver a ficha de ${esc(ervaFiltro.nome)}</a></p>` : ''}
                 <div class="filters">
                     ${chipGroup('finalidade', 'Finalidade', CATEGORIAS)}
                     ${chipGroup('nivel', 'Intensidade', NIVEIS)}
                     ${chipGroup('direcionamento', 'Direcionamento', DIRECIONAMENTOS)}
                 </div>
                 ${ervasEncontradas.length ? `<p>Fichas de ervas: ${ervasEncontradas.map(f => `<a class="herb-link" href="#/erva/${slug(f.nome)}">${esc(f.nome)}</a>`).join(', ')}</p>` : ''}
-                <p class="result-count" aria-live="polite">${lista.length} ${lista.length === 1 ? 'banho encontrado' : 'banhos encontrados'}${(filtros.finalidade || filtros.nivel || filtros.direcionamento || q) ? ' · <a href="#/banhos" data-clear>limpar filtros</a>' : ''}</p>
+                <p class="result-count" aria-live="polite">${lista.length} ${lista.length === 1 ? 'banho encontrado' : 'banhos encontrados'}${(filtros.finalidade || filtros.nivel || filtros.direcionamento || q || ervaFiltro) ? ' · <a href="#/banhos" data-clear>limpar filtros</a>' : ''}</p>
                 <div class="card-list">${lista.map(b => bathCard(b)).join('') || '<p>Nenhum banho com esses critérios. Tente outra palavra ou limpe os filtros.</p>'}</div>
             `, q ? 'Busca' : 'Todos os banhos', q ? null : '#/banhos');
 
             container.querySelectorAll('.chip').forEach(ch => ch.addEventListener('click', () => {
                 const k = ch.dataset.f, v = ch.dataset.v;
                 filtros[k] = filtros[k] === v ? null : v;
-                pageTodos(q);
+                pageTodos(q, ervaSlug);
                 container.querySelector(`.chip[data-f="${k}"][data-v="${CSS.escape(v)}"]`)?.focus();
             }));
             container.querySelector('[data-clear]')?.addEventListener('click', e => {
                 e.preventDefault();
                 filtros.finalidade = filtros.nivel = filtros.direcionamento = null;
                 $('#searchInput').value = '';
-                if (location.hash === '#/banhos') pageTodos('');
+                if (location.hash === '#/banhos') pageTodos('', null);
                 else location.hash = '#/banhos';
             });
         }
@@ -705,10 +769,13 @@
         function pageErvas(abrir) {
             const html = data.fichas_ervas.map(f => {
                 const rel = data.banhos.filter(b => b.ervas.includes(f.nome));
+                const conta = arr => Object.entries(arr.reduce((m, x) => (m[x] = (m[x] || 0) + 1, m), {})).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'pt-BR'));
+                const combina = conta(rel.flatMap(b => b.ervas.filter(e => e !== f.nome))).slice(0, 4);
+                const fins = conta(rel.flatMap(b => [b.categoria, ...(b.finalidades_extras || [])].filter((c, i, a) => a.indexOf(c) === i))).slice(0, 4);
                 return `
                 <details class="ficha" id="erva-${slug(f.nome)}" ${abrir === slug(f.nome) ? 'open' : ''}>
                     <summary>
-                        <div><h2>${esc(f.nome)}</h2><span class="sub">${esc(f.tipo)} · ${esc(f.classificacao)}</span></div>
+                        <div><h2>${esc(f.nome)}</h2><span class="sub">${esc(f.tipo)} · ${esc(f.classificacao)} · em ${rel.length} ${rel.length === 1 ? 'banho' : 'banhos'}</span></div>
                         <span class="sign" aria-hidden="true"></span>
                     </summary>
                     <div class="ficha-body">
@@ -717,11 +784,16 @@
                         <p><strong>Medida de referência:</strong> ${esc(f.dose)}</p>
                         <p><strong>Substituição:</strong> <em>${linkifyErvas(f.substituicao) || 'Nenhuma sugerida.'}</em></p>
                         ${f.cuidado ? `<div class="alert" role="note"><strong>Cuidado</strong>${esc(f.cuidado)}</div>` : ''}
+                        ${rel.length ? `<div class="ficha-grid">
+                            <div><h3>Combina mais com</h3><div class="tag-row">${combina.map(([e, c]) => `<a href="#/erva/${slug(e)}">${esc(e)}<span class="c">${c}×</span></a>`).join('')}</div></div>
+                            <div><h3>Finalidades mais comuns</h3><div class="tag-row">${fins.map(([c, k]) => `<a href="#/categoria/${catSlug(c)}">${esc(c)}<span class="c">${k}</span></a>`).join('')}</div></div>
+                        </div>` : ''}
                         <div class="related">
-                            <p style="font-weight:500;margin-bottom:8px;color:var(--accent-rose-dark);">Banhos que usam esta erva (${rel.length})</p>
+                            <p style="font-weight:500;margin-bottom:8px;color:var(--accent-rose-dark);">Esta erva aparece em ${rel.length} ${rel.length === 1 ? 'banho' : 'banhos'}</p>
                             <ul class="plain">
                                 ${rel.map(b => `<li><a class="smart-link" href="#/banho/${b.id}">${esc(b.titulo)}</a> <span class="cat">(${esc(b.direcionamento !== 'Geral' ? b.direcionamento : b.categoria)})</span></li>`).join('') || '<li class="cat">Nenhum banho cadastrado com esta erva.</li>'}
                             </ul>
+                            ${rel.length ? `<a class="btn" style="margin-top:12px;" href="#/banhos?erva=${slug(f.nome)}">Ver os ${rel.length} banhos com ${esc(f.nome)}</a>` : ''}
                         </div>
                     </div>
                 </details>`;
@@ -798,6 +870,26 @@
             `, titulo, href);
         }
 
+        function pageComoTomar() {
+            const passos = data.como_tomar || [];
+            render(`
+                <h1 class="page-title">Como tomar os banhos</h1>
+                <p>O caminho completo, do momento de escolher o banho até registrar o que você sentiu. Cada banho traz, além disso, a sua frequência e os seus cuidados específicos.</p>
+                <ol class="journey">
+                    ${passos.map(p => `<li><h2>${esc(p.titulo)}</h2><p>${esc(p.texto)}</p>${(p.itens || []).length ? `<ul>${p.itens.map(i => `<li>${esc(i)}</li>`).join('')}</ul>` : ''}</li>`).join('')}
+                </ol>
+                ${(data.diario || []).length ? `
+                <div class="module-box" id="diario">
+                    <h3>Diário do banho</h3>
+                    <p>Preencha logo depois do banho e volte a ele nos dias seguintes.</p>
+                    <div class="actions"><button class="btn" type="button" data-print>Imprimir o diário</button></div>
+                    <table class="diario"><tbody>${data.diario.map(q => `<tr><th scope="row">${esc(q)}</th><td></td></tr>`).join('')}</tbody></table>
+                </div>` : ''}
+                ${suporte()}
+            `, 'Como tomar os banhos', '#/como-tomar');
+            container.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+        }
+
         function pageSobre() {
             const foto = data.sobre_foto ? `<img src="${esc(data.sobre_foto)}" alt="Maria, da Mundo Cigana Tarot" width="150" height="150">` : '';
             render(`<h1 class="page-title">Sobre</h1><div class="sobre-wrap">${foto}<p class="bio">${esc(data.sobre)}</p></div>${cta()}`, 'Sobre', '#/sobre');
@@ -819,11 +911,11 @@
             if (!parts.length) pageInicio();
             else if (parts[0] === 'banho') pageBanho(Number(parts[1]));
             else if (parts[0] === 'categoria') { const c = catBySlug(parts[1]); c ? pageCategoria(c) : pageNaoEncontrada(); }
-            else if (parts[0] === 'banhos') pageTodos(params.get('q'));
+            else if (parts[0] === 'banhos') pageTodos(params.get('q'), params.get('erva'));
             else if (parts[0] === 'ervas') pageErvas();
             else if (parts[0] === 'erva') pageErvas(parts[1]);
             else if (parts[0] === 'tenho-em-casa') pageTenho();
-            else if (parts[0] === 'como-tomar') pageLista('Como tomar os banhos', data.como_tomar, '<p>Orientações que valem para todos os banhos do guia. Cada banho traz, além disso, a sua frequência e os seus cuidados específicos.</p>', '#/como-tomar');
+            else if (parts[0] === 'como-tomar') pageComoTomar();
             else if (parts[0] === 'seguranca') pageLista('Segurança e Uso Responsável', data.seguranca, '<p>Leia com atenção antes de preparar qualquer banho. Cada banho e cada ficha de erva também indicam os cuidados específicos.</p>', '#/seguranca');
             else if (parts[0] === 'sobre' && data.sobre) pageSobre();
             else pageNaoEncontrada();
@@ -841,7 +933,7 @@
                 buildSidebar();
                 const l = contatoLinks(), sc = $('#sidebarContact');
                 if (l.whats || l.insta) {
-                    sc.innerHTML = (l.whats ? `<a class="btn primary" href="${esc(l.whats)}" target="_blank" rel="noopener">WhatsApp</a>` : '') +
+                    sc.innerHTML = (l.whats ? `<a class="btn primary" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar leitura</a>` : '') +
                                    (l.insta ? `<a class="btn" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)}</a>` : '');
                     sc.hidden = false;
                 }
