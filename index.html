@@ -312,6 +312,36 @@
             .suporte { display: none; }
             .diario td { height: 80px; }
         }
+        /* Login */
+        .login-screen { position: fixed; inset: 0; z-index: 500; background: var(--bg-primary); display: flex; align-items: center; justify-content: center; padding: 20px; overflow-y: auto; }
+        .login-screen[hidden] { display: none; }
+        .login-card { width: 100%; max-width: 400px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 34px 30px; box-shadow: 0 10px 40px rgba(110,65,65,0.08); }
+        .login-card h1 { font-size: 2.2rem; color: var(--accent-rose-dark); text-align: center; }
+        .login-card .marca { text-align: center; font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--text-muted); margin-bottom: 22px; }
+        .login-card label { display: block; font-size: 0.85rem; font-weight: 500; margin: 14px 0 4px; }
+        .login-card input { width: 100%; padding: 11px 12px; font: inherit; border: 1px solid var(--border-subtle); border-radius: 6px; background: #fff; color: var(--text-main); }
+        .login-card input:focus { outline: none; border-color: var(--accent-rose); box-shadow: 0 0 0 3px rgba(138,82,82,0.15); }
+        .login-card button[type=submit] { width: 100%; justify-content: center; margin-top: 20px; padding: 11px; font-size: 0.95rem; }
+        .login-card .erro { color: #9b2c2c; font-size: 0.88rem; margin: 12px 0 0; min-height: 1em; }
+        .login-card .links { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border-subtle); font-size: 0.88rem; display: grid; gap: 8px; text-align: center; }
+        .user-bar { padding: 10px 24px; font-size: 0.8rem; color: var(--text-muted); display: flex; justify-content: space-between; border-top: 1px solid var(--border-subtle); }
+        .user-bar button { background: none; border: none; color: var(--accent-rose); font: inherit; cursor: pointer; text-decoration: underline; padding: 0; }
+        /* Por onde começar */
+        .start-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 14px 0 8px; }
+        .start-card { display: block; text-decoration: none; color: inherit; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 18px; transition: var(--transition); }
+        .start-card:hover { border-color: var(--accent-soft); box-shadow: 0 4px 14px rgba(110,65,65,0.06); }
+        .start-card strong { display: block; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 1.3rem; color: var(--accent-rose-dark); line-height: 1.2; margin-bottom: 6px; }
+        .start-card span { font-size: 0.88rem; color: var(--text-muted); }
+        .tag-row a.principal { background: var(--accent-rose-dark); border-color: var(--accent-rose-dark); color: #fff; }
+        .tag-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); font-weight: 600; align-self: center; margin-right: 2px; }
+        .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px; }
+        .related-grid a { display: block; text-decoration: none; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 14px; color: inherit; transition: var(--transition); }
+        .related-grid a:hover { border-color: var(--accent-soft); }
+        .related-grid strong { display: block; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 600; color: var(--accent-rose-dark); line-height: 1.2; }
+        .related-grid span { font-size: 0.8rem; color: var(--text-muted); }
+        .glossario dt { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; color: var(--accent-rose-dark); margin-top: 16px; }
+        .glossario dd { margin: 2px 0 0; padding-bottom: 14px; border-bottom: 1px solid var(--border-subtle); }
+        @media (max-width: 768px) { .start-grid, .related-grid { grid-template-columns: 1fr; } }
         .aviso { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
         .sidebar-contact { padding: 14px 24px 18px; border-top: 1px solid var(--border-subtle); display: flex; gap: 8px; flex-wrap: wrap; }
         .sidebar-contact a { flex: 1; text-align: center; justify-content: center; font-size: 0.8rem; padding: 7px 8px; white-space: nowrap; }
@@ -377,6 +407,21 @@
 <body>
     <a class="skip-link" href="#contentContainer">Pular para o conteúdo</a>
 
+    <div class="login-screen" id="loginScreen" hidden>
+        <form class="login-card" id="loginForm" novalidate>
+            <h1>Banhos de Ervas</h1>
+            <p class="marca">Mundo Cigana Tarot</p>
+            <p style="font-size:0.92rem;margin-bottom:4px;">Entre com o e-mail e a senha que você recebeu ao adquirir o guia.</p>
+            <label for="loginEmail">E-mail</label>
+            <input type="email" id="loginEmail" autocomplete="username" required>
+            <label for="loginSenha">Senha</label>
+            <input type="password" id="loginSenha" autocomplete="current-password" required>
+            <button class="btn primary" type="submit" id="loginBtn">Entrar</button>
+            <p class="erro" id="loginErro" role="alert"></p>
+            <div class="links" id="loginLinks"></div>
+        </form>
+    </div>
+
     <button class="mobile-menu-btn" id="menuBtn" aria-controls="sidebar" aria-expanded="false">☰ Sumário</button>
     <div class="backdrop" id="backdrop"></div>
 
@@ -391,6 +436,7 @@
         </form>
         <nav class="nav-tree" id="navTree" aria-label="Seções do guia"></nav>
         <div class="sidebar-contact" id="sidebarContact" hidden></div>
+        <div class="user-bar" id="userBar" hidden></div>
     </aside>
 
     <main class="content-area" id="mainScroll">
@@ -491,7 +537,7 @@
 
         function footer() {
             const l = data ? contatoLinks() : {};
-            return `<p class="footer">${l.suporte ? `Dúvidas sobre o guia? <a href="${esc(l.suporte)}" target="_blank" rel="noopener">Fale pelo WhatsApp</a>. ` : ''}Uso externo. Leia os <a href="#/seguranca">cuidados de segurança</a> antes de preparar qualquer banho. © ${new Date().getFullYear()} Mundo Cigana Tarot. Todos os direitos reservados.</p>`;
+            return `<p class="footer">${l.suporte ? `Dúvidas sobre o guia? <a href="${esc(l.suporte)}" target="_blank" rel="noopener">Fale pelo WhatsApp</a>. ` : ''}Uso externo. Leia os <a href="#/seguranca">cuidados de segurança</a> antes de preparar qualquer banho. © ${new Date().getFullYear()} Mundo Cigana Tarot. Todos os direitos reservados.${data && data.versao ? ' ' + esc(data.versao) + '.' : ''}</p>`;
         }
 
         function contatoLinks() {
@@ -554,6 +600,7 @@
                     <div class="nav-section-title">Consulta Técnica</div>
                     <ul class="nav-items">
                         ${item('#/ervas', 'Ficha das Ervas', data.fichas_ervas.length)}
+                        ${(data.glossario || []).length ? item('#/glossario', 'Glossário') : ''}
                         ${item('#/seguranca', 'Segurança e Uso')}
                     </ul>
                 </div>`;
@@ -615,17 +662,18 @@
                 </div>
                 <h3>Como usar este guia</h3>
                 <p>${esc(data.como_usar)}</p>
-                <div class="actions">
-                    <a class="btn primary" href="#/banhos">Ver todos os banhos</a>
-                    <a class="btn" href="#/tenho-em-casa">O que faço com o que tenho em casa?</a>
-                    <a class="btn" href="#/como-tomar">Como tomar</a>
+                <h3>Por onde começar?</h3>
+                <div class="start-grid">
+                    <a class="start-card" href="#/como-tomar"><strong>É minha primeira vez</strong><span>Veja o passo a passo, do preparo ao depois do banho.</span></a>
+                    <a class="start-card" href="#/banhos"><strong>Sei o que quero trabalhar</strong><span>Filtre os 48 banhos por finalidade ou busque por uma palavra.</span></a>
+                    <a class="start-card" href="#/tenho-em-casa"><strong>Quero usar o que tenho em casa</strong><span>Marque suas ervas e veja o que dá para preparar.</span></a>
                 </div>
                 <div class="module-box">
-                    <h3>Módulo I: A Matriz dos Banhos</h3>
+                    <h3>Fundamentos: A Matriz dos Banhos</h3>
                     <p>${esc(m.mod1)}</p>
                 </div>
                 <div class="module-box">
-                    <h3>Módulo II: Classificação Térmica</h3>
+                    <h3>Fundamentos: Classificação Térmica</h3>
                     <p>${esc(m.mod2)}</p>
                     <ul class="rules">
                         ${(m.mod2_regras || []).map(r => `<li><span class="badge nivel-${esc(r.nivel)}">${esc(r.nivel)}</span><br>${esc(r.texto)}</li>`).join('')}
@@ -661,6 +709,15 @@
             const alertas = (b.alertas || []);
             const minutos = [...b.preparo.matchAll(/(\d+)\s*minutos/g)].reduce((t, m) => t + Number(m[1]), 0);
             const passos = b.preparo.split(/(?<=\.)\s+(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ])/).filter(Boolean);
+            const todasFins = [b.categoria, ...(b.finalidades_extras || [])].filter(c => !DIRECIONAMENTOS.includes(c));
+            const finPrincipal = todasFins[0], finOutras = todasFins.slice(1);
+            const litros = (b.preparo.match(/(\d+(?:,\d+)?)\s*litros?/) || [])[1];
+            const relacionados = data.banhos.filter(x => x.id !== b.id).map(x => {
+                const comuns = x.ervas.filter(e => b.ervas.includes(e)).length;
+                const finsB = [b.categoria, ...(b.finalidades_extras || [])];
+                const mesmaFin = [x.categoria, ...(x.finalidades_extras || [])].some(c => finsB.includes(c)) ? 1 : 0;
+                return { x, score: comuns * 2 + mesmaFin, comuns };
+            }).filter(r => r.score >= 3).sort((a, c) => c.score - a.score || a.x.id - c.x.id).slice(0, 3);
             const freqCurta = { 'Descarrego': '1 vez por semana, no máximo', 'Ativação': 'Ciclos de 3 ou 7 dias', 'Harmonização': 'Quando sentir necessidade' }[b.nivel] || b.frequencia;
             let n = 0;
             const bloco = (titulo, corpo, cls = '') => `<section class="block ${cls}"><h2><span class="n">${++n}</span>${titulo}</h2>${corpo}</section>`;
@@ -668,15 +725,20 @@
                 <p class="breadcrumb"><a href="${catHref}">${esc(catLabel)}</a> › Banho ${b.id} de ${data.banhos.length}</p>
                 <h1 class="page-title">${esc(b.titulo)}</h1>
                 <p class="finalidade-lead">${esc(b.finalidade)}</p>
-                <div class="tag-row" style="margin-bottom:16px;">
-                    ${extras.map(c => `<a href="#/categoria/${catSlug(c)}">${esc(c)}</a>`).join('')}
+                <div class="tag-row" style="margin-bottom:8px;">
+                    <span class="tag-label">Finalidade principal</span>
+                    ${finPrincipal ? `<a class="principal" href="#/categoria/${catSlug(finPrincipal)}">${esc(finPrincipal)}</a>` : ''}
                     ${b.direcionamento !== 'Geral' ? `<a href="#/categoria/${catSlug(b.direcionamento)}">Direcionamento: ${esc(b.direcionamento)}</a>` : ''}
                 </div>
+                ${finOutras.length ? `<div class="tag-row" style="margin-bottom:16px;">
+                    <span class="tag-label">Também indicado para</span>
+                    ${finOutras.map(c => `<a href="#/categoria/${catSlug(c)}">${esc(c)}</a>`).join('')}
+                </div>` : '<div style="margin-bottom:16px;"></div>'}
                 <div class="facts">
                     <div class="fact nivel-${esc(b.nivel)}"><span class="k">Intensidade</span><span class="v">${esc(b.nivel)}</span></div>
                     <div class="fact"><span class="k">Aplicação</span><span class="v">${esc(b.corpo)}</span></div>
                     <div class="fact"><span class="k">Frequência</span><span class="v">${esc(freqCurta)}</span></div>
-                    <div class="fact"><span class="k">Preparo</span><span class="v">${minutos ? 'Cerca de ' + minutos + ' min' : '—'}<br><small style="color:var(--text-muted);font-weight:400;">+ tempo para amornar</small></span></div>
+                    <div class="fact"><span class="k">Preparo</span><span class="v">${minutos ? 'Cerca de ' + minutos + ' min' : '—'}<br><small style="color:var(--text-muted);font-weight:400;">${litros ? 'Rende cerca de ' + litros + ' L · ' : ''}+ tempo para amornar</small></span></div>
                 </div>
                 <div class="actions">
                     <button class="btn" type="button" data-share>Compartilhar</button>
@@ -699,6 +761,8 @@
                 ${bloco('O que cada erva representa na tradição', `<p>${esc(b.explicacao)}</p>`)}
 
                 ${b.direcionamento !== 'Geral' ? `<div class="note-box"><p>${esc(data.nota_linhagem)}</p></div>` : ''}
+                ${relacionados.length ? `<h3>Banhos relacionados</h3><div class="related-grid">${relacionados.map(({ x, comuns }) =>
+                    `<a href="#/banho/${x.id}"><strong>${esc(x.titulo)}</strong><span>${comuns ? comuns + (comuns === 1 ? ' erva em comum' : ' ervas em comum') + ' · ' : ''}${esc(x.categoria)}</span></a>`).join('')}</div>` : ''}
                 ${avisoTradicao()}
                 ${cta()}
                 <nav class="pager" aria-label="Outros banhos">
@@ -895,6 +959,14 @@
             container.querySelector('[data-print]')?.addEventListener('click', () => window.print());
         }
 
+        function pageGlossario() {
+            render(`
+                <h1 class="page-title">Glossário</h1>
+                <p>Os termos usados no guia, explicados de forma simples.</p>
+                <dl class="glossario">${(data.glossario || []).map(g => `<dt>${esc(g.termo)}</dt><dd>${esc(g.texto)}</dd>`).join('')}</dl>
+            `, 'Glossário', '#/glossario');
+        }
+
         function pageSobre() {
             const foto = data.sobre_foto ? `<img src="${esc(data.sobre_foto)}" alt="Maria, cartomante da Mundo Cigana Tarot, segurando um baralho cigano" width="240" height="320">` : '';
             const l = contatoLinks();
@@ -932,31 +1004,114 @@
             else if (parts[0] === 'como-tomar') pageComoTomar();
             else if (parts[0] === 'seguranca') pageLista('Segurança e Uso Responsável', data.seguranca, '<p>Leia com atenção antes de preparar qualquer banho. Cada banho e cada ficha de erva também indicam os cuidados específicos.</p>', '#/seguranca');
             else if (parts[0] === 'sobre' && data.sobre) pageSobre();
+            else if (parts[0] === 'glossario') pageGlossario();
             else pageNaoEncontrada();
 
             if (!keepScroll && document.activeElement !== $('#searchInput')) container.focus({ preventScroll: true });
         }
 
-        window.addEventListener('hashchange', () => route(false));
+        window.addEventListener('hashchange', () => { if (data && $('#loginScreen').hidden && $('#navTree').innerHTML) route(false); });
 
         fetch('data/content.json')
             .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
             .then(json => {
                 data = json;
                 data.fichas_ervas.forEach(f => fichaByName[f.nome] = f);
-                buildSidebar();
+                iniciarAcesso();
+            })
+            .catch(err => {
+                console.error('Erro ao carregar os dados:', err);
+                container.innerHTML = '<h1 class="page-title">Não foi possível carregar o guia</h1><p>Verifique sua conexão e atualize a página.</p>';
+            });
+
+        // ---------------------------------------------------------------- acesso (login)
+        const SESSAO_KEY = 'mct-sessao';
+        const sessaoGet = () => { try { return JSON.parse(localStorage.getItem(SESSAO_KEY) || 'null'); } catch (e) { return null; } };
+        const sessaoSet = v => { try { v ? localStorage.setItem(SESSAO_KEY, JSON.stringify(v)) : localStorage.removeItem(SESSAO_KEY); } catch (e) {} };
+
+        async function chamarAcesso(payload) {
+            const r = await fetch(data.acesso.url, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ ...payload, produto: data.acesso.produto }) });
+            return r.json();
+        }
+
+        function iniciarAcesso() {
+            const acesso = data.acesso || {};
+            if (!acesso.url) { abrirGuia(null); return; }   // login ainda não configurado: guia aberto
+            const s = sessaoGet();
+            if (s && s.email && s.token) {
+                abrirGuia(s);
+                chamarAcesso({ acao: 'verificar', email: s.email, token: s.token })
+                    .then(res => { if (res && res.ok === false) { sessaoSet(null); mostrarLogin('Seu acesso precisa ser confirmado novamente. Entre com seu e-mail e senha.'); } })
+                    .catch(() => { /* sem conexão: mantém o acesso */ });
+            } else {
+                mostrarLogin();
+            }
+        }
+
+        function mostrarLogin(msg) {
+            const c = data.contato || {};
+            const wa = m => c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}?text=${encodeURIComponent(m)}` : '';
+            const compra = wa(data.acesso.mensagem_compra), senha = wa(data.acesso.mensagem_senha);
+            $('#loginLinks').innerHTML =
+                (senha ? `<a href="${esc(senha)}" target="_blank" rel="noopener">Esqueci minha senha</a>` : '') +
+                (compra ? `<span>Ainda não tem acesso? <a href="${esc(compra)}" target="_blank" rel="noopener">Quero adquirir o guia</a></span>` : '');
+            $('#loginErro').textContent = msg || '';
+            $('#loginScreen').hidden = false;
+            $('#sidebar').setAttribute('aria-hidden', 'true');
+            $('#mainScroll').setAttribute('aria-hidden', 'true');
+            setTimeout(() => $('#loginEmail').focus(), 50);
+        }
+
+        const MOTIVOS = {
+            nao_encontrado: 'Não encontramos esse e-mail. Confira se digitou igual ao que você usou na compra.',
+            senha: 'Senha incorreta. Tente novamente.',
+            inativo: 'Seu acesso está desativado. Fale com a Maria pelo WhatsApp.',
+            sem_produto: 'Seu acesso não inclui este guia. Fale com a Maria pelo WhatsApp.',
+        };
+
+        $('#loginForm').addEventListener('submit', async e => {
+            e.preventDefault();
+            const email = $('#loginEmail').value.trim().toLowerCase(), senha = $('#loginSenha').value;
+            const erro = $('#loginErro'), btn = $('#loginBtn');
+            if (!email || !senha) { erro.textContent = 'Preencha o e-mail e a senha.'; return; }
+            btn.disabled = true; btn.textContent = 'Entrando…'; erro.textContent = '';
+            try {
+                const res = await chamarAcesso({ acao: 'login', email, senha });
+                if (res && res.ok) {
+                    const s = { email, token: res.token, nome: res.nome || '' };
+                    sessaoSet(s);
+                    $('#loginScreen').hidden = true;
+                    $('#sidebar').removeAttribute('aria-hidden');
+                    $('#mainScroll').removeAttribute('aria-hidden');
+                    abrirGuia(s);
+                } else {
+                    erro.textContent = MOTIVOS[res && res.motivo] || 'Não foi possível entrar. Tente novamente.';
+                }
+            } catch (err) {
+                erro.textContent = 'Sem conexão com o servidor. Verifique sua internet e tente de novo.';
+            } finally {
+                btn.disabled = false; btn.textContent = 'Entrar';
+            }
+        });
+
+        function abrirGuia(sessao) {
+            buildSidebar();
+            const ub = $('#userBar');
+            if (sessao) {
+                ub.innerHTML = `<span>${sessao.nome ? 'Olá, ' + esc(sessao.nome) : esc(sessao.email)}</span><button type="button" id="sairBtn">Sair</button>`;
+                ub.hidden = false;
+                $('#sairBtn').addEventListener('click', () => { sessaoSet(null); location.reload(); });
+            }
+            {
                 const l = contatoLinks(), sc = $('#sidebarContact');
                 if (l.whats || l.insta) {
                     sc.innerHTML = (l.whats ? `<a class="btn primary" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar consulta</a>` : '') +
                                    (l.insta ? `<a class="btn" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)}</a>` : '');
                     sc.hidden = false;
                 }
-                route(false);
-            })
-            .catch(err => {
-                console.error('Erro ao carregar os dados:', err);
-                container.innerHTML = '<h1 class="page-title">Não foi possível carregar o guia</h1><p>Verifique sua conexão e atualize a página.</p>';
-            });
+            }
+            route(false);
+        }
     })();
     </script>
 </body>
