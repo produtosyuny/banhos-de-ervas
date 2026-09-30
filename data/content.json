@@ -1,0 +1,2145 @@
+{
+  "titulo": "Banhos de Ervas",
+  "subtitulo": "Guia Prático de Uso Pessoal — Mundo Cigana Tarot",
+  "descricao": "48 banhos de ervas organizados por finalidade, com medidas, modo de preparo, intenção e ficha completa de 35 ervas. Um guia da Mundo Cigana Tarot.",
+  "como_usar": "Este guia foi criado para quem deseja iniciar ou aprofundar sua prática pessoal. São 48 banhos preparados com flores, folhas, cascas, sementes e raízes, organizados por finalidade. Escolha primeiro o que você quer trabalhar, leia o banho inteiro antes de começar e confira sempre os cuidados indicados. Se tiver só algumas ervas em casa, use a busca \"Tenho em casa\" para descobrir o que dá para preparar.",
+  "modulos": {
+    "mod1": "São preparações feitas com plantas escolhidas de acordo com uma finalidade. A escolha não deve ser aleatória: cada erva precisa ter uma razão para estar naquele banho. A regra de ouro é: a finalidade vem antes da erva.",
+    "mod2": "Na tradição popular, as ervas são classificadas como quentes, mornas ou frias, conforme a intensidade do trabalho. Neste guia, essa classificação define como e com que frequência cada banho é tomado. Todo banho que leva ao menos uma erva ou especiaria quente é tomado do pescoço para baixo.",
+    "mod2_regras": [
+      {
+        "nivel": "Descarrego",
+        "texto": "Banhos com ervas de limpeza forte (aroeira, guiné, espada-de-são-jorge, eucalipto, limão siciliano ou sal grosso). Tome no máximo uma vez por semana e faça em seguida, no mesmo dia ou no dia seguinte, um banho de harmonização, como Reestruturação da Aura."
+      },
+      {
+        "nivel": "Ativação",
+        "texto": "Banhos de ervas mornas, às vezes aquecidos com especiarias como canela, cravo e gengibre. Faça em ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos."
+      },
+      {
+        "nivel": "Harmonização",
+        "texto": "Banhos com predominância de ervas frias. São suaves, podem ser tomados da cabeça aos pés, se a sua tradição permitir, e sempre que você sentir necessidade."
+      }
+    ]
+  },
+  "nota_linhagem": "Os banhos com direcionamento a Exu e Pombagira se inspiram em práticas populares das religiões afro-brasileiras. Eles não substituem os fundamentos, as firmezas e as orientações de um terreiro. Se você é de uma casa de axé, converse com sua zeladora ou seu zelador antes de fazê-los.",
+  "como_tomar": [
+    {
+      "titulo": "Erva fresca ou seca",
+      "texto": "As medidas indicam a forma mais comum de cada erva. Se for trocar fresca por seca, use cerca de um terço da quantidade (1 colher de sopa de erva seca equivale a um punhado de erva fresca)."
+    },
+    {
+      "titulo": "Água e panela",
+      "texto": "Use água filtrada e panela de inox, ágata ou barro. Cascas, raízes, sementes e especiarias vão na fervura. Folhas e flores entram depois de desligar o fogo, para não perder o aroma."
+    },
+    {
+      "titulo": "Temperatura",
+      "texto": "Nunca use o banho quente. Depois de coar, espere até que a água fique morna e agradável ao toque. Teste no pulso antes de despejar."
+    },
+    {
+      "titulo": "Quando tomar",
+      "texto": "Tome primeiro o seu banho de higiene normal. Em seguida, com o chuveiro desligado, despeje o banho de ervas devagar, mentalizando a intenção. Banhos com cascas cítricas devem ser feitos à noite."
+    },
+    {
+      "titulo": "Depois do banho",
+      "texto": "Deixe o corpo secar naturalmente ou seque com leves toques de toalha, sem esfregar. Vista roupas limpas e, se puder, claras."
+    },
+    {
+      "titulo": "Frequência",
+      "texto": "Siga a indicação de cada banho: descarrego no máximo uma vez por semana e sempre seguido de harmonização; ativação em ciclos de 3 ou 7 dias; harmonização quando sentir necessidade."
+    },
+    {
+      "titulo": "O que fazer com as ervas",
+      "texto": "Devolva as ervas usadas à natureza, em um jardim, um vaso ou na terra, ou descarte no lixo orgânico. Não reaproveite e não guarde o banho pronto de um dia para o outro."
+    }
+  ],
+  "seguranca": [
+    {
+      "titulo": "Uso externo apenas",
+      "texto": "Os banhos deste material são de uso estritamente externo. Não beba as preparações. Evite contato com olhos, boca, mucosas, feridas e pele lesionada."
+    },
+    {
+      "titulo": "Teste de sensibilidade",
+      "texto": "Antes de usar um banho pela primeira vez, passe um pouco do preparo já morno na parte interna do braço e espere 30 minutos. Se houver vermelhidão, coceira ou ardência, não use."
+    },
+    {
+      "titulo": "Gestantes e lactantes",
+      "texto": "Não usem banhos com poejo ou guiné, ervas tradicionalmente contraindicadas na gestação. Para qualquer outro banho, converse antes com seu médico ou sua médica."
+    },
+    {
+      "titulo": "Sol depois de cascas cítricas",
+      "texto": "Cascas de bergamota e de limão siciliano podem manchar e queimar a pele exposta ao sol (fitofotodermatite). Faça esses banhos à noite e evite sol na pele por 12 horas. Laranja e tangerina oferecem risco menor, mas a mesma precaução vale para peles claras."
+    },
+    {
+      "titulo": "Especiarias",
+      "texto": "Canela, cravo, gengibre e noz-moscada podem irritar peles sensíveis. Use apenas a quantidade indicada. A canela em pó não sai na peneira: coe em pano fino ou filtro de papel."
+    },
+    {
+      "titulo": "Identifique a planta certa",
+      "texto": "Compre ervas em casas de confiança. A aroeira usada aqui é a aroeira-vermelha (Schinus terebinthifolia), a mesma da pimenta-rosa. A aroeira-brava (Lithraea) causa alergia de pele grave e não deve ser usada."
+    },
+    {
+      "titulo": "Crianças e animais",
+      "texto": "Os banhos deste guia são pensados para adultos. Guarde as ervas longe de crianças e pets. Espada-de-são-jorge e guiné são tóxicas para cães e gatos se ingeridas."
+    },
+    {
+      "titulo": "Reação alérgica",
+      "texto": "Se houver qualquer reação, enxágue a pele com bastante água corrente e interrompa o uso. Se a reação não passar, procure atendimento médico."
+    },
+    {
+      "titulo": "Complemento, não substituto",
+      "texto": "Os banhos de ervas são uma prática espiritual e de autocuidado. Eles não substituem tratamento médico ou psicológico."
+    }
+  ],
+  "sobre": "",
+  "contato": {
+    "instagram": "",
+    "whatsapp": "",
+    "texto_cta": "Quer uma orientação personalizada? Agende uma leitura de tarot."
+  },
+  "fichas_ervas": [
+    {
+      "nome": "Alecrim",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Morna/Quente (Ativadora)",
+      "energia": "Vitalidade, foco, coragem e limpeza mental",
+      "utilizacao": "Indispensável para quebrar inércia, trazer ânimo pela manhã, estimular a clareza de raciocínio e dar firmeza em propósitos de trabalho e atitude.",
+      "dose": "2 ramos frescos (ou 1 colher de sopa seco)",
+      "substituicao": "Hortelã (para o frescor e clareza mental) ou Casca de Laranja Seca (para o ânimo e movimento)."
+    },
+    {
+      "nome": "Anis-Estrelado",
+      "tipo": "Especiaria / Semente",
+      "classificacao": "Morna (Expansiva)",
+      "energia": "Prosperidade, intuição fina, sincronicidade e abertura espiritual",
+      "utilizacao": "Excelente para atrair oportunidades financeiras, aguçar a intuição antes de leituras ou decisões e elevar o padrão vibratório com elegância.",
+      "dose": "3 estrelas",
+      "substituicao": "Louro (para conquistas e metas) ou Noz-Moscada."
+    },
+    {
+      "nome": "Aroeira",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Quente (Forte Descarrego)",
+      "energia": "Defesa pesada, quebra de demandas e corte de energias densas",
+      "utilizacao": "Usada em banhos de limpeza profunda e proteção rigorosa contra ataques astrais, inveja pesada e ambientes carregados.",
+      "dose": "1 ramo com cerca de 10 folhas (fresca)",
+      "substituicao": "Guiné ou Eucalipto (para limpezas de corte e descarrego).",
+      "cuidado": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+    },
+    {
+      "nome": "Calêndula",
+      "tipo": "Flor",
+      "classificacao": "Morna (Ativadora Solar)",
+      "energia": "Brilho solar, alegria, merecimento e expansão da abundância",
+      "utilizacao": "Atrai o magnetismo da prosperidade, eleva o otimismo e favorece o destaque e o reconhecimento profissional e pessoal.",
+      "dose": "1 colher de sopa de flores secas",
+      "substituicao": "Rosa Amarela ou Casca de Laranja Seca."
+    },
+    {
+      "nome": "Camomila",
+      "tipo": "Flor",
+      "classificacao": "Fria (Apaziguadora)",
+      "energia": "Calma, acolhimento, suavização e paz emocional",
+      "utilizacao": "Tradicionalmente usada para acalmar o campo emocional, suavizar mágoas e preparar para um descanso tranquilo.",
+      "dose": "1 colher de sopa de flores secas",
+      "substituicao": "Lavanda (Alfazema) ou Folha de Laranjeira."
+    },
+    {
+      "nome": "Canela em Casca",
+      "tipo": "Casca",
+      "classificacao": "Quente (Aceleradora)",
+      "energia": "Fogo, dinamismo, sucesso financeiro e calor magnético",
+      "utilizacao": "Potencializa banhos de prosperidade, acelera resultados materiais e aquece o magnetismo pessoal e de atração.",
+      "dose": "1 pau de cerca de 5 cm",
+      "substituicao": "Cravo-da-Índia (para fixação e força) ou Casca de Laranja Seca.",
+      "cuidado": "Pode irritar peles sensíveis."
+    },
+    {
+      "nome": "Canela em Pó",
+      "tipo": "Pó",
+      "classificacao": "Quente (Aceleradora)",
+      "energia": "Fogo rápido, atração de vendas e dinamismo comercial",
+      "utilizacao": "Usada para dinamizar rapidamente os ganhos financeiros e intensificar o valor pessoal e o respeito alheio.",
+      "dose": "1 pitada (¼ de colher de chá)",
+      "substituicao": "Canela em Casca ou Noz-Moscada.",
+      "cuidado": "Irritante para a pele: use só a pitada indicada e coe em pano fino."
+    },
+    {
+      "nome": "Capim-Limão",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Fria/Morna (Equilíbrio)",
+      "energia": "Paz mental, leveza e alívio de tensões",
+      "utilizacao": "Tradicionalmente usado para aliviar o peso energético acumulado no trabalho, descontrair a aura e trazer leveza para o dia a dia.",
+      "dose": "3 folhas frescas cortadas",
+      "substituicao": "Camomila ou Folha de Laranjeira."
+    },
+    {
+      "nome": "Casca de Bergamota",
+      "tipo": "Casca Cítrica",
+      "classificacao": "Morna (Estimulante)",
+      "energia": "Desbloqueio financeiro, ânimo e movimento material",
+      "utilizacao": "Atua limpando bloqueios de escassez e injetando otimismo e clareza para tomadas de decisões econômicas.",
+      "dose": "casca de ½ bergamota (só a parte colorida)",
+      "substituicao": "Casca de Tangerina ou Casca de Laranja Seca.",
+      "cuidado": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+    },
+    {
+      "nome": "Casca de Laranja Seca",
+      "tipo": "Casca Cítrica",
+      "classificacao": "Morna (Expansiva)",
+      "energia": "Alegria, dinamismo monetário e entusiasmo",
+      "utilizacao": "Move energias paradas no campo financeiro e traz leveza e bom ânimo para o cotidiano.",
+      "dose": "1 colher de sopa (ou a casca de ½ laranja)",
+      "substituicao": "Casca de Tangerina ou Calêndula.",
+      "cuidado": "Em peles claras, prefira fazer o banho à noite."
+    },
+    {
+      "nome": "Casca de Limão Siciliano",
+      "tipo": "Casca Cítrica",
+      "classificacao": "Quente/Morna (Limpeza)",
+      "energia": "Varredura ácida, limpeza de resíduos densos e frescor",
+      "utilizacao": "Utilizada para dissolver miasmas pesados, limpar ambientes áuricos estagnados e renovar o campo.",
+      "dose": "casca de ½ limão (só a parte amarela)",
+      "substituicao": "Eucalipto ou Aroeira.",
+      "cuidado": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+    },
+    {
+      "nome": "Casca de Tangerina",
+      "tipo": "Casca Cítrica",
+      "classificacao": "Morna (Movimento)",
+      "energia": "Abertura de caminhos de expansão e quebra de estagnação",
+      "utilizacao": "Rompimento de barreiras financeiras e atração de novas oportunidades profissionais.",
+      "dose": "casca de 1 tangerina",
+      "substituicao": "Casca de Bergamota ou Casca de Laranja Seca.",
+      "cuidado": "Em peles claras, prefira fazer o banho à noite."
+    },
+    {
+      "nome": "Cravo-da-Índia",
+      "tipo": "Especiaria (Capulho)",
+      "classificacao": "Quente (Defesa e Fixação)",
+      "energia": "Blindagem, corte de miasmas, fixação energética e respeito",
+      "utilizacao": "Atua como um selo de proteção contra vampirismo astral e fixa a frequência de poder e autoridade pessoal.",
+      "dose": "5 cravos",
+      "substituicao": "Canela em Casca (para aquecimento) ou Semente de Girassol.",
+      "cuidado": "Pode irritar peles sensíveis."
+    },
+    {
+      "nome": "Eucalipto",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Quente (Descarrego)",
+      "energia": "Desobstrução áurica e limpeza mental profunda",
+      "utilizacao": "Abre espaço na aura para circulação da energia vital e remove miasmas pesados acumulados.",
+      "dose": "4 folhas",
+      "substituicao": "Hortelã ou Aroeira.",
+      "cuidado": "Evite em crianças pequenas."
+    },
+    {
+      "nome": "Espada-de-São-Jorge",
+      "tipo": "Erva (Folhas em Tiras)",
+      "classificacao": "Quente (Forte Defesa)",
+      "energia": "Corte implacável, escudo de defesa e proteção de caminhos",
+      "utilizacao": "Fatiada finamente em banhos de limpeza profunda para cortar cordões astrais negativos, inveja crônica e oposição direta.",
+      "dose": "1 folha de cerca de 15 cm, em tiras finas",
+      "substituicao": "Guiné ou Aroeira.",
+      "cuidado": "Tóxica se ingerida, inclusive para cães e gatos. Se tiver pele sensível, corte com luvas."
+    },
+    {
+      "nome": "Folha de Abacateiro",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Morna (Prosperadora)",
+      "energia": "Fartura, abertura de caminhos materiais e circulação de prosperidade",
+      "utilizacao": "Selamento de egrégoras de riqueza contínua e atração de abundância nos negócios.",
+      "dose": "3 folhas",
+      "substituicao": "Louro ou Folha de Laranjeira."
+    },
+    {
+      "nome": "Folha de Laranjeira",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Fria/Morna (Acolhedora)",
+      "energia": "Paz reconfortante, alegria suave e harmonia afetiva",
+      "utilizacao": "Desfaz tensões emocionais, traz alegria íntima e pacifica conflitos nos relacionamentos.",
+      "dose": "5 folhas",
+      "substituicao": "Camomila ou Capim-Limão."
+    },
+    {
+      "nome": "Guiné",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Quente (Descarrego Profundo)",
+      "energia": "Varredura de larvas astrais, defesa e desmanche de cargas",
+      "utilizacao": "Poderosa aliada na quebra de egrégoras densas e afastamento de influências espirituais nocivas.",
+      "dose": "1 ramo com cerca de 7 folhas (fresca)",
+      "substituicao": "Aroeira ou Espada-de-São-Jorge.",
+      "cuidado": "Contraindicada para gestantes e lactantes. Tóxica para animais se ingerida."
+    },
+    {
+      "nome": "Hibisco",
+      "tipo": "Flor",
+      "classificacao": "Morna (Ativadora de Presença)",
+      "energia": "Expansão da aura, destaque pessoal e atração visual",
+      "utilizacao": "Exalta a beleza, a autoconfiança magnética e a presença marcante em qualquer ambiente.",
+      "dose": "1 colher de sopa de flores secas",
+      "substituicao": "Rosa Vermelha ou Macassá."
+    },
+    {
+      "nome": "Hortelã",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Morna/Fria (Refrescante)",
+      "energia": "Frescor mental, raciocínio rápido e limpeza de pensamentos fixos",
+      "utilizacao": "Ajuda a dissipar o peso mental, esfria ideias obsessivas de escassez e traz clareza operacional.",
+      "dose": "1 ramo com cerca de 10 folhas",
+      "substituicao": "Alecrim ou Eucalipto."
+    },
+    {
+      "nome": "Jasmim",
+      "tipo": "Flor",
+      "classificacao": "Morna (Sutilizadora)",
+      "energia": "Intuição refinada, sofisticação espiritual e conexões verdadeiras",
+      "utilizacao": "Atrai parcerias alinhadas, eleva a autoestima espiritual e aguça a percepção intuitiva.",
+      "dose": "1 colher de sopa de flores secas (ou 7 flores frescas)",
+      "substituicao": "Rosa Amarela ou Macassá."
+    },
+    {
+      "nome": "Lavanda",
+      "tipo": "Flor",
+      "classificacao": "Fria (Transmutadora)",
+      "energia": "Transmutação mental, serenidade, limpeza sutil e elevação",
+      "utilizacao": "Limpa pensamentos obsessivos, transmuta o estresse acumulado em paz e prepara o campo para intuições claras.",
+      "dose": "1 colher de sopa de flores secas",
+      "substituicao": "Camomila ou Rosa Branca."
+    },
+    {
+      "nome": "Louro",
+      "tipo": "Folha",
+      "classificacao": "Morna (Realizadora)",
+      "energia": "Realização, vitória, foco em metas e coroa de sucesso",
+      "utilizacao": "Utilizada em rituais de prosperidade, conquistas profissionais, clareza de objetivos e blindagem de mérito.",
+      "dose": "3 folhas",
+      "substituicao": "Anis-Estrelado (para caminhos) ou Semente de Girassol."
+    },
+    {
+      "nome": "Macassá",
+      "tipo": "Erva / Perfume",
+      "classificacao": "Morna (Magnetismo)",
+      "energia": "Fascínio, doçura magnética, convencimento e poder de Pombagira",
+      "utilizacao": "Erva clássica de encanto, atração de respeito, doçura no trato social e empoderamento pessoal.",
+      "dose": "1 ramo pequeno (ou 1 colher de sopa seco)",
+      "substituicao": "Jasmim ou Rosa Vermelha."
+    },
+    {
+      "nome": "Noz-Moscada",
+      "tipo": "Especiaria / Semente",
+      "classificacao": "Morna (Expansiva)",
+      "energia": "Intuição comercial, ganhos inesperados e percepção aguçada",
+      "utilizacao": "Favorece a visão estratégica em negócios e amplia a percepção intuitiva dos ambientes.",
+      "dose": "1 pitada ralada",
+      "substituicao": "Anis-Estrelado ou Canela em Pó.",
+      "cuidado": "Use apenas uma pitada."
+    },
+    {
+      "nome": "Poejo",
+      "tipo": "Erva (Folhas)",
+      "classificacao": "Morna (Clareza Mental)",
+      "energia": "Limpeza de registros mentais de derrota e foco de rumo",
+      "utilizacao": "Remove confusões mentais que geram paralisia e protege o campo contra armadilhas energéticas sutis.",
+      "dose": "1 ramo pequeno (ou 1 colher de sopa seco)",
+      "substituicao": "Alecrim ou Hortelã.",
+      "cuidado": "Contraindicado para gestantes e lactantes."
+    },
+    {
+      "nome": "Raiz de Gengibre",
+      "tipo": "Raiz",
+      "classificacao": "Quente (Estimulante)",
+      "energia": "Fogo interno, vigor, quebra de apatia e ação rápida",
+      "utilizacao": "Ralada em pequenas quantidades para despertar ânimo em momentos de cansaço e estagnação.",
+      "dose": "1 colher de chá ralada (cerca de 2 cm)",
+      "substituicao": "Alecrim ou Cravo-da-Índia.",
+      "cuidado": "Pode avermelhar peles sensíveis."
+    },
+    {
+      "nome": "Raiz de Vetiver",
+      "tipo": "Raiz",
+      "classificacao": "Morna/Quente (Aterradora)",
+      "energia": "Aterramento bruto, profundidade, estrutura e firmeza material",
+      "utilizacao": "Excelente para tirar a instabilidade emocional, firmar os passos na matéria e estancar dispersões de energia.",
+      "dose": "1 colher de sopa de raiz picada",
+      "substituicao": "Cravo-da-Índia ou Semente de Girassol."
+    },
+    {
+      "nome": "Rosa Amarela",
+      "tipo": "Flor",
+      "classificacao": "Morna (Expansiva)",
+      "energia": "Brilho relacional, alegria, autoconfiança e valor próprio",
+      "utilizacao": "Ilumina a expressão pessoal, atrai conexões felizes e fortalece a independência emocional.",
+      "dose": "pétalas de 1 rosa",
+      "substituicao": "Calêndula ou Jasmim."
+    },
+    {
+      "nome": "Rosa Branca",
+      "tipo": "Flor",
+      "classificacao": "Fria (Apaziguadora)",
+      "energia": "Paz espiritual, purificação suave, acolhimento e cura",
+      "utilizacao": "Acolhe o coração ferido, limpa mágoas profundas, purifica a aura e sintoniza com frequências de harmonia.",
+      "dose": "pétalas de 1 rosa",
+      "substituicao": "Camomila ou Lavanda."
+    },
+    {
+      "nome": "Rosa Vermelha",
+      "tipo": "Flor",
+      "classificacao": "Morna (Ativadora de Afeto)",
+      "energia": "Paixão, amor-próprio inegociável, força vital e magnetismo",
+      "utilizacao": "Desperta a autoestima, exalta a presença magnética e fortalece o poder de sedução e autovalorização.",
+      "dose": "pétalas de 1 rosa",
+      "substituicao": "Hibisco ou Macassá."
+    },
+    {
+      "nome": "Sal Grosso",
+      "tipo": "Mineral",
+      "classificacao": "Quente (Neutralizador)",
+      "energia": "Neutralização e descarrego denso",
+      "utilizacao": "Usado em quantidade mínima para neutralizar cargas pesadas no campo áurico.",
+      "dose": "1 colher de chá rasa",
+      "substituicao": "Aroeira ou Guiné.",
+      "cuidado": "Resseca a pele: use só a medida indicada."
+    },
+    {
+      "nome": "Semente de Coentro",
+      "tipo": "Semente",
+      "classificacao": "Morna (Harmonizadora)",
+      "energia": "Limpeza de repetições intrusas e resistência alheia",
+      "utilizacao": "Limpa resistências de terceiros às suas ideias e remove padrões mentais repetitivos.",
+      "dose": "1 colher de chá, levemente amassada",
+      "substituicao": "Semente de Funcho ou Louro."
+    },
+    {
+      "nome": "Semente de Funcho",
+      "tipo": "Semente",
+      "classificacao": "Morna (Suavizadora)",
+      "energia": "Doçura harmoniosa, ponderação e limites saudáveis",
+      "utilizacao": "Traz doçura ao trato sem perda de limites e harmoniza interações relacionais.",
+      "dose": "1 colher de chá",
+      "substituicao": "Semente de Coentro ou Folha de Laranjeira."
+    },
+    {
+      "nome": "Semente de Girassol",
+      "tipo": "Semente",
+      "classificacao": "Morna (Altiva)",
+      "energia": "Altivez, expansão da aura e postura segura",
+      "utilizacao": "Firma a postura perante os outros, devolve o brilho áurico e apoia o crescimento sustentável.",
+      "dose": "1 colher de sopa (sem sal)",
+      "substituicao": "Raiz de Vetiver ou Louro."
+    }
+  ],
+  "banhos": [
+    {
+      "id": 1,
+      "titulo": "Ímpeto e Direção",
+      "direcionamento": "Exu",
+      "categoria": "Exu",
+      "finalidades_extras": [
+        "Trabalho e Caminhos"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Força de rumo e corte de inércia.",
+      "ervas": [
+        "Alecrim",
+        "Raiz de Gengibre",
+        "Casca de Laranja Seca",
+        "Poejo"
+      ],
+      "quantidades": {
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Raiz de Gengibre": "1 colher de chá ralada (cerca de 2 cm)",
+        "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
+        "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "O alecrim traz disposição e clareza de rumo; a raiz de gengibre injeta vitalidade física e quebra a apatia; a casca de laranja seca atrai movimento material e alegria de atitude; o poejo limpa a mente de confusões que geram paralisia.",
+      "intencao": "Desperto a coragem que estava parada em mim. Sei para onde vou e dou hoje o primeiro passo.",
+      "preparo": "Em uma panela com 1,5 litro de água, coloque a raiz de gengibre ralada e as cascas de laranja seca. Ferva por 4 minutos. Desligue o fogo, adicione o alecrim e o poejo. Cubra e abafe por 10 minutos. Coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Raiz de Gengibre",
+          "texto": "Pode avermelhar peles sensíveis."
+        },
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Laranja Seca",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        },
+        {
+          "tipo": "gestante",
+          "erva": "Poejo",
+          "texto": "Contraindicado para gestantes e lactantes."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Firmeza de Caminho",
+      "direcionamento": "Exu",
+      "categoria": "Exu",
+      "finalidades_extras": [
+        "Proteção",
+        "Limpeza Energética"
+      ],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Firmeza, corte de demandas e abertura de picada.",
+      "ervas": [
+        "Aroeira",
+        "Guiné",
+        "Semente de Coentro",
+        "Cravo-da-Índia"
+      ],
+      "quantidades": {
+        "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
+        "Guiné": "1 ramo com cerca de 7 folhas (fresca)",
+        "Semente de Coentro": "1 colher de chá, levemente amassada",
+        "Cravo-da-Índia": "5 cravos"
+      },
+      "explicacao": "A aroeira atua como forte elemento de quebra de demandas densas; a guiné afasta larvas astrais e invejas pesadas; a semente de coentro limpa a repetição de energias intrusas; o cravo-da-índia blinda e fixa a nova frequência de proteção.",
+      "intencao": "O que pesava sobre mim é cortado e fica para trás. Meu caminho está aberto e meus pés estão firmes nele.",
+      "preparo": "Ferva 1 litro de água com os cravos-da-índia e as sementes de coentro levemente amassadas por 3 minutos. Desligue, adicione as folhas de aroeira e guiné. Abafe por 15 minutos com tampa, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "especie",
+          "erva": "Aroeira",
+          "texto": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+        },
+        {
+          "tipo": "gestante",
+          "erva": "Guiné",
+          "texto": "Contraindicada para gestantes e lactantes. Tóxica para animais se ingerida."
+        },
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Destrave Material",
+      "direcionamento": "Exu",
+      "categoria": "Exu",
+      "finalidades_extras": [
+        "Prosperidade",
+        "Trabalho e Caminhos"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Movimento material e quebra de estagnação mental.",
+      "ervas": [
+        "Casca de Bergamota",
+        "Alecrim",
+        "Anis-Estrelado",
+        "Hortelã"
+      ],
+      "quantidades": {
+        "Casca de Bergamota": "casca de ½ bergamota (só a parte colorida)",
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Anis-Estrelado": "3 estrelas",
+        "Hortelã": "1 ramo com cerca de 10 folhas"
+      },
+      "explicacao": "A casca de bergamota desbloqueia o campo financeiro e traz ânimo; o alecrim ativa a força de vontade; o anis-estrelado abre a intuição para oportunidades; a hortelã traz frescor mental e limpa pensamentos fixos de escassez.",
+      "intencao": "Solto a ideia de que falta. O dinheiro volta a circular e eu enxergo as portas que estão diante de mim.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de bergamota e os anis-estrelados inteiros por 4 minutos. Desligue o fogo, acrescente o alecrim e a hortelã. Abafe por 10 minutos, coe com cuidado. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "sol",
+          "erva": "Casca de Bergamota",
+          "texto": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Raiz e Escudo",
+      "direcionamento": "Exu",
+      "categoria": "Exu",
+      "finalidades_extras": [
+        "Proteção"
+      ],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Aterramento bruto e blindagem contra baixas vibrações.",
+      "ervas": [
+        "Raiz de Vetiver",
+        "Aroeira",
+        "Louro",
+        "Semente de Girassol"
+      ],
+      "quantidades": {
+        "Raiz de Vetiver": "1 colher de sopa de raiz picada",
+        "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
+        "Louro": "3 folhas",
+        "Semente de Girassol": "1 colher de sopa (sem sal)"
+      },
+      "explicacao": "A raiz de vetiver promove um aterramento profundo e físico; a aroeira corta energias de oposição; o louro direciona a energia para a realização firme; a semente de girassol devolve a expansão e a altivez ao campo áurico.",
+      "intencao": "Tenho raízes firmes no meu chão. O que não é meu não me alcança, e o que é meu floresce.",
+      "preparo": "Ferva 2 litros de água com a raiz de vetiver picada e as folhas de louro por 5 minutos. Desligue o fogo, junte a aroeira e as sementes de girassol. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "especie",
+          "erva": "Aroeira",
+          "texto": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Corte de Recuo",
+      "direcionamento": "Exu",
+      "categoria": "Exu",
+      "finalidades_extras": [
+        "Limpeza Energética"
+      ],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Limpeza de miasmas de recuo e retomada de atitude.",
+      "ervas": [
+        "Poejo",
+        "Guiné",
+        "Casca de Limão Siciliano",
+        "Alecrim"
+      ],
+      "quantidades": {
+        "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)",
+        "Guiné": "1 ramo com cerca de 7 folhas (fresca)",
+        "Casca de Limão Siciliano": "casca de ½ limão (só a parte amarela)",
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "O poejo limpa registros mentais de derrota; a guiné corta influências nocivas externas; a casca de limão siciliano faz uma varredura ácida em bloqueios estagnados; o alecrim devolve a coragem e a iniciativa.",
+      "intencao": "Deixo para trás o medo de tentar de novo. Retomo minha atitude e sigo em frente.",
+      "preparo": "Ferva 1,5 litro de água apenas com as cascas de limão siciliano por 3 minutos. Desligue o fogo, adicione o poejo, a guiné e o alecrim. Abafe por 10 minutos, coe completamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "gestante",
+          "erva": "Poejo",
+          "texto": "Contraindicado para gestantes e lactantes."
+        },
+        {
+          "tipo": "sol",
+          "erva": "Casca de Limão Siciliano",
+          "texto": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Foco nos Negócios",
+      "direcionamento": "Exu",
+      "categoria": "Exu",
+      "finalidades_extras": [
+        "Prosperidade",
+        "Trabalho e Caminhos"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Prosperidade de corte, foco e realização nos negócios.",
+      "ervas": [
+        "Folha de Abacateiro",
+        "Cravo-da-Índia",
+        "Raiz de Gengibre",
+        "Louro"
+      ],
+      "quantidades": {
+        "Folha de Abacateiro": "3 folhas",
+        "Cravo-da-Índia": "5 cravos",
+        "Raiz de Gengibre": "1 colher de chá ralada (cerca de 2 cm)",
+        "Louro": "3 folhas"
+      },
+      "explicacao": "A folha de abacateiro atrai a energia de fartura e abertura de caminhos materiais; o cravo-da-índia blinda contra sabotagens nos negócios; a raiz de gengibre acelera a execução prática; o louro coroa com a vitória e conquista.",
+      "intencao": "Meus projetos andam com foco e firmeza. O que construo prospera, e ninguém desvia o meu trabalho.",
+      "preparo": "Ferva 2 litros de água com os cravos, a raiz de gengibre ralada e as folhas de louro por 4 minutos. Desligue, acrescente as folhas de abacateiro. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Fascínio e Presença",
+      "direcionamento": "Pombagira",
+      "categoria": "Pombagira",
+      "finalidades_extras": [
+        "Autoestima e Poder",
+        "Amor e Magnetismo"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Magnetismo pessoal e atração de respeito inabalável.",
+      "ervas": [
+        "Rosa Vermelha",
+        "Macassá",
+        "Cravo-da-Índia",
+        "Semente de Girassol"
+      ],
+      "quantidades": {
+        "Rosa Vermelha": "pétalas de 1 rosa",
+        "Macassá": "1 ramo pequeno (ou 1 colher de sopa seco)",
+        "Cravo-da-Índia": "5 cravos",
+        "Semente de Girassol": "1 colher de sopa (sem sal)"
+      },
+      "explicacao": "A rosa vermelha desperta a paixão e o amor-próprio; o macassá traz o perfume clássico de fascínio e convencimento; o cravo-da-índia impõe respeito e blindagem magnética; a semente de girassol projeta a presença com altivez.",
+      "intencao": "Minha presença é notada e respeitada. Encanto sem me diminuir e me posiciono sem pedir licença.",
+      "preparo": "Ferva 1 litro de água com os cravos-da-índia e as sementes de girassol por 3 minutos. Desligue o fogo, adicione o macassá e as pétalas de rosa vermelha. Abafe por 10 minutos, coe delicadamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Doçura Magnética",
+      "direcionamento": "Pombagira",
+      "categoria": "Pombagira",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Fascínio, doçura no trato e clareza de posicionamento.",
+      "ervas": [
+        "Rosa Amarela",
+        "Jasmim",
+        "Canela em Casca",
+        "Semente de Funcho"
+      ],
+      "quantidades": {
+        "Rosa Amarela": "pétalas de 1 rosa",
+        "Jasmim": "1 colher de sopa de flores secas (ou 7 flores frescas)",
+        "Canela em Casca": "1 pau de cerca de 5 cm",
+        "Semente de Funcho": "1 colher de chá"
+      },
+      "explicacao": "A rosa amarela atrai brilho e alegria relacional; o jasmim aguça a intuição e a sofisticação da fala; a canela em casca esquenta o poder de sedução sutil; a semente de funcho harmoniza e traz doçura sem perda de limites.",
+      "intencao": "Minha palavra é doce e meu limite é claro. O que digo chega com carinho e é recebido com respeito.",
+      "preparo": "Ferva 1,5 litro de água com a canela em casca e as sementes de funcho por 4 minutos. Desligue, junte as pétalas de rosa amarela e as flores de jasmim. Abafe por 8 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Canela em Casca",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Sutil Soberania",
+      "direcionamento": "Pombagira",
+      "categoria": "Pombagira",
+      "finalidades_extras": [
+        "Autoestima e Poder"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Presença marcante, intuição afiada e empoderamento sutil.",
+      "ervas": [
+        "Hibisco",
+        "Macassá",
+        "Rosa Branca",
+        "Noz-Moscada"
+      ],
+      "quantidades": {
+        "Hibisco": "1 colher de sopa de flores secas",
+        "Macassá": "1 ramo pequeno (ou 1 colher de sopa seco)",
+        "Rosa Branca": "pétalas de 1 rosa",
+        "Noz-Moscada": "1 pitada ralada"
+      },
+      "explicacao": "O hibisco expande a aura e o destaque pessoal; o macassá traz o encanto magnético tradicional; a rosa branca purifica intenções e traz elegância espiritual; a noz-moscada amplia a percepção aguçada dos ambientes.",
+      "intencao": "Não preciso elevar a voz para ocupar o meu lugar. Minha força é serena e minha intuição me guia.",
+      "preparo": "Ferva 1 litro de água com a noz-moscada ralada por 2 minutos. Desligue o fogo, adicione o hibisco, o macassá e as pétalas de rosa branca. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Noz-Moscada",
+          "texto": "Use apenas uma pitada."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Equilíbrio Escarlate",
+      "direcionamento": "Pombagira",
+      "categoria": "Pombagira",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Equilíbrio emocional profundo aliado a um encanto magnético.",
+      "ervas": [
+        "Rosa Vermelha",
+        "Lavanda",
+        "Cravo-da-Índia",
+        "Casca de Laranja Seca"
+      ],
+      "quantidades": {
+        "Rosa Vermelha": "pétalas de 1 rosa",
+        "Lavanda": "1 colher de sopa de flores secas",
+        "Cravo-da-Índia": "5 cravos",
+        "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)"
+      },
+      "explicacao": "A rosa vermelha mexe com a força vital do coração; a lavanda pacifica a ansiedade e o excesso de expectativas; o cravo-da-índia blinda contra chantagens emocionais; a casca de laranja injeta entusiasmo e leveza.",
+      "intencao": "Meu coração arde sem me queimar. Sinto com intensidade e sigo em paz, longe de jogos emocionais.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de laranja e os cravos por 3 minutos. Desligue, acrescente a lavanda e as pétalas de rosa vermelha. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        },
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Laranja Seca",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "titulo": "Sintonia Fina",
+      "direcionamento": "Pombagira",
+      "categoria": "Pombagira",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Abertura afetiva madura, leveza e magnetismo sereno.",
+      "ervas": [
+        "Jasmim",
+        "Rosa Amarela",
+        "Anis-Estrelado",
+        "Macassá"
+      ],
+      "quantidades": {
+        "Jasmim": "1 colher de sopa de flores secas (ou 7 flores frescas)",
+        "Rosa Amarela": "pétalas de 1 rosa",
+        "Anis-Estrelado": "3 estrelas",
+        "Macassá": "1 ramo pequeno (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "O jasmim atrai conexões refinadas e verdadeiras; a rosa amarela irradia autoconfiança e brilho próprio; o anis-estrelado abre os caminhos para o afeto saudável; o macassá consolida o poder de encanto pessoal.",
+      "intencao": "Abro o coração para quem vibra na mesma sintonia. Recebo um afeto leve, maduro e verdadeiro.",
+      "preparo": "Ferva 1 litro de água com os anis-estrelados inteiros por 3 minutos. Desligue, adicione o jasmim, o macassá e as pétalas de rosa amarela. Abafe por 10 minutos com tampa, coe com cuidado. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 12,
+      "titulo": "Autonomia Sagrada",
+      "direcionamento": "Pombagira",
+      "categoria": "Pombagira",
+      "finalidades_extras": [
+        "Autoestima e Poder"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Autonomia, poder pessoal e clareza de limites nas relações.",
+      "ervas": [
+        "Rosa Branca",
+        "Hibisco",
+        "Raiz de Vetiver",
+        "Canela em Pó"
+      ],
+      "quantidades": {
+        "Rosa Branca": "pétalas de 1 rosa",
+        "Hibisco": "1 colher de sopa de flores secas",
+        "Raiz de Vetiver": "1 colher de sopa de raiz picada",
+        "Canela em Pó": "1 pitada (¼ de colher de chá)"
+      },
+      "explicacao": "A rosa branca traz serenidade nas escolhas; o hibisco destaca a beleza e a presença; a raiz de vetiver fixa os limites e o eixo pessoal inegociável; a canela em pó energiza a autovalorização e o respeito alheio.",
+      "intencao": "Pertenço a mim antes de pertencer a qualquer relação. Meus limites são claros e minhas escolhas são livres.",
+      "preparo": "Ferva 1,5 litro de água com a raiz de vetiver picada por 5 minutos. Desligue o fogo, adicione a canela em pó, o hibisco e as pétalas de rosa branca. Abafe por 10 minutos, coe em pano fino ou filtro de papel. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Canela em Pó",
+          "texto": "Irritante para a pele: use só a pitada indicada e coe em pano fino."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "titulo": "Faxina Astral Pesada",
+      "direcionamento": "Geral",
+      "categoria": "Limpeza Energética",
+      "finalidades_extras": [],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Limpeza pesada de larvas astrais e inveja estagnada.",
+      "ervas": [
+        "Guiné",
+        "Aroeira",
+        "Espada-de-São-Jorge",
+        "Poejo"
+      ],
+      "quantidades": {
+        "Guiné": "1 ramo com cerca de 7 folhas (fresca)",
+        "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
+        "Espada-de-São-Jorge": "1 folha de cerca de 15 cm, em tiras finas",
+        "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "A guiné devora miasmas e energias de inveja; a aroeira quebra correntes astrais densas; a espada-de-são-jorge atua como espada de corte implacável contra o malfeito; o poejo limpa o campo mental associado à carga.",
+      "intencao": "Tudo o que é denso, invejoso ou alheio a mim é retirado agora. Meu corpo e meu campo ficam limpos.",
+      "preparo": "Ferva 2 litros de água, desligue o fogo e adicione imediatamente as ervas frescas picadas (Guiné, Aroeira, Espada-de-São-Jorge em tiras finas e Poejo). Abafe por 15 minutos, coe muito bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo, de preferência antes do pôr do sol.",
+      "alertas": [
+        {
+          "tipo": "gestante",
+          "erva": "Guiné",
+          "texto": "Contraindicada para gestantes e lactantes. Tóxica para animais se ingerida."
+        },
+        {
+          "tipo": "especie",
+          "erva": "Aroeira",
+          "texto": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+        },
+        {
+          "tipo": "pets",
+          "erva": "Espada-de-São-Jorge",
+          "texto": "Tóxica se ingerida, inclusive para cães e gatos. Se tiver pele sensível, corte com luvas."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "titulo": "Alívio Mental",
+      "direcionamento": "Geral",
+      "categoria": "Limpeza Energética",
+      "finalidades_extras": [],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Descarrego do ambiente mental e alívio do peso energético.",
+      "ervas": [
+        "Eucalipto",
+        "Hortelã",
+        "Casca de Limão Siciliano",
+        "Sal Grosso"
+      ],
+      "quantidades": {
+        "Eucalipto": "4 folhas",
+        "Hortelã": "1 ramo com cerca de 10 folhas",
+        "Casca de Limão Siciliano": "casca de ½ limão (só a parte amarela)",
+        "Sal Grosso": "1 colher de chá rasa"
+      },
+      "explicacao": "O eucalipto desobstrui a aura de miasmas pesados; a hortelã esfria e limpa o excesso de agitação mental; a casca de limão siciliano dissolve resíduos densos; o sal grosso neutraliza a carga acumulada.",
+      "intencao": "Minha mente se esvazia do excesso. Solto o peso que não é meu e respiro com leveza.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de limão siciliano e o sal grosso por 3 minutos. Desligue, junte as folhas de eucalipto e a hortelã. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "criancas",
+          "erva": "Eucalipto",
+          "texto": "Evite em crianças pequenas."
+        },
+        {
+          "tipo": "sol",
+          "erva": "Casca de Limão Siciliano",
+          "texto": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+        },
+        {
+          "tipo": "pele",
+          "erva": "Sal Grosso",
+          "texto": "Resseca a pele: use só a medida indicada."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "titulo": "Sutileza e Calma",
+      "direcionamento": "Geral",
+      "categoria": "Limpeza Energética",
+      "finalidades_extras": [],
+      "nivel": "Harmonização",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Sempre que sentir necessidade.",
+      "finalidade": "Faxina energética suave, que acalma o emocional e a aura.",
+      "ervas": [
+        "Lavanda",
+        "Camomila",
+        "Folha de Laranjeira",
+        "Capim-Limão"
+      ],
+      "quantidades": {
+        "Lavanda": "1 colher de sopa de flores secas",
+        "Camomila": "1 colher de sopa de flores secas",
+        "Folha de Laranjeira": "5 folhas",
+        "Capim-Limão": "3 folhas frescas cortadas"
+      },
+      "explicacao": "A lavanda transmuta o estresse em tranquilidade; a camomila acolhe o campo emocional ferido; a folha de laranjeira traz uma alegria suave e reconfortante; o capim-limão traz relaxamento e leveza ao campo.",
+      "intencao": "Desacelero. Meu corpo relaxa, minhas emoções se aquietam e a paz volta a morar em mim.",
+      "preparo": "Ferva 1,5 litro de água, desligue o fogo e adicione o capim-limão, a folha de laranjeira, a camomila e a lavanda. Abafe por 10 minutos para preservar os óleos essenciais, coe com cuidado. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 16,
+      "titulo": "Repouso do Guerreiro",
+      "direcionamento": "Geral",
+      "categoria": "Limpeza Energética",
+      "finalidades_extras": [],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Retirada de cargas acumuladas após o dia a dia intenso.",
+      "ervas": [
+        "Alecrim",
+        "Poejo",
+        "Aroeira",
+        "Casca de Bergamota"
+      ],
+      "quantidades": {
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)",
+        "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
+        "Casca de Bergamota": "casca de ½ bergamota (só a parte colorida)"
+      },
+      "explicacao": "O alecrim remove o cansaço áurico e revigora; o poejo limpa o campo mental de preocupações fúteis; a aroeira remove resíduos de ambientes pesados; a casca de bergamota devolve o otimismo após a faxina.",
+      "intencao": "Devolvo ao mundo o cansaço que trouxe do dia. Fico com a minha energia inteira e renovada.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de bergamota por 3 minutos. Desligue, adicione o alecrim, o poejo e a aroeira. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "gestante",
+          "erva": "Poejo",
+          "texto": "Contraindicado para gestantes e lactantes."
+        },
+        {
+          "tipo": "especie",
+          "erva": "Aroeira",
+          "texto": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+        },
+        {
+          "tipo": "sol",
+          "erva": "Casca de Bergamota",
+          "texto": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "titulo": "Corte de Oposição",
+      "direcionamento": "Geral",
+      "categoria": "Limpeza Energética",
+      "finalidades_extras": [
+        "Proteção"
+      ],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Corte definitivo de miasmas e energias de oposição sutil.",
+      "ervas": [
+        "Espada-de-São-Jorge",
+        "Guiné",
+        "Eucalipto",
+        "Cravo-da-Índia"
+      ],
+      "quantidades": {
+        "Espada-de-São-Jorge": "1 folha de cerca de 15 cm, em tiras finas",
+        "Guiné": "1 ramo com cerca de 7 folhas (fresca)",
+        "Eucalipto": "4 folhas",
+        "Cravo-da-Índia": "5 cravos"
+      },
+      "explicacao": "A espada-de-são-jorge fatia cordões energéticos negativos; a guiné desmancha larvas astrais; o eucalipto abre espaço para a livre circulação da energia vital; o cravo-da-índia sela e protege o campo recém-limpo.",
+      "intencao": "Cortam-se os fios que me prendem ao que me atrasa. Meu campo fica livre e selado.",
+      "preparo": "Ferva 1,5 litro de água com os cravos-da-índia por 3 minutos. Desligue, junte as tiras de espada-de-são-jorge, a guiné e o eucalipto. Abafe por 12 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pets",
+          "erva": "Espada-de-São-Jorge",
+          "texto": "Tóxica se ingerida, inclusive para cães e gatos. Se tiver pele sensível, corte com luvas."
+        },
+        {
+          "tipo": "gestante",
+          "erva": "Guiné",
+          "texto": "Contraindicada para gestantes e lactantes. Tóxica para animais se ingerida."
+        },
+        {
+          "tipo": "criancas",
+          "erva": "Eucalipto",
+          "texto": "Evite em crianças pequenas."
+        },
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "titulo": "Reestruturação da Aura",
+      "direcionamento": "Geral",
+      "categoria": "Limpeza Energética",
+      "finalidades_extras": [],
+      "nivel": "Harmonização",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Sempre que sentir necessidade.",
+      "finalidade": "Harmonização pós-limpeza, trazendo calmaria e reestruturação áurica.",
+      "ervas": [
+        "Camomila",
+        "Lavanda",
+        "Macassá",
+        "Rosa Branca"
+      ],
+      "quantidades": {
+        "Camomila": "1 colher de sopa de flores secas",
+        "Lavanda": "1 colher de sopa de flores secas",
+        "Macassá": "1 ramo pequeno (ou 1 colher de sopa seco)",
+        "Rosa Branca": "pétalas de 1 rosa"
+      },
+      "explicacao": "A camomila acalma o sistema após o descarrego; a lavanda equilibra as frequências mentais; o macassá restaura o aroma de aconchego e bem-estar; a rosa branca preenche a aura com paz e integridade espiritual.",
+      "intencao": "Depois da limpeza, eu me recomponho. Minha aura se refaz em paz, inteira e luminosa.",
+      "preparo": "Ferva 1,5 litro de água, desligue o fogo e adicione a camomila, a lavanda, o macassá e as pétalas de rosa branca. Abafe por 10 minutos, coe delicadamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 19,
+      "titulo": "Harmonia e Calor",
+      "direcionamento": "Geral",
+      "categoria": "Amor e Magnetismo",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Atração de parcerias sadias, calor e reciprocidade afetiva.",
+      "ervas": [
+        "Rosa Vermelha",
+        "Canela em Casca",
+        "Anis-Estrelado",
+        "Jasmim"
+      ],
+      "quantidades": {
+        "Rosa Vermelha": "pétalas de 1 rosa",
+        "Canela em Casca": "1 pau de cerca de 5 cm",
+        "Anis-Estrelado": "3 estrelas",
+        "Jasmim": "1 colher de sopa de flores secas (ou 7 flores frescas)"
+      },
+      "explicacao": "A rosa vermelha vibra o amor apaixonado e legítimo; a canela em casca esquenta o magnetismo de atração; o anis-estrelado abre as portas do destino para encontros felizes; o jasmim traz a afinidade de almas e doçura.",
+      "intencao": "Abro espaço para um amor recíproco, quente e saudável. Quem chegar, que chegue para somar.",
+      "preparo": "Ferva 1,5 litro de água com a canela em casca e os anis-estrelados por 4 minutos. Desligue, adicione o jasmim e as pétalas de rosa vermelha. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Canela em Casca",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "titulo": "Cura do Coração",
+      "direcionamento": "Geral",
+      "categoria": "Amor e Magnetismo",
+      "finalidades_extras": [],
+      "nivel": "Harmonização",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Sempre que sentir necessidade.",
+      "finalidade": "Cuidado profundo com o amor-próprio e cicatrização de mágoas.",
+      "ervas": [
+        "Rosa Branca",
+        "Lavanda",
+        "Camomila",
+        "Semente de Funcho"
+      ],
+      "quantidades": {
+        "Rosa Branca": "pétalas de 1 rosa",
+        "Lavanda": "1 colher de sopa de flores secas",
+        "Camomila": "1 colher de sopa de flores secas",
+        "Semente de Funcho": "1 colher de chá"
+      },
+      "explicacao": "A rosa branca limpa a culpa e traz leveza ao coração; a lavanda transmuta ressentimentos passados; a camomila acolhe a criança interior ferida; a semente de funcho devolve a doçura e o respeito consigo mesma.",
+      "intencao": "Acolho minhas mágoas com carinho e deixo que cicatrizem. Eu mereço o meu próprio amor.",
+      "preparo": "Ferva 1 litro de água com as sementes de funcho por 3 minutos. Desligue, adicione a lavanda, a camomila e as pétalas de rosa branca. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 21,
+      "titulo": "Brilho Solar",
+      "direcionamento": "Geral",
+      "categoria": "Amor e Magnetismo",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Brilho no olhar, alegria contagiante e valorização pessoal.",
+      "ervas": [
+        "Rosa Amarela",
+        "Calêndula",
+        "Casca de Laranja Seca",
+        "Macassá"
+      ],
+      "quantidades": {
+        "Rosa Amarela": "pétalas de 1 rosa",
+        "Calêndula": "1 colher de sopa de flores secas",
+        "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
+        "Macassá": "1 ramo pequeno (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "A rosa amarela ilumina a expressão e o valor próprio; a calêndula atrai o brilho solar da alegria; a casca de laranja dissolve a timidez excessiva; o macassá exala um perfume magnético inconfundível.",
+      "intencao": "O brilho volta ao meu olhar. Sou alegria, sou luz e reconheço o meu valor.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de laranja por 3 minutos. Desligue, junte a calêndula, o macassá e as pétalas de rosa amarela. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Laranja Seca",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "titulo": "Intensidade Consciente",
+      "direcionamento": "Geral",
+      "categoria": "Amor e Magnetismo",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Intensidade, entrega consciente e magnetismo relacional.",
+      "ervas": [
+        "Hibisco",
+        "Rosa Vermelha",
+        "Cravo-da-Índia",
+        "Noz-Moscada"
+      ],
+      "quantidades": {
+        "Hibisco": "1 colher de sopa de flores secas",
+        "Rosa Vermelha": "pétalas de 1 rosa",
+        "Cravo-da-Índia": "5 cravos",
+        "Noz-Moscada": "1 pitada ralada"
+      },
+      "explicacao": "O hibisco expande o poder de atração visual e energética; a rosa vermelha intensifica os sentimentos de afeto; o cravo-da-índia protege a união de interferências externas; a noz-moscada desperta a cumplicidade intuitiva.",
+      "intencao": "Vivo o amor com intensidade e consciência. Eu me entrego sem me perder.",
+      "preparo": "Ferva 1,5 litro de água com os cravos-da-índia e a noz-moscada ralada por 3 minutos. Desligue, adicione o hibisco e as pétalas de rosa vermelha. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "titulo": "Paz a Dois",
+      "direcionamento": "Geral",
+      "categoria": "Amor e Magnetismo",
+      "finalidades_extras": [],
+      "nivel": "Harmonização",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Sempre que sentir necessidade.",
+      "finalidade": "Suavização de conflitos afetivos e resgate da paz a dois.",
+      "ervas": [
+        "Camomila",
+        "Rosa Branca",
+        "Folha de Laranjeira",
+        "Lavanda"
+      ],
+      "quantidades": {
+        "Camomila": "1 colher de sopa de flores secas",
+        "Rosa Branca": "pétalas de 1 rosa",
+        "Folha de Laranjeira": "5 folhas",
+        "Lavanda": "1 colher de sopa de flores secas"
+      },
+      "explicacao": "A camomila desfaz a irritabilidade e discussões fúteis; a rosa branca harmoniza o campo sentimental; a folha de laranjeira traz leveza e bem-querer; a lavanda pacifica os ânimos exaltados.",
+      "intencao": "Que as palavras duras se desfaçam e o carinho volte. Nossa casa é lugar de paz.",
+      "preparo": "Ferva 1,5 litro de água, desligue o fogo e adicione a camomila, a folha de laranjeira, a lavanda e as pétalas de rosa branca. Abafe por 10 minutos, coe delicadamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 24,
+      "titulo": "Amor Sem Amarras",
+      "direcionamento": "Geral",
+      "categoria": "Amor e Magnetismo",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Expansão da autoconfiança para viver o amor sem amarras.",
+      "ervas": [
+        "Rosa Amarela",
+        "Jasmim",
+        "Canela em Pó",
+        "Semente de Girassol"
+      ],
+      "quantidades": {
+        "Rosa Amarela": "pétalas de 1 rosa",
+        "Jasmim": "1 colher de sopa de flores secas (ou 7 flores frescas)",
+        "Canela em Pó": "1 pitada (¼ de colher de chá)",
+        "Semente de Girassol": "1 colher de sopa (sem sal)"
+      },
+      "explicacao": "A rosa amarela fortalece a independência emocional; o jasmim eleva a autoestima espiritual; a canela em pó energiza o entusiasmo e a atração saudável; a semente de girassol firma a postura altiva e segura.",
+      "intencao": "Amo com liberdade e confiança. Não preciso me prender nem prender ninguém para ser feliz.",
+      "preparo": "Ferva 1,5 litro de água com as sementes de girassol por 3 minutos. Desligue, junte a canela em pó, o jasmim e as pétalas de rosa amarela. Abafe por 10 minutos, coe em pano fino ou filtro de papel. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Canela em Pó",
+          "texto": "Irritante para a pele: use só a pitada indicada e coe em pano fino."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "titulo": "Abertura Profissional",
+      "direcionamento": "Geral",
+      "categoria": "Trabalho e Caminhos",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Abertura de portas profissionais e clareza em reuniões.",
+      "ervas": [
+        "Louro",
+        "Alecrim",
+        "Semente de Coentro",
+        "Casca de Tangerina"
+      ],
+      "quantidades": {
+        "Louro": "3 folhas",
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Semente de Coentro": "1 colher de chá, levemente amassada",
+        "Casca de Tangerina": "casca de 1 tangerina"
+      },
+      "explicacao": "O louro atrai o sucesso e a vitória profissional; o alecrim traz foco mental e firmeza na comunicação; a semente de coentro limpa resistências alheias às suas ideias; a casca de tangerina atrai oportunidades de expansão.",
+      "intencao": "As portas certas se abrem para mim. Falo com clareza e minhas ideias são ouvidas.",
+      "preparo": "Ferva 1,5 litro de água com as folhas de louro, as cascas de tangerina e as sementes de coentro amassadas por 4 minutos. Desligue, acrescente o alecrim. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Tangerina",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "titulo": "Clareza Operacional",
+      "direcionamento": "Geral",
+      "categoria": "Trabalho e Caminhos",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Disposição mental para solucionar impasses no trabalho.",
+      "ervas": [
+        "Hortelã",
+        "Raiz de Gengibre",
+        "Louro",
+        "Folha de Abacateiro"
+      ],
+      "quantidades": {
+        "Hortelã": "1 ramo com cerca de 10 folhas",
+        "Raiz de Gengibre": "1 colher de chá ralada (cerca de 2 cm)",
+        "Louro": "3 folhas",
+        "Folha de Abacateiro": "3 folhas"
+      },
+      "explicacao": "A hortelã refresca o raciocínio; a raiz de gengibre desperta o ânimo e dá pique; o louro aponta para a solução vitoriosa; a folha de abacateiro destrava a circulação de projetos parados.",
+      "intencao": "Minha mente clareia e eu encontro a saída. O que estava travado volta a andar.",
+      "preparo": "Ferva 2 litros de água com a raiz de gengibre ralada e as folhas de louro por 4 minutos. Desligue o fogo, adicione a hortelã e a folha de abacateiro. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Raiz de Gengibre",
+          "texto": "Pode avermelhar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "titulo": "Conquista de Metas",
+      "direcionamento": "Geral",
+      "categoria": "Trabalho e Caminhos",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Foco em metas, crescimento de carreira e visibilidade justa.",
+      "ervas": [
+        "Anis-Estrelado",
+        "Louro",
+        "Canela em Casca",
+        "Calêndula"
+      ],
+      "quantidades": {
+        "Anis-Estrelado": "3 estrelas",
+        "Louro": "3 folhas",
+        "Canela em Casca": "1 pau de cerca de 5 cm",
+        "Calêndula": "1 colher de sopa de flores secas"
+      },
+      "explicacao": "O anis-estrelado atrai boa sorte e intuição estratégica; o louro coroa a realização de metas; a canela em casca acelera resultados financeiros e profissionais; a calêndula garante destaque e reconhecimento merecido.",
+      "intencao": "Meu esforço é visto e recompensado. Alcanço o que planejei, passo a passo.",
+      "preparo": "Ferva 1,5 litro de água com a canela em casca, os anis-estrelados e o louro por 4 minutos. Desligue, adicione a calêndula. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Canela em Casca",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "titulo": "Ordem e Foco",
+      "direcionamento": "Geral",
+      "categoria": "Trabalho e Caminhos",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Organização de ideias, foco operacional e alívio de estresse laboral.",
+      "ervas": [
+        "Capim-Limão",
+        "Alecrim",
+        "Casca de Laranja Seca",
+        "Semente de Girassol"
+      ],
+      "quantidades": {
+        "Capim-Limão": "3 folhas frescas cortadas",
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
+        "Semente de Girassol": "1 colher de sopa (sem sal)"
+      },
+      "explicacao": "O capim-limão acalma a pressão do ambiente corporativo; o alecrim estrutura a ordem mental; a casca de laranja traz leveza e ânimo para executar tarefas; a semente de girassol firma a produtividade com foco.",
+      "intencao": "Organizo pensamentos e tarefas com calma. Faço uma coisa de cada vez, e faço bem.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de laranja e as sementes de girassol por 3 minutos. Desligue, junte o capim-limão e o alecrim. Abafe por 10 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Laranja Seca",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "titulo": "Blindagem Corporativa",
+      "direcionamento": "Geral",
+      "categoria": "Trabalho e Caminhos",
+      "finalidades_extras": [
+        "Proteção"
+      ],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Proteção contra concorrência desleal e ambientes corporativos densos.",
+      "ervas": [
+        "Espada-de-São-Jorge",
+        "Louro",
+        "Aroeira",
+        "Cravo-da-Índia"
+      ],
+      "quantidades": {
+        "Espada-de-São-Jorge": "1 folha de cerca de 15 cm, em tiras finas",
+        "Louro": "3 folhas",
+        "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
+        "Cravo-da-Índia": "5 cravos"
+      },
+      "explicacao": "A espada-de-são-jorge bloqueia energias mal intencionadas de colegas ou concorrentes; o louro mantém sua vitória em foco; a aroeira repele vibrações de olho gordo; o cravo-da-índia blinda seu espaço de atuação.",
+      "intencao": "Meu espaço de trabalho está protegido. Intrigas e olho grande não me alcançam.",
+      "preparo": "Ferva 1,5 litro de água com os cravos-da-índia e as folhas de louro por 3 minutos. Desligue, adicione as tiras de espada-de-são-jorge e a aroeira. Abafe por 12 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pets",
+          "erva": "Espada-de-São-Jorge",
+          "texto": "Tóxica se ingerida, inclusive para cães e gatos. Se tiver pele sensível, corte com luvas."
+        },
+        {
+          "tipo": "especie",
+          "erva": "Aroeira",
+          "texto": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+        },
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "titulo": "Soberania em Nova Função",
+      "direcionamento": "Geral",
+      "categoria": "Trabalho e Caminhos",
+      "finalidades_extras": [
+        "Autoestima e Poder"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Aterramento e firmeza para assumir novas responsabilidades.",
+      "ervas": [
+        "Raiz de Vetiver",
+        "Louro",
+        "Hortelã",
+        "Casca de Bergamota"
+      ],
+      "quantidades": {
+        "Raiz de Vetiver": "1 colher de sopa de raiz picada",
+        "Louro": "3 folhas",
+        "Hortelã": "1 ramo com cerca de 10 folhas",
+        "Casca de Bergamota": "casca de ½ bergamota (só a parte colorida)"
+      },
+      "explicacao": "A raiz de vetiver traz maturidade e firmeza na base profissional; o louro sela o merecimento da nova posição; a hortelã traz clareza de comunicação diante de cobranças; a casca de bergamota dinamiza a gestão de tarefas.",
+      "intencao": "Mereço o lugar que ocupo. Assumo minhas novas responsabilidades com firmeza e serenidade.",
+      "preparo": "Ferva 2 litros de água com a raiz de vetiver picada, as cascas de bergamota e o louro por 5 minutos. Desligue, acrescente a hortelã. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "sol",
+          "erva": "Casca de Bergamota",
+          "texto": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "titulo": "Ímã de Oportunidades",
+      "direcionamento": "Geral",
+      "categoria": "Prosperidade",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Ímã de oportunidades financeiras e expansão de ganhos.",
+      "ervas": [
+        "Anis-Estrelado",
+        "Calêndula",
+        "Casca de Laranja Seca",
+        "Canela em Casca"
+      ],
+      "quantidades": {
+        "Anis-Estrelado": "3 estrelas",
+        "Calêndula": "1 colher de sopa de flores secas",
+        "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
+        "Canela em Casca": "1 pau de cerca de 5 cm"
+      },
+      "explicacao": "O anis-estrelado atrai correntes de riqueza e sincronicidade; a calêndula brilha o aspecto solar da abundância; a casca de laranja seca movimenta o fluxo monetário parado; a canela em casca acelera a concretização de ganhos.",
+      "intencao": "As oportunidades me encontram e eu sei reconhecê-las. A abundância flui em minha direção.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de laranja, a canela em casca e os anis-estrelados por 4 minutos. Desligue, adicione a calêndula. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Laranja Seca",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        },
+        {
+          "tipo": "pele",
+          "erva": "Canela em Casca",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "titulo": "Estratégia e Multiplicação",
+      "direcionamento": "Geral",
+      "categoria": "Prosperidade",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Disciplina e visão estratégica para multiplicação de recursos.",
+      "ervas": [
+        "Noz-Moscada",
+        "Louro",
+        "Semente de Girassol",
+        "Raiz de Gengibre"
+      ],
+      "quantidades": {
+        "Noz-Moscada": "1 pitada ralada",
+        "Louro": "3 folhas",
+        "Semente de Girassol": "1 colher de sopa (sem sal)",
+        "Raiz de Gengibre": "1 colher de chá ralada (cerca de 2 cm)"
+      },
+      "explicacao": "A noz-moscada atrai clareza em investimentos e ganhos inesperados; o louro traz a vitória financeira; a semente de girassol foca na expansão sustentável; a raiz de gengibre dá energia para correr atrás de metas lucrativas.",
+      "intencao": "Tenho visão e disciplina. O que recebo, eu cuido; o que eu cuido, se multiplica.",
+      "preparo": "Ferva 2 litros de água com a raiz de gengibre ralada, o louro, as sementes de girassol e a noz-moscada ralada por 4 minutos. Desligue, abafe por 10 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Noz-Moscada",
+          "texto": "Use apenas uma pitada."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "titulo": "Fartura Conquistada",
+      "direcionamento": "Geral",
+      "categoria": "Prosperidade",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Sustentação material, fartura e blindagem contra escassez.",
+      "ervas": [
+        "Louro",
+        "Anis-Estrelado",
+        "Folha de Abacateiro",
+        "Cravo-da-Índia"
+      ],
+      "quantidades": {
+        "Louro": "3 folhas",
+        "Anis-Estrelado": "3 estrelas",
+        "Folha de Abacateiro": "3 folhas",
+        "Cravo-da-Índia": "5 cravos"
+      },
+      "explicacao": "O louro consolida a conquista material; o anis-estrelado atrai prosperidade fina; a folha de abacateiro sela a egrégora de fartura contínua; o cravo-da-índia blinda sua renda contra drenagens energéticas.",
+      "intencao": "Minha mesa é farta e minha casa é próspera. O que conquistei permanece comigo.",
+      "preparo": "Ferva 1,5 litro de água com os cravos-da-índia, o louro e os anis-estrelados por 4 minutos. Desligue, junte as folhas de abacateiro. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "titulo": "Dinamismo Financeiro",
+      "direcionamento": "Geral",
+      "categoria": "Prosperidade",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Dinamismo financeiro e quebra de bloqueios de merecimento.",
+      "ervas": [
+        "Casca de Tangerina",
+        "Calêndula",
+        "Canela em Pó",
+        "Semente de Coentro"
+      ],
+      "quantidades": {
+        "Casca de Tangerina": "casca de 1 tangerina",
+        "Calêndula": "1 colher de sopa de flores secas",
+        "Canela em Pó": "1 pitada (¼ de colher de chá)",
+        "Semente de Coentro": "1 colher de chá, levemente amassada"
+      },
+      "explicacao": "A casca de tangerina rompe bloqueios de estagnação financeira; a calêndula eleva o merecimento de receber abundância; a canela em pó dinamiza as vendas; a semente de coentro limpa crenças limitantes sobre dinheiro.",
+      "intencao": "Eu mereço receber. Solto as crenças que travam meu dinheiro e deixo a prosperidade circular.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de tangerina e as sementes de coentro amassadas por 3 minutos. Desligue, adicione a canela em pó e a calêndula. Abafe por 10 minutos, coe em pano fino ou filtro de papel. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Tangerina",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        },
+        {
+          "tipo": "pele",
+          "erva": "Canela em Pó",
+          "texto": "Irritante para a pele: use só a pitada indicada e coe em pano fino."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "titulo": "Brilho e Reconhecimento",
+      "direcionamento": "Geral",
+      "categoria": "Prosperidade",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Brilho e prosperidade associados ao valor do próprio trabalho.",
+      "ervas": [
+        "Anis-Estrelado",
+        "Noz-Moscada",
+        "Casca de Laranja Seca",
+        "Rosa Amarela"
+      ],
+      "quantidades": {
+        "Anis-Estrelado": "3 estrelas",
+        "Noz-Moscada": "1 pitada ralada",
+        "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
+        "Rosa Amarela": "pétalas de 1 rosa"
+      },
+      "explicacao": "O anis-estrelado atrai oportunidades valiosas; a noz-moscada favorece a intuição comercial; a casca de laranja energiza a alegria de produzir; a rosa amarela garante que seu valor pessoal seja reconhecido financeiramente.",
+      "intencao": "Meu trabalho tem valor e é reconhecido. Recebo com justiça pelo que entrego.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de laranja, os anis-estrelados e a noz-moscada ralada por 3 minutos. Desligue, adicione as pétalas de rosa amarela. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Noz-Moscada",
+          "texto": "Use apenas uma pitada."
+        },
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Laranja Seca",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "titulo": "Bases de Estabilidade",
+      "direcionamento": "Geral",
+      "categoria": "Prosperidade",
+      "finalidades_extras": [
+        "Trabalho e Caminhos"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Construção de bases sólidas para a estabilidade material.",
+      "ervas": [
+        "Raiz de Vetiver",
+        "Louro",
+        "Semente de Girassol",
+        "Casca de Bergamota"
+      ],
+      "quantidades": {
+        "Raiz de Vetiver": "1 colher de sopa de raiz picada",
+        "Louro": "3 folhas",
+        "Semente de Girassol": "1 colher de sopa (sem sal)",
+        "Casca de Bergamota": "casca de ½ bergamota (só a parte colorida)"
+      },
+      "explicacao": "A raiz de vetiver garante solidez e estrutura para guardar e multiplicar recursos; o louro sela o sucesso financeiro; a semente de girassol foca no crescimento constante; a casca de bergamota movimenta novas fontes de ganho.",
+      "intencao": "Construo sobre chão firme. O que ergo hoje sustenta o meu amanhã.",
+      "preparo": "Ferva 2 litros de água com a raiz de vetiver picada, as cascas de bergamota e o louro por 5 minutos. Desligue, junte as sementes de girassol. Abafe por 10 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "sol",
+          "erva": "Casca de Bergamota",
+          "texto": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "titulo": "Altivez e Poder Pessoal",
+      "direcionamento": "Geral",
+      "categoria": "Autoestima e Poder",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Resgate do poder pessoal, dignidade e altivez.",
+      "ervas": [
+        "Alecrim",
+        "Hibisco",
+        "Rosa Vermelha",
+        "Semente de Girassol"
+      ],
+      "quantidades": {
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Hibisco": "1 colher de sopa de flores secas",
+        "Rosa Vermelha": "pétalas de 1 rosa",
+        "Semente de Girassol": "1 colher de sopa (sem sal)"
+      },
+      "explicacao": "O alecrim restaura a força de vontade e o ânimo próprio; o hibisco expande a autoconfiança visível; a rosa vermelha alimenta o amor-próprio inegociável; a semente de girassol eleva a postura perante os outros.",
+      "intencao": "Resgato minha dignidade e minha força. Caminho de cabeça erguida.",
+      "preparo": "Ferva 1,5 litro de água com as sementes de girassol por 3 minutos. Desligue, adicione o alecrim, o hibisco e as pétalas de rosa vermelha. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 38,
+      "titulo": "Leveza sem Cobrança",
+      "direcionamento": "Geral",
+      "categoria": "Autoestima e Poder",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Reconhecimento do próprio valor sem autocobrança excessiva.",
+      "ervas": [
+        "Calêndula",
+        "Casca de Laranja Seca",
+        "Macassá",
+        "Camomila"
+      ],
+      "quantidades": {
+        "Calêndula": "1 colher de sopa de flores secas",
+        "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
+        "Macassá": "1 ramo pequeno (ou 1 colher de sopa seco)",
+        "Camomila": "1 colher de sopa de flores secas"
+      },
+      "explicacao": "A calêndula traz o brilho de aceitação pessoal; a casca de laranja dissolve a culpa e traz leveza; o macassá exala a doçura de se amar; a camomila acalma a autocrítica severa e o perfeccionismo.",
+      "intencao": "Sou suficiente como sou. Faço o meu melhor e me trato com gentileza.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de laranja por 3 minutos. Desligue, acrescente a calêndula, o macassá e a camomila. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "sol-leve",
+          "erva": "Casca de Laranja Seca",
+          "texto": "Em peles claras, prefira fazer o banho à noite."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "titulo": "Fogo Interno",
+      "direcionamento": "Geral",
+      "categoria": "Autoestima e Poder",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Força de vontade inabalável e coragem para ocupar espaço.",
+      "ervas": [
+        "Raiz de Gengibre",
+        "Alecrim",
+        "Cravo-da-Índia",
+        "Louro"
+      ],
+      "quantidades": {
+        "Raiz de Gengibre": "1 colher de chá ralada (cerca de 2 cm)",
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Cravo-da-Índia": "5 cravos",
+        "Louro": "3 folhas"
+      },
+      "explicacao": "A raiz de gengibre desperta o fogo interno de atitude; o alecrim traz firmeza de propósitos; o cravo-da-índia protege sua coragem contra opiniões alheias; o louro garante a vitória ao ocupar seu espaço de direito.",
+      "intencao": "Acendo o meu fogo interno. Ocupo o meu espaço com coragem, sem pedir desculpas por existir.",
+      "preparo": "Ferva 2 litros de água com a raiz de gengibre ralada, os cravos e o louro por 4 minutos. Desligue, junte o alecrim. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Raiz de Gengibre",
+          "texto": "Pode avermelhar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "titulo": "Acolhimento da Alma",
+      "direcionamento": "Geral",
+      "categoria": "Autoestima e Poder",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "nivel": "Harmonização",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Sempre que sentir necessidade.",
+      "finalidade": "Acolhimento íntimo, paz com a própria história e autocompaixão.",
+      "ervas": [
+        "Rosa Branca",
+        "Lavanda",
+        "Macassá",
+        "Noz-Moscada"
+      ],
+      "quantidades": {
+        "Rosa Branca": "pétalas de 1 rosa",
+        "Lavanda": "1 colher de sopa de flores secas",
+        "Macassá": "1 ramo pequeno (ou 1 colher de sopa seco)",
+        "Noz-Moscada": "1 pitada ralada"
+      },
+      "explicacao": "A rosa branca purifica as cicatrizes emocionais do passado; a lavanda pacifica a mente de julgamentos severos; o macassá envolve a alma em aconchego; a noz-moscada traz clareza intuitiva sobre o próprio valor.",
+      "intencao": "Faço as pazes com a minha história. Sou acolhimento para mim.",
+      "preparo": "Ferva 1,5 litro de água com a noz-moscada ralada por 2 minutos. Desligue, adicione a lavanda, o macassá e as pétalas de rosa branca. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Noz-Moscada",
+          "texto": "Use apenas uma pitada."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "titulo": "Radiância Vital",
+      "direcionamento": "Geral",
+      "categoria": "Autoestima e Poder",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Radiância, vitalidade expressiva e confiança corporal.",
+      "ervas": [
+        "Hibisco",
+        "Alecrim",
+        "Canela em Casca",
+        "Semente de Girassol"
+      ],
+      "quantidades": {
+        "Hibisco": "1 colher de sopa de flores secas",
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Canela em Casca": "1 pau de cerca de 5 cm",
+        "Semente de Girassol": "1 colher de sopa (sem sal)"
+      },
+      "explicacao": "O hibisco exalta a beleza e a presença marcante; o alecrim energiza o tônus vital; a canela em casca esquenta o magnetismo e a autopercepção positiva; a semente de girassol irradia a luz pessoal sem reservas.",
+      "intencao": "Minha vitalidade transborda. Habito meu corpo com confiança e deixo minha luz aparecer.",
+      "preparo": "Ferva 1,5 litro de água com a canela em casca e as sementes de girassol por 4 minutos. Desligue, junte o hibisco e o alecrim. Abafe por 10 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Canela em Casca",
+          "texto": "Pode irritar peles sensíveis."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "titulo": "Essência e Suavidade",
+      "direcionamento": "Geral",
+      "categoria": "Autoestima e Poder",
+      "finalidades_extras": [],
+      "nivel": "Harmonização",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Sempre que sentir necessidade.",
+      "finalidade": "Leveza e suavidade no reconhecimento da própria beleza interior.",
+      "ervas": [
+        "Camomila",
+        "Rosa Amarela",
+        "Folha de Laranjeira",
+        "Jasmim"
+      ],
+      "quantidades": {
+        "Camomila": "1 colher de sopa de flores secas",
+        "Rosa Amarela": "pétalas de 1 rosa",
+        "Folha de Laranjeira": "5 folhas",
+        "Jasmim": "1 colher de sopa de flores secas (ou 7 flores frescas)"
+      },
+      "explicacao": "A camomila suaviza a relação com o próprio corpo e mente; a rosa amarela ilumina a expressão sutil; a folha de laranjeira traz paz e alegria íntima; o jasmim eleva a percepção da própria essência espiritual.",
+      "intencao": "Reconheço a beleza que existe em mim. Sou suave comigo e deixo minha essência florescer.",
+      "preparo": "Ferva 1,5 litro de água, desligue o fogo e acrescente a camomila, a folha de laranjeira, o jasmim e as pétalas de rosa amarela. Abafe por 10 minutos, coe delicadamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 43,
+      "titulo": "Escudo Semanal",
+      "direcionamento": "Geral",
+      "categoria": "Proteção",
+      "finalidades_extras": [],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Escudo energético semanal contra energias externas densas.",
+      "ervas": [
+        "Guiné",
+        "Aroeira",
+        "Espada-de-São-Jorge",
+        "Alecrim"
+      ],
+      "quantidades": {
+        "Guiné": "1 ramo com cerca de 7 folhas (fresca)",
+        "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
+        "Espada-de-São-Jorge": "1 folha de cerca de 15 cm, em tiras finas",
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "A guiné intercepta e consome cargas densas; a aroeira fecha o corpo contra influências nocivas; a espada-de-são-jorge atua como barreira intransponível; o alecrim mantém a vibração elevada e protegida.",
+      "intencao": "Meu corpo se fecha ao que é denso. Por onde eu for, a proteção vai comigo.",
+      "preparo": "Ferva 2 litros de água, desligue o fogo e adicione as ervas frescas picadas (Guiné, Aroeira, tiras de Espada-de-São-Jorge e Alecrim). Abafe por 15 minutos com tampa, coe rigorosamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "gestante",
+          "erva": "Guiné",
+          "texto": "Contraindicada para gestantes e lactantes. Tóxica para animais se ingerida."
+        },
+        {
+          "tipo": "especie",
+          "erva": "Aroeira",
+          "texto": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+        },
+        {
+          "tipo": "pets",
+          "erva": "Espada-de-São-Jorge",
+          "texto": "Tóxica se ingerida, inclusive para cães e gatos. Se tiver pele sensível, corte com luvas."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "titulo": "Blindagem Anti-Vampirismo",
+      "direcionamento": "Geral",
+      "categoria": "Proteção",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Blindagem e aterramento contra vampirismo astral.",
+      "ervas": [
+        "Raiz de Vetiver",
+        "Cravo-da-Índia",
+        "Louro",
+        "Poejo"
+      ],
+      "quantidades": {
+        "Raiz de Vetiver": "1 colher de sopa de raiz picada",
+        "Cravo-da-Índia": "5 cravos",
+        "Louro": "3 folhas",
+        "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "A raiz de vetiver ancora o campo magnético contra drenagens; o cravo-da-índia blinda e sela os chakras inferiores; o louro direciona a energia para a soberania pessoal; o poejo limpa os pensamentos de interferências externas.",
+      "intencao": "Minha energia é minha. Ninguém a drena: ela permanece comigo.",
+      "preparo": "Ferva 2 litros de água com a raiz de vetiver picada, os cravos e o louro por 5 minutos. Desligue, junte o poejo. Abafe por 10 minutos, coe com cuidado. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        },
+        {
+          "tipo": "gestante",
+          "erva": "Poejo",
+          "texto": "Contraindicado para gestantes e lactantes."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "titulo": "Santuário do Lar e da Aura",
+      "direcionamento": "Geral",
+      "categoria": "Proteção",
+      "finalidades_extras": [],
+      "nivel": "Harmonização",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Sempre que sentir necessidade.",
+      "finalidade": "Proteção pacífica do campo mental e emocional do lar e da aura.",
+      "ervas": [
+        "Lavanda",
+        "Camomila",
+        "Rosa Branca",
+        "Folha de Abacateiro"
+      ],
+      "quantidades": {
+        "Lavanda": "1 colher de sopa de flores secas",
+        "Camomila": "1 colher de sopa de flores secas",
+        "Rosa Branca": "pétalas de 1 rosa",
+        "Folha de Abacateiro": "3 folhas"
+      },
+      "explicacao": "A lavanda cria um campo de paz que afasta energias agitadas; a camomila acolhe e protege contra o estresse alheio; a rosa branca oferece uma blindagem suave de luz; a folha de abacateiro traz estabilidade e proteção ao campo.",
+      "intencao": "Minha casa e meu campo são santuários de paz. Aqui só entra o que é de bem.",
+      "preparo": "Ferva 1,5 litro de água, desligue o fogo e adicione a folha de abacateiro, a camomila, a lavanda e as pétalas de rosa branca. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 46,
+      "titulo": "Fechamento de Corpo",
+      "direcionamento": "Geral",
+      "categoria": "Proteção",
+      "finalidades_extras": [
+        "Limpeza Energética"
+      ],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Limpeza de egrégoras pesadas e fechamento de corpo.",
+      "ervas": [
+        "Aroeira",
+        "Eucalipto",
+        "Casca de Limão Siciliano",
+        "Guiné"
+      ],
+      "quantidades": {
+        "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
+        "Eucalipto": "4 folhas",
+        "Casca de Limão Siciliano": "casca de ½ limão (só a parte amarela)",
+        "Guiné": "1 ramo com cerca de 7 folhas (fresca)"
+      },
+      "explicacao": "A aroeira quebra e afasta correntes pesadas; o eucalipto desinfeta o campo áurico de miasmas; a casca de limão siciliano neutraliza resíduos de ambientes densos; a guiné garante o fechamento definitivo do corpo.",
+      "intencao": "Limpo o que é pesado e fecho o meu corpo. Nada de mal entra, nada de bom sai.",
+      "preparo": "Ferva 1,5 litro de água com as cascas de limão siciliano por 3 minutos. Desligue, junte a aroeira, o eucalipto e a guiné. Abafe por 12 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "especie",
+          "erva": "Aroeira",
+          "texto": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
+        },
+        {
+          "tipo": "criancas",
+          "erva": "Eucalipto",
+          "texto": "Evite em crianças pequenas."
+        },
+        {
+          "tipo": "sol",
+          "erva": "Casca de Limão Siciliano",
+          "texto": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
+        },
+        {
+          "tipo": "gestante",
+          "erva": "Guiné",
+          "texto": "Contraindicada para gestantes e lactantes. Tóxica para animais se ingerida."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "titulo": "Vigilância Serena",
+      "direcionamento": "Geral",
+      "categoria": "Proteção",
+      "finalidades_extras": [],
+      "nivel": "Ativação",
+      "corpo": "Cabeça aos pés",
+      "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+      "finalidade": "Equilíbrio entre firmeza defensiva e serenidade espiritual.",
+      "ervas": [
+        "Alecrim",
+        "Louro",
+        "Lavanda",
+        "Semente de Girassol"
+      ],
+      "quantidades": {
+        "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)",
+        "Louro": "3 folhas",
+        "Lavanda": "1 colher de sopa de flores secas",
+        "Semente de Girassol": "1 colher de sopa (sem sal)"
+      },
+      "explicacao": "O alecrim traz força e vigilância ativa; o louro sela a vitória da sua energia; a lavanda mantém o equilíbrio emocional sem perder a guarda; a semente de girassol irradia uma barreira solar de proteção.",
+      "intencao": "Sigo em paz e em alerta. Minha serenidade também é a minha defesa.",
+      "preparo": "Ferva 1,5 litro de água com as sementes de girassol e o louro por 3 minutos. Desligue, acrescente o alecrim e a lavanda. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
+      "alertas": []
+    },
+    {
+      "id": 48,
+      "titulo": "Corte de Intrigas",
+      "direcionamento": "Geral",
+      "categoria": "Proteção",
+      "finalidades_extras": [],
+      "nivel": "Descarrego",
+      "corpo": "Pescoço para baixo",
+      "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
+      "finalidade": "Vigilância energética, corte de intrigas e proteção de caminhos.",
+      "ervas": [
+        "Espada-de-São-Jorge",
+        "Raiz de Vetiver",
+        "Cravo-da-Índia",
+        "Poejo"
+      ],
+      "quantidades": {
+        "Espada-de-São-Jorge": "1 folha de cerca de 15 cm, em tiras finas",
+        "Raiz de Vetiver": "1 colher de sopa de raiz picada",
+        "Cravo-da-Índia": "5 cravos",
+        "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
+      },
+      "explicacao": "A espada-de-são-jorge afasta fofocas e intrigas maliciosas; a raiz de vetiver ancora o praticante na sua verdade; o cravo-da-índia blinda o campo contra ataques sutis; o poejo limpa o ambiente mental de armadilhas energéticas.",
+      "intencao": "Fofocas e intrigas se desfazem antes de me alcançar. Sigo firme na minha verdade.",
+      "preparo": "Ferva 2 litros de água com a raiz de vetiver picada e os cravos-da-índia por 5 minutos. Desligue, adicione as tiras de espada-de-são-jorge e o poejo. Abafe por 12 minutos, coe perfeitamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
+      "alertas": [
+        {
+          "tipo": "pets",
+          "erva": "Espada-de-São-Jorge",
+          "texto": "Tóxica se ingerida, inclusive para cães e gatos. Se tiver pele sensível, corte com luvas."
+        },
+        {
+          "tipo": "pele",
+          "erva": "Cravo-da-Índia",
+          "texto": "Pode irritar peles sensíveis."
+        },
+        {
+          "tipo": "gestante",
+          "erva": "Poejo",
+          "texto": "Contraindicado para gestantes e lactantes."
+        }
+      ]
+    }
+  ]
+}
