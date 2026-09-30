@@ -302,6 +302,8 @@
         .diario td { border: 1px solid var(--border-subtle); height: 56px; }
         @media (max-width: 768px) {
             .facts { grid-template-columns: 1fr 1fr; }
+            .pager { flex-direction: column; }
+            .pager a { max-width: 100%; width: 100%; justify-content: center; }
             .block { padding: 18px 18px; }
             .ficha-grid { grid-template-columns: 1fr; }
             .journey > li { padding: 18px 18px 18px 60px; }
@@ -408,6 +410,12 @@
             h1.page-title { font-size: 2.1rem; }
             .recipe-card { padding: 22px 18px; }
             .cover { height: 190px; }
+        }
+
+        @media (max-width: 420px) {
+            .facts .fact:nth-child(n+3) { grid-column: 1 / -1; }
+            .facts .fact .v br { display: none; }
+            .facts .fact .v small { display: block; }
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -812,6 +820,7 @@
         function pageTodos(q, ervaSlug) {
             q = q || '';
             const ervaFiltro = ervaSlug ? data.fichas_ervas.find(f => slug(f.nome) === ervaSlug) : null;
+            if (ervaSlug && !ervaFiltro) return pageNaoEncontrada('Não encontramos essa erva. <a href="#/ervas">Veja a lista de fichas</a> ou <a href="#/banhos">todos os banhos</a>.');
             $('#searchInput').value = q;
             const nq = norm(q);
             const lista = data.banhos.filter(b => {
@@ -921,7 +930,7 @@
             };
             const faltaCard = ({ b, faltam }) => bathCard(b).replace(/<\/a>\s*$/, `<p class="missing">${faltam.map(f => {
                 const subs = subsQueTenho(f);
-                return `Falta: ${esc(f)}${subs.length ? ` · substituto aproximado que você tem: ${subs.map(esc).join(' ou ')}` : ''}`;
+                return `Falta: ${esc(f)}${subs.length ? ` · a ficha sugere uma alternativa aproximada que você tem: ${subs.map(esc).join(' ou ')}` : ''}`;
             }).join('<br>')}</p></a>`);
             render(`
                 <h1 class="page-title">Tenho em casa</h1>
@@ -1023,8 +1032,8 @@
                 ${cta()}`, 'Sobre', '#/sobre');
         }
 
-        function pageNaoEncontrada() {
-            render(`<h1 class="page-title">Página não encontrada</h1><p>Este endereço não existe no guia. <a href="#/">Voltar ao início</a>.</p>`, 'Página não encontrada', null);
+        function pageNaoEncontrada(msg) {
+            render(`<h1 class="page-title">Página não encontrada</h1><p>${msg || 'Este endereço não existe no guia.'} <a href="#/">Voltar ao início</a>.</p>`, 'Página não encontrada', null);
         }
 
         // ---------------------------------------------------------------- roteamento
@@ -1041,7 +1050,7 @@
             else if (parts[0] === 'categoria') { const c = catBySlug(parts[1]); c ? pageCategoria(c) : pageNaoEncontrada(); }
             else if (parts[0] === 'banhos') pageTodos(params.get('q'), params.get('erva'));
             else if (parts[0] === 'ervas') pageErvas();
-            else if (parts[0] === 'erva') pageErvas(parts[1]);
+            else if (parts[0] === 'erva') data.fichas_ervas.some(f => slug(f.nome) === parts[1]) ? pageErvas(parts[1]) : pageNaoEncontrada('Não encontramos essa erva. <a href="#/ervas">Veja a lista de fichas</a>.');
             else if (parts[0] === 'tenho-em-casa') pageTenho();
             else if (parts[0] === 'como-tomar') pageComoTomar();
             else if (parts[0] === 'seguranca') pageLista('Segurança e Uso Responsável', data.seguranca, '<p>Leia com atenção antes de preparar qualquer banho. Cada banho e cada ficha de erva também indicam os cuidados específicos.</p>', '#/seguranca');
