@@ -316,8 +316,13 @@
         .sidebar-contact { padding: 14px 24px 18px; border-top: 1px solid var(--border-subtle); display: flex; gap: 8px; flex-wrap: wrap; }
         .sidebar-contact a { flex: 1; text-align: center; justify-content: center; font-size: 0.8rem; padding: 7px 8px; white-space: nowrap; }
         .sobre-wrap { display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap; }
-        .sobre-wrap img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--bg-surface); box-shadow: 0 0 0 1px var(--border-subtle); }
-        .sobre-wrap .bio { flex: 1; min-width: 240px; white-space: pre-line; }
+        .sobre-wrap { gap: 32px; }
+        .sobre-wrap img { width: 240px; max-width: 100%; height: auto; aspect-ratio: 3 / 4; border-radius: 8px; object-fit: cover; box-shadow: 0 6px 24px rgba(110,65,65,0.12); }
+        .sobre-wrap .bio-box { flex: 1; min-width: 240px; }
+        .sobre-wrap .bio { white-space: pre-line; font-size: 1.05rem; }
+        .sobre-wrap .nome { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--accent-rose-dark); line-height: 1.2; margin-bottom: 4px; }
+        .sobre-wrap .papel { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent-rose); font-weight: 600; margin-bottom: 16px; }
+        @media (max-width: 768px) { .sobre-wrap img { width: 100%; max-width: 320px; } }
 
         .footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-muted); }
 
@@ -505,7 +510,7 @@
             const l = contatoLinks();
             if (!l.whats && !l.insta) return '';
             return `<div class="cta"><p>${esc(c.texto_cta)}</p><div class="cta-actions">
-                ${l.whats ? `<a class="btn" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar leitura de tarot</a>` : ''}
+                ${l.whats ? `<a class="btn" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar consulta</a>` : ''}
                 ${l.insta ? `<a class="btn ghost" href="${esc(l.insta)}" target="_blank" rel="noopener">Ver no Instagram</a>` : ''}
             </div></div>`;
         }
@@ -891,8 +896,17 @@
         }
 
         function pageSobre() {
-            const foto = data.sobre_foto ? `<img src="${esc(data.sobre_foto)}" alt="Maria, da Mundo Cigana Tarot" width="150" height="150">` : '';
-            render(`<h1 class="page-title">Sobre</h1><div class="sobre-wrap">${foto}<p class="bio">${esc(data.sobre)}</p></div>${cta()}`, 'Sobre', '#/sobre');
+            const foto = data.sobre_foto ? `<img src="${esc(data.sobre_foto)}" alt="Maria, cartomante da Mundo Cigana Tarot, segurando um baralho cigano" width="240" height="320">` : '';
+            const l = contatoLinks();
+            render(`<h1 class="page-title">Sobre</h1>
+                <div class="sobre-wrap">${foto}
+                    <div class="bio-box">
+                        <p class="nome">Maria</p>
+                        <p class="papel">Cartomante · Mundo Cigana Tarot</p>
+                        <p class="bio">${esc(data.sobre)}</p>
+                        ${l.insta ? `<p><a class="herb-link" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)} no Instagram</a></p>` : ''}
+                    </div>
+                </div>${cta()}`, 'Sobre', '#/sobre');
         }
 
         function pageNaoEncontrada() {
@@ -933,7 +947,7 @@
                 buildSidebar();
                 const l = contatoLinks(), sc = $('#sidebarContact');
                 if (l.whats || l.insta) {
-                    sc.innerHTML = (l.whats ? `<a class="btn primary" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar leitura</a>` : '') +
+                    sc.innerHTML = (l.whats ? `<a class="btn primary" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar consulta</a>` : '') +
                                    (l.insta ? `<a class="btn" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)}</a>` : '');
                     sc.hidden = false;
                 }
