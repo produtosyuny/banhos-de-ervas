@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banhos de Ervas — Guia Digital | Mundo Cigana Tarot</title>
+    <meta name="description" content="48 banhos de ervas organizados por finalidade, com medidas, modo de preparo, intenção e ficha completa de 35 ervas. Um guia da Mundo Cigana Tarot.">
+    <meta name="theme-color" content="#6e4141">
+
+    <!-- Pré-visualização em WhatsApp, Instagram e redes sociais.
+         Se o site mudar de endereço, atualize as duas URLs absolutas abaixo. -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Mundo Cigana Tarot">
+    <meta property="og:title" content="Banhos de Ervas — Guia Prático de Uso Pessoal">
+    <meta property="og:description" content="48 banhos organizados por finalidade, com medidas, preparo, intenção e ficha de 35 ervas.">
+    <meta property="og:url" content="https://produtosyuny.github.io/banhos-de-ervas/">
+    <meta property="og:image" content="https://produtosyuny.github.io/banhos-de-ervas/img/og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Pétalas de rosa secas, alecrim e lavanda sobre tecido de linho">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #f7f4ee;
+            --bg-sidebar: #efede6;
+            --bg-surface: #ffffff;
+            --bg-card: #f2eee3;
+            --text-main: #2c2926;
+            --text-muted: #655f57;
+            --accent-rose: #8a5252;
+            --accent-soft: #b88585;
+            --accent-rose-dark: #6e4141;
+            --border-subtle: #e3decb;
+            --warn-bg: #fbf3e4;
+            --warn-border: #d9b77a;
+            --warn-text: #6b4e16;
+            --focus: #6e4141;
+            --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { -webkit-text-size-adjust: 100%; }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+            font-weight: 400;
+            line-height: 1.7;
+            font-size: 16px;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; color: var(--text-main); line-height: 1.25; }
+        h3 { font-size: 1.5rem; margin: 28px 0 10px; color: var(--accent-rose-dark); }
+        p { margin-bottom: 16px; }
+        a { color: var(--accent-rose); }
+        ul.plain { list-style: none; }
+
+        :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+
+        .skip-link {
+            position: absolute; left: -9999px; top: 8px; z-index: 300;
+            background: var(--accent-rose-dark); color: #fff; padding: 8px 14px; border-radius: 4px; text-decoration: none;
+        }
+        .skip-link:focus { left: 8px; }
+
+        /* ---------- Menu lateral ---------- */
+        aside.sidebar {
+            width: 320px; flex-shrink: 0;
+            background-color: var(--bg-sidebar);
+            border-right: 1px solid var(--border-subtle);
+            display: flex; flex-direction: column;
+            height: 100%; z-index: 100;
+            transition: var(--transition);
+        }
+        .sidebar-header { padding: 26px 24px 18px; border-bottom: 1px solid var(--border-subtle); text-align: center; }
+        .sidebar-header a { text-decoration: none; }
+        .sidebar-header h2 { font-size: 1.6rem; color: var(--accent-rose-dark); }
+        .sidebar-header p { font-size: 0.95rem; color: var(--text-muted); font-style: italic; font-family: 'Cormorant Garamond', serif; margin: 0; }
+
+        .search-box { padding: 16px 20px 4px; }
+        .search-box label { display: block; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px; }
+        .search-box input {
+            width: 100%; padding: 9px 12px; font: inherit; font-size: 0.9rem;
+            border: 1px solid var(--border-subtle); border-radius: 6px; background: var(--bg-surface); color: var(--text-main);
+        }
+        .search-box input:focus { border-color: var(--accent-rose); outline: none; box-shadow: 0 0 0 3px rgba(138,82,82,0.15); }
+
+        .nav-tree { flex: 1; overflow-y: auto; padding: 12px 16px 24px; }
+        .nav-section { margin-bottom: 12px; }
+        .nav-section-title {
+            font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em;
+            color: var(--accent-rose); padding: 8px 12px 4px; font-weight: 600;
+        }
+        .nav-items { list-style: none; padding-left: 8px; }
+        .nav-items li a {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 6px 12px; color: var(--text-main); text-decoration: none;
+            font-size: 0.92rem; border-radius: 4px; transition: var(--transition);
+        }
+        .nav-items li a .count { font-size: 0.75rem; color: var(--text-muted); }
+        .nav-items li a:hover, .nav-items li a[aria-current="page"] {
+            background-color: var(--border-subtle); color: var(--accent-rose-dark); font-weight: 500;
+        }
+
+        /* ---------- Área principal ---------- */
+        main.content-area { flex: 1; height: 100%; overflow-y: auto; padding: 50px 70px 80px; scroll-behavior: smooth; }
+        .content-container { max-width: 800px; margin: 0 auto; }
+        .content-container:focus { outline: none; }
+
+        h1.page-title {
+            font-size: 2.6rem; color: var(--accent-rose-dark);
+            margin-bottom: 20px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 14px;
+        }
+        .lead { font-size: 1.05rem; color: var(--text-muted); }
+        .breadcrumb { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px; }
+        .breadcrumb a { color: var(--accent-rose); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .cover { width: 100%; height: 260px; margin: 24px 0; border-radius: 6px; overflow: hidden; border: 1px solid var(--border-subtle); background: var(--bg-card); }
+        .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+        .module-box, .note-box {
+            background-color: var(--bg-surface); border: 1px solid var(--border-subtle);
+            padding: 24px; border-radius: 6px; margin: 20px 0;
+        }
+        .module-box h3 { margin-top: 0; }
+        .module-box p:last-child, .note-box p:last-child { margin-bottom: 0; }
+        .note-box { background: var(--bg-card); border-left: 3px solid var(--accent-soft); font-size: 0.95rem; }
+
+        .rules { list-style: none; margin-top: 8px; }
+        .rules li { padding: 10px 0; border-top: 1px solid var(--border-subtle); }
+        .rules li:first-child { border-top: none; }
+
+        /* ---------- Selos (nível, corpo, direcionamento) ---------- */
+        .badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+        .badge {
+            font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
+            padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border-subtle);
+            background: var(--bg-card); color: var(--accent-rose-dark);
+        }
+        .badge.nivel-Descarrego { background: #f3e6e3; border-color: #dcc0ba; }
+        .badge.nivel-Ativação { background: #f6eedd; border-color: #e1d0a8; color: #6b4e16; }
+        .badge.nivel-Harmonização { background: #e9efe7; border-color: #c5d3c0; color: #3d5a36; }
+        .badge.warn { background: var(--warn-bg); border-color: var(--warn-border); color: var(--warn-text); }
+
+        /* ---------- Cartões de banho (listas) ---------- */
+        .card-list { display: grid; gap: 14px; margin-top: 20px; }
+        .bath-card {
+            display: block; text-decoration: none; color: inherit;
+            background: var(--bg-surface); border: 1px solid var(--border-subtle);
+            padding: 20px 24px; border-radius: 6px; transition: var(--transition);
+        }
+        .bath-card:hover { border-color: var(--accent-soft); box-shadow: 0 4px 14px rgba(110,65,65,0.06); }
+        .bath-card h2 { font-size: 1.45rem; color: var(--accent-rose-dark); }
+        .bath-card .fin { margin: 0 0 8px; }
+        .bath-card .herbs { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+        .bath-card .cross { font-size: 0.8rem; color: var(--text-muted); margin: 6px 0 0; font-style: italic; }
+
+        /* ---------- Página do banho ---------- */
+        .recipe-card {
+            background-color: var(--bg-surface); border: 1px solid var(--border-subtle);
+            padding: 32px; margin-bottom: 24px; border-radius: 6px;
+        }
+        .recipe-card h4 { font-size: 1.05rem; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; margin: 20px 0 8px; color: var(--accent-rose-dark); }
+        .recipe-card h4:first-child { margin-top: 0; }
+        .ingredients { list-style: none; border-top: 1px solid var(--border-subtle); }
+        .ingredients li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 9px 0; border-bottom: 1px solid var(--border-subtle); }
+        .ingredients .qty { color: var(--text-muted); font-size: 0.92rem; }
+
+        .intention-box {
+            background-color: var(--bg-card); border-left: 2px solid var(--accent-soft);
+            padding: 16px 20px; margin: 16px 0;
+            font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.25rem; color: var(--accent-rose-dark);
+        }
+        .intention-box small { display: block; font-family: 'Plus Jakarta Sans', sans-serif; font-style: normal; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent-rose); margin-bottom: 4px; }
+
+        .alert {
+            background: var(--warn-bg); border: 1px solid var(--warn-border); border-radius: 6px;
+            padding: 14px 18px; margin: 18px 0; font-size: 0.92rem; color: var(--warn-text);
+        }
+        .alert strong { display: block; margin-bottom: 4px; }
+        .alert ul { margin: 0 0 0 18px; }
+
+        .herb-link, .smart-link {
+            color: var(--accent-rose); text-decoration: none; font-weight: 500;
+            border-bottom: 1px dashed var(--accent-soft); transition: var(--transition);
+        }
+        .herb-link:hover, .smart-link:hover { color: var(--accent-rose-dark); border-bottom: 1px solid var(--accent-rose-dark); }
+
+        .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
+        .btn {
+            font: inherit; font-size: 0.85rem; cursor: pointer;
+            background: var(--bg-surface); color: var(--accent-rose-dark);
+            border: 1px solid var(--border-subtle); border-radius: 6px; padding: 7px 14px;
+            text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: var(--transition);
+        }
+        .btn:hover { border-color: var(--accent-soft); background: #fdfdfb; }
+        .btn.primary { background: var(--accent-rose-dark); color: #fff; border-color: var(--accent-rose-dark); }
+        .btn.primary:hover { background: #5c3535; }
+
+        .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; }
+        .pager a { max-width: 48%; }
+
+        /* ---------- Filtros ---------- */
+        .filters { margin: 18px 0 6px; }
+        .filters fieldset { border: none; margin-bottom: 10px; }
+        .filters legend { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); margin-bottom: 6px; font-weight: 600; }
+        .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+        .chip {
+            font: inherit; font-size: 0.85rem; cursor: pointer;
+            background: var(--bg-card); border: 1px solid var(--border-subtle); color: var(--accent-rose-dark);
+            padding: 5px 12px; border-radius: 999px; transition: var(--transition);
+        }
+        .chip:hover { border-color: var(--accent-soft); }
+        .chip[aria-pressed="true"] { background: var(--accent-rose-dark); border-color: var(--accent-rose-dark); color: #fff; }
+        .result-count { font-size: 0.9rem; color: var(--text-muted); margin-top: 14px; }
+
+        /* ---------- Fichas ---------- */
+        details.ficha { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; margin-bottom: 8px; transition: var(--transition); }
+        details.ficha[open] { border-color: var(--accent-soft); }
+        details.ficha summary {
+            list-style: none; cursor: pointer; padding: 14px 22px;
+            display: flex; justify-content: space-between; align-items: center; gap: 12px;
+        }
+        details.ficha summary::-webkit-details-marker { display: none; }
+        details.ficha summary h2 { font-size: 1.4rem; }
+        details.ficha summary .sub { font-size: 0.8rem; color: var(--text-muted); }
+        details.ficha summary .sign { color: var(--accent-rose); font-size: 1.3rem; line-height: 1; }
+        details.ficha summary .sign::before { content: "+"; }
+        details.ficha[open] summary .sign::before { content: "—"; }
+        details.ficha .ficha-body { padding: 4px 22px 22px; border-top: 1px solid var(--border-subtle); }
+        details.ficha .ficha-body > :first-child { margin-top: 16px; }
+        .recipe-meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-rose); margin-bottom: 14px; font-weight: 600; }
+        .related { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border-subtle); }
+        .related li { margin-bottom: 6px; }
+        .related .cat { font-size: 0.8rem; color: var(--text-muted); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+        details.ficha[open] .ficha-body { animation: fadeIn 0.25s ease-out; }
+
+        /* ---------- Tenho em casa ---------- */
+        .result-group > h2 { font-size: 1.6rem; color: var(--accent-rose-dark); margin: 28px 0 4px; }
+        .missing { font-size: 0.85rem; color: var(--warn-text); margin: 6px 0 0; }
+
+        /* ---------- Listas de orientação ---------- */
+        .guide-list { list-style: none; counter-reset: g; }
+        .guide-list li { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 18px 22px; margin-bottom: 12px; }
+        .guide-list li h2 { font-size: 1.35rem; color: var(--accent-rose-dark); margin-bottom: 4px; }
+        .guide-list li p { margin: 0; }
+
+        .cta { background: var(--accent-rose-dark); color: #fff; border-radius: 6px; padding: 24px; margin: 32px 0 8px; }
+        .cta p { margin-bottom: 12px; font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; }
+        .cta .btn { background: #fff; color: var(--accent-rose-dark); border-color: #fff; }
+
+        .footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-muted); }
+
+        .toast {
+            position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px);
+            background: var(--text-main); color: #fff; padding: 10px 18px; border-radius: 6px; font-size: 0.9rem;
+            opacity: 0; pointer-events: none; transition: var(--transition); z-index: 400;
+        }
+        .toast.show { opacity: 1; transform: translateX(-50%); }
+
+        .loading { color: var(--text-muted); padding: 40px 0; }
+
+        /* ---------- Celular ---------- */
+        .mobile-menu-btn {
+            display: none; position: fixed; top: 14px; left: 14px; z-index: 200;
+            background: var(--accent-rose-dark); color: #fff; border: none;
+            padding: 9px 14px; border-radius: 6px; font: inherit; font-size: 0.9rem; cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        .backdrop { display: none; }
+
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            aside.sidebar { position: fixed; top: 0; left: -100%; width: 290px; max-width: 85vw; height: 100%; box-shadow: 4px 0 24px rgba(0,0,0,0.12); }
+            aside.sidebar.open { left: 0; }
+            .backdrop { display: block; position: fixed; inset: 0; background: rgba(44,41,38,0.35); z-index: 90; opacity: 0; pointer-events: none; transition: opacity 0.25s; }
+            .backdrop.show { opacity: 1; pointer-events: auto; }
+            main.content-area { padding: 76px 18px 48px; }
+            .mobile-menu-btn { display: block; }
+            .sidebar-header { padding-top: 68px; }
+            h1.page-title { font-size: 2.1rem; }
+            .recipe-card { padding: 22px 18px; }
+            .cover { height: 190px; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+        }
+
+        /* ---------- Impressão ---------- */
+        @media print {
+            body { display: block; height: auto; overflow: visible; background: #fff; font-size: 11pt; }
+            aside.sidebar, .mobile-menu-btn, .backdrop, .actions, .pager, .filters, .search-box, .skip-link, .toast, .cta, .no-print { display: none !important; }
+            main.content-area { height: auto; overflow: visible; padding: 0; }
+            .recipe-card, .module-box, .note-box, details.ficha, .bath-card { border-color: #ccc; box-shadow: none; break-inside: avoid; }
+            .alert { break-inside: avoid; }
+            a { color: inherit; border: none !important; text-decoration: none; }
+            .footer { margin-top: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <a class="skip-link" href="#contentContainer">Pular para o conteúdo</a>
+
+    <button class="mobile-menu-btn" id="menuBtn" aria-controls="sidebar" aria-expanded="false">☰ Sumário</button>
+    <div class="backdrop" id="backdrop"></div>
+
+    <aside class="sidebar" id="sidebar" aria-label="Sumário">
+        <div class="sidebar-header">
+            <a href="#/"><h2>Banhos de Ervas</h2></a>
+            <p>Mundo Cigana Tarot</p>
+        </div>
+        <form class="search-box" role="search" id="searchForm">
+            <label for="searchInput">Buscar banho, erva ou intenção</label>
+            <input type="search" id="searchInput" placeholder="Ex.: alecrim, proteção, amor" autocomplete="off">
+        </form>
+        <nav class="nav-tree" id="navTree" aria-label="Seções do guia"></nav>
+    </aside>
+
+    <main class="content-area" id="mainScroll">
+        <div class="content-container" id="contentContainer" tabindex="-1">
+            <p class="loading">Carregando o guia…</p>
+            <noscript><p>Este guia precisa de JavaScript ativado para funcionar.</p></noscript>
+        </div>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script>
+    (() => {
+        'use strict';
+
+        const CATEGORIAS = ['Limpeza Energética', 'Amor e Magnetismo', 'Trabalho e Caminhos', 'Prosperidade', 'Autoestima e Poder', 'Proteção'];
+        const DIRECIONAMENTOS = ['Exu', 'Pombagira'];
+        const NIVEIS = ['Descarrego', 'Ativação', 'Harmonização'];
+        const STORAGE_KEY = 'banhos-tenho-em-casa';
+
+        let data = null;
+        let fichaByName = {};
+        const $ = sel => document.querySelector(sel);
+        const container = $('#contentContainer');
+        const main = $('#mainScroll');
+
+        // ---------------------------------------------------------------- utilidades
+        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        const slug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const norm = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+        const catSlug = c => slug(c);
+        const catBySlug = s => [...CATEGORIAS, ...DIRECIONAMENTOS].find(c => catSlug(c) === s);
+
+        const banhosDaCategoria = cat => data.banhos.filter(b =>
+            DIRECIONAMENTOS.includes(cat) ? b.direcionamento === cat : (b.categoria === cat || (b.finalidades_extras || []).includes(cat)));
+
+        function toast(msg) {
+            const t = $('#toast');
+            t.textContent = msg;
+            t.classList.add('show');
+            clearTimeout(toast._t);
+            toast._t = setTimeout(() => t.classList.remove('show'), 2400);
+        }
+
+        function storageGet() {
+            try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch (e) { return []; }
+        }
+        function storageSet(v) {
+            try { localStorage.setItem(STORAGE_KEY, JSON.stringify(v)); } catch (e) { /* navegação privada */ }
+        }
+
+        // Transforma nomes de ervas presentes em um texto em links para as fichas (sem regex montada com o nome).
+        function linkifyErvas(texto) {
+            if (!texto) return '';
+            const nomes = data.fichas_ervas.map(f => f.nome).sort((a, b) => b.length - a.length);
+            const lower = texto.toLowerCase();
+            const marks = [];
+            nomes.forEach(nome => {
+                const n = nome.toLowerCase();
+                let i = lower.indexOf(n);
+                while (i !== -1) {
+                    const livre = !marks.some(m => i < m.end && i + n.length > m.start);
+                    if (livre) marks.push({ start: i, end: i + n.length, nome });
+                    i = lower.indexOf(n, i + n.length);
+                }
+            });
+            marks.sort((a, b) => a.start - b.start);
+            let out = '', pos = 0;
+            marks.forEach(m => {
+                out += esc(texto.slice(pos, m.start));
+                out += `<a class="smart-link" href="#/erva/${slug(m.nome)}">${esc(texto.slice(m.start, m.end))}</a>`;
+                pos = m.end;
+            });
+            return out + esc(texto.slice(pos));
+        }
+
+        const badgeNivel = b => `<span class="badge nivel-${esc(b.nivel)}">${esc(b.nivel)}</span>`;
+        const temAlertaSol = b => (b.alertas || []).some(a => a.tipo === 'sol');
+        const temAlertaGestante = b => (b.alertas || []).some(a => a.tipo === 'gestante');
+
+        function bathCard(b, contexto) {
+            const extras = [b.categoria, ...(b.finalidades_extras || [])].filter(c => c !== contexto);
+            return `
+                <a class="bath-card" href="#/banho/${b.id}">
+                    <h2>${esc(b.titulo)}</h2>
+                    <div class="badges">
+                        ${badgeNivel(b)}
+                        <span class="badge">${esc(b.corpo)}</span>
+                        ${b.direcionamento !== 'Geral' ? `<span class="badge">${esc(b.direcionamento)}</span>` : ''}
+                        ${temAlertaSol(b) ? '<span class="badge warn">Fazer à noite</span>' : ''}
+                        ${temAlertaGestante(b) ? '<span class="badge warn">Não para gestantes</span>' : ''}
+                    </div>
+                    <p class="fin">${esc(b.finalidade)}</p>
+                    <p class="herbs">${b.ervas.map(esc).join(' · ')}</p>
+                    ${extras.length ? `<p class="cross">${contexto ? 'Também indicado para' : 'Indicado para'}: ${extras.map(esc).join(', ')}</p>` : ''}
+                </a>`;
+        }
+
+        function footer() {
+            return `<p class="footer">Uso externo. Leia os <a href="#/seguranca">cuidados de segurança</a> antes de preparar qualquer banho. © ${new Date().getFullYear()} Mundo Cigana Tarot. Todos os direitos reservados.</p>`;
+        }
+
+        function cta() {
+            const c = data.contato || {};
+            const link = c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}` : (c.instagram ? `https://instagram.com/${String(c.instagram).replace(/^@/, '')}` : '');
+            if (!link) return '';
+            return `<div class="cta"><p>${esc(c.texto_cta)}</p><a class="btn" href="${esc(link)}" target="_blank" rel="noopener">${c.whatsapp ? 'Falar no WhatsApp' : 'Ver no Instagram'}</a></div>`;
+        }
+
+        // ---------------------------------------------------------------- menu
+        function buildSidebar() {
+            const count = c => banhosDaCategoria(c).length;
+            const item = (href, label, n) => `<li><a href="${href}">${esc(label)}${n != null ? `<span class="count">${n}</span>` : ''}</a></li>`;
+            $('#navTree').innerHTML = `
+                <div class="nav-section">
+                    <div class="nav-section-title">Apresentação</div>
+                    <ul class="nav-items">
+                        ${item('#/', 'Visão Geral')}
+                        ${item('#/como-tomar', 'Como tomar os banhos')}
+                        ${data.sobre ? item('#/sobre', 'Sobre') : ''}
+                    </ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Encontrar um banho</div>
+                    <ul class="nav-items">
+                        ${item('#/banhos', 'Todos os banhos', data.banhos.length)}
+                        ${item('#/tenho-em-casa', 'Tenho em casa')}
+                    </ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Banhos por Finalidade</div>
+                    <ul class="nav-items">${CATEGORIAS.map(c => item('#/categoria/' + catSlug(c), c, count(c))).join('')}</ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Direcionamentos</div>
+                    <ul class="nav-items">${DIRECIONAMENTOS.map(c => item('#/categoria/' + catSlug(c), 'Banhos de ' + c, count(c))).join('')}</ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Consulta Técnica</div>
+                    <ul class="nav-items">
+                        ${item('#/ervas', 'Ficha das Ervas', data.fichas_ervas.length)}
+                        ${item('#/seguranca', 'Segurança e Uso')}
+                    </ul>
+                </div>`;
+        }
+
+        function setActive(href) {
+            document.querySelectorAll('.nav-items a').forEach(a => {
+                if (a.getAttribute('href') === href) a.setAttribute('aria-current', 'page');
+                else a.removeAttribute('aria-current');
+            });
+        }
+
+        const sidebar = $('#sidebar'), backdrop = $('#backdrop'), menuBtn = $('#menuBtn');
+        function openMenu() { sidebar.classList.add('open'); backdrop.classList.add('show'); menuBtn.setAttribute('aria-expanded', 'true'); menuBtn.textContent = '✕ Fechar'; sidebar.querySelector('a, input')?.focus(); }
+        function closeMenu() {
+            if (!sidebar.classList.contains('open')) return;
+            sidebar.classList.remove('open'); backdrop.classList.remove('show'); menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.textContent = '☰ Sumário';
+        }
+        menuBtn.addEventListener('click', () => sidebar.classList.contains('open') ? closeMenu() : openMenu());
+        backdrop.addEventListener('click', closeMenu);
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape' && sidebar.classList.contains('open')) { closeMenu(); menuBtn.focus(); }
+        });
+
+        $('#searchForm').addEventListener('submit', e => {
+            e.preventDefault();
+            const q = $('#searchInput').value.trim();
+            filtros.finalidade = filtros.nivel = filtros.direcionamento = null;
+            location.hash = '#/banhos' + (q ? '?q=' + encodeURIComponent(q) : '');
+        });
+        $('#searchInput').addEventListener('input', () => {
+            clearTimeout(buildSidebar._t);
+            buildSidebar._t = setTimeout(() => {
+                const q = $('#searchInput').value.trim();
+                filtros.finalidade = filtros.nivel = filtros.direcionamento = null;
+                const target = '#/banhos' + (q ? '?q=' + encodeURIComponent(q) : '');
+                if (location.hash !== target) { history.replaceState(null, '', target); route(true); }
+            }, 250);
+        });
+
+        // ---------------------------------------------------------------- páginas
+        function render(html, title, activeHref) {
+            container.innerHTML = html + footer();
+            document.title = (title ? title + ' — ' : '') + 'Banhos de Ervas | Mundo Cigana Tarot';
+            setActive(activeHref);
+            closeMenu();
+        }
+
+        function pageInicio() {
+            const m = data.modulos || {};
+            render(`
+                <h1 class="page-title">${esc(data.titulo)}</h1>
+                <p class="lead"><em>${esc(data.subtitulo)}</em></p>
+                <div class="cover">
+                    <picture>
+                        <source srcset="img/capa.webp" type="image/webp">
+                        <img src="img/capa.jpg" alt="Pétalas de rosa secas, ramos de alecrim e lavanda sobre tecido de linho" width="1000" height="720">
+                    </picture>
+                </div>
+                <h3>Como usar este guia</h3>
+                <p>${esc(data.como_usar)}</p>
+                <div class="actions">
+                    <a class="btn primary" href="#/banhos">Ver todos os banhos</a>
+                    <a class="btn" href="#/tenho-em-casa">O que faço com o que tenho em casa?</a>
+                    <a class="btn" href="#/como-tomar">Como tomar</a>
+                </div>
+                <div class="module-box">
+                    <h3>Módulo I: A Matriz dos Banhos</h3>
+                    <p>${esc(m.mod1)}</p>
+                </div>
+                <div class="module-box">
+                    <h3>Módulo II: Classificação Térmica</h3>
+                    <p>${esc(m.mod2)}</p>
+                    <ul class="rules">
+                        ${(m.mod2_regras || []).map(r => `<li><span class="badge nivel-${esc(r.nivel)}">${esc(r.nivel)}</span><br>${esc(r.texto)}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="note-box"><p><strong>Antes de começar:</strong> leia a página de <a href="#/seguranca">Segurança e Uso</a>. Alguns banhos não são indicados para gestantes, e banhos com cascas cítricas pedem cuidado com o sol.</p></div>
+                ${cta()}
+            `, '', '#/');
+        }
+
+        function pageCategoria(cat) {
+            const lista = banhosDaCategoria(cat);
+            const isDir = DIRECIONAMENTOS.includes(cat);
+            render(`
+                <p class="breadcrumb"><a href="#/banhos">Todos os banhos</a> › ${isDir ? 'Direcionamentos' : 'Finalidade'}</p>
+                <h1 class="page-title">${isDir ? 'Banhos de ' : ''}${esc(cat)}</h1>
+                ${isDir ? `<div class="note-box"><p>${esc(data.nota_linhagem)}</p></div>` : ''}
+                <p class="result-count">${lista.length} banhos</p>
+                <div class="card-list">${lista.map(b => bathCard(b, cat)).join('')}</div>
+            `, (isDir ? 'Banhos de ' : '') + cat, '#/categoria/' + catSlug(cat));
+        }
+
+        function pageBanho(id) {
+            const b = data.banhos.find(x => x.id === id);
+            if (!b) return pageNaoEncontrada();
+            const idx = data.banhos.indexOf(b);
+            const prev = data.banhos[idx - 1], next = data.banhos[idx + 1];
+            const catHref = '#/categoria/' + catSlug(b.direcionamento !== 'Geral' ? b.direcionamento : b.categoria);
+            const catLabel = b.direcionamento !== 'Geral' ? 'Banhos de ' + b.direcionamento : b.categoria;
+            const extras = [b.categoria, ...(b.finalidades_extras || [])].filter((c, i, a) => a.indexOf(c) === i);
+
+            const alertas = (b.alertas || []);
+            render(`
+                <p class="breadcrumb"><a href="${catHref}">${esc(catLabel)}</a> › Banho ${b.id} de ${data.banhos.length}</p>
+                <h1 class="page-title">${esc(b.titulo)}</h1>
+                <div class="badges">
+                    ${badgeNivel(b)}
+                    <span class="badge">${esc(b.corpo)}</span>
+                    ${b.direcionamento !== 'Geral' ? `<span class="badge">Direcionamento: ${esc(b.direcionamento)}</span>` : ''}
+                </div>
+                <div class="actions">
+                    <button class="btn" type="button" data-share>Compartilhar</button>
+                    <button class="btn" type="button" data-print>Imprimir</button>
+                </div>
+                <div class="recipe-card">
+                    <h4>Finalidade</h4>
+                    <p>${esc(b.finalidade)}</p>
+                    <p style="font-size:0.88rem;color:var(--text-muted);margin-top:-8px;">Indicado para: ${extras.map(c => `<a class="herb-link" href="#/categoria/${catSlug(c)}">${esc(c)}</a>`).join(', ')}</p>
+
+                    <h4>Ingredientes</h4>
+                    <ul class="ingredients">
+                        ${b.ervas.map(e => `<li><a class="herb-link" href="#/erva/${slug(e)}">${esc(e)}</a><span class="qty">${esc((b.quantidades || {})[e] || '')}</span></li>`).join('')}
+                    </ul>
+
+                    ${alertas.length ? `<div class="alert" role="note"><strong>Cuidados com este banho</strong><ul>${alertas.map(a => `<li><b>${esc(a.erva)}:</b> ${esc(a.texto)}</li>`).join('')}</ul></div>` : ''}
+
+                    <h4>Por que estas ervas</h4>
+                    <p>${esc(b.explicacao)}</p>
+
+                    <div class="intention-box"><small>Intenção</small>“${esc(b.intencao)}”</div>
+
+                    <h4>Modo de preparo</h4>
+                    <p>${esc(b.preparo)}</p>
+
+                    <h4>Frequência</h4>
+                    <p style="margin-bottom:0;">${esc(b.frequencia)}${b.nivel === 'Descarrego' ? ' Sugestão: <a class="herb-link" href="#/banho/18">Reestruturação da Aura</a>.' : ''}</p>
+                </div>
+                ${b.direcionamento !== 'Geral' ? `<div class="note-box"><p>${esc(data.nota_linhagem)}</p></div>` : ''}
+                <nav class="pager" aria-label="Outros banhos">
+                    ${prev ? `<a class="btn" href="#/banho/${prev.id}">← ${esc(prev.titulo)}</a>` : '<span></span>'}
+                    ${next ? `<a class="btn" href="#/banho/${next.id}">${esc(next.titulo)} →</a>` : ''}
+                </nav>
+            `, b.titulo, catHref);
+
+            container.querySelector('[data-print]').addEventListener('click', () => window.print());
+            container.querySelector('[data-share]').addEventListener('click', async () => {
+                const shareData = { title: b.titulo + ' — Banhos de Ervas', text: b.finalidade, url: location.href };
+                try {
+                    if (navigator.share) { await navigator.share(shareData); return; }
+                    await navigator.clipboard.writeText(location.href);
+                    toast('Link copiado');
+                } catch (e) {
+                    if (e && e.name !== 'AbortError') toast('Não foi possível compartilhar. Copie o endereço da página.');
+                }
+            });
+        }
+
+        const filtros = { finalidade: null, nivel: null, direcionamento: null };
+
+        function pageTodos(q) {
+            q = q || '';
+            $('#searchInput').value = q;
+            const nq = norm(q);
+            const lista = data.banhos.filter(b => {
+                if (filtros.finalidade && !(b.categoria === filtros.finalidade || (b.finalidades_extras || []).includes(filtros.finalidade))) return false;
+                if (filtros.nivel && b.nivel !== filtros.nivel) return false;
+                if (filtros.direcionamento && b.direcionamento !== filtros.direcionamento) return false;
+                if (nq) {
+                    const hay = norm([b.titulo, b.finalidade, b.categoria, ...(b.finalidades_extras || []), b.direcionamento, b.intencao, b.explicacao, ...b.ervas].join(' '));
+                    if (!nq.split(/\s+/).every(t => hay.includes(t))) return false;
+                }
+                return true;
+            });
+            const chipGroup = (key, legend, opts) => `
+                <fieldset><legend>${legend}</legend><div class="chips">
+                    ${opts.map(o => `<button type="button" class="chip" data-f="${key}" data-v="${esc(o)}" aria-pressed="${filtros[key] === o}">${esc(o)}</button>`).join('')}
+                </div></fieldset>`;
+            const ervasEncontradas = nq ? data.fichas_ervas.filter(f => norm(f.nome).includes(nq)) : [];
+            render(`
+                <h1 class="page-title">${q ? 'Busca: “' + esc(q) + '”' : 'Todos os banhos'}</h1>
+                <div class="filters">
+                    ${chipGroup('finalidade', 'Finalidade', CATEGORIAS)}
+                    ${chipGroup('nivel', 'Intensidade', NIVEIS)}
+                    ${chipGroup('direcionamento', 'Direcionamento', DIRECIONAMENTOS)}
+                </div>
+                ${ervasEncontradas.length ? `<p>Fichas de ervas: ${ervasEncontradas.map(f => `<a class="herb-link" href="#/erva/${slug(f.nome)}">${esc(f.nome)}</a>`).join(', ')}</p>` : ''}
+                <p class="result-count" aria-live="polite">${lista.length} ${lista.length === 1 ? 'banho encontrado' : 'banhos encontrados'}${(filtros.finalidade || filtros.nivel || filtros.direcionamento || q) ? ' · <a href="#/banhos" data-clear>limpar filtros</a>' : ''}</p>
+                <div class="card-list">${lista.map(b => bathCard(b)).join('') || '<p>Nenhum banho com esses critérios. Tente outra palavra ou limpe os filtros.</p>'}</div>
+            `, q ? 'Busca' : 'Todos os banhos', q ? null : '#/banhos');
+
+            container.querySelectorAll('.chip').forEach(ch => ch.addEventListener('click', () => {
+                const k = ch.dataset.f, v = ch.dataset.v;
+                filtros[k] = filtros[k] === v ? null : v;
+                pageTodos(q);
+                container.querySelector(`.chip[data-f="${k}"][data-v="${CSS.escape(v)}"]`)?.focus();
+            }));
+            container.querySelector('[data-clear]')?.addEventListener('click', e => {
+                e.preventDefault();
+                filtros.finalidade = filtros.nivel = filtros.direcionamento = null;
+                $('#searchInput').value = '';
+                if (location.hash === '#/banhos') pageTodos('');
+                else location.hash = '#/banhos';
+            });
+        }
+
+        function pageErvas(abrir) {
+            const html = data.fichas_ervas.map(f => {
+                const rel = data.banhos.filter(b => b.ervas.includes(f.nome));
+                return `
+                <details class="ficha" id="erva-${slug(f.nome)}" ${abrir === slug(f.nome) ? 'open' : ''}>
+                    <summary>
+                        <div><h2>${esc(f.nome)}</h2><span class="sub">${esc(f.tipo)} · ${esc(f.classificacao)}</span></div>
+                        <span class="sign" aria-hidden="true"></span>
+                    </summary>
+                    <div class="ficha-body">
+                        <p><strong>Energia predominante:</strong> ${esc(f.energia)}</p>
+                        <p><strong>Uso tradicional:</strong> ${esc(f.utilizacao)}</p>
+                        <p><strong>Medida de referência:</strong> ${esc(f.dose)}</p>
+                        <p><strong>Substituição:</strong> <em>${linkifyErvas(f.substituicao) || 'Nenhuma sugerida.'}</em></p>
+                        ${f.cuidado ? `<div class="alert" role="note"><strong>Cuidado</strong>${esc(f.cuidado)}</div>` : ''}
+                        <div class="related">
+                            <p style="font-weight:500;margin-bottom:8px;color:var(--accent-rose-dark);">Banhos que usam esta erva (${rel.length})</p>
+                            <ul class="plain">
+                                ${rel.map(b => `<li><a class="smart-link" href="#/banho/${b.id}">${esc(b.titulo)}</a> <span class="cat">(${esc(b.direcionamento !== 'Geral' ? b.direcionamento : b.categoria)})</span></li>`).join('') || '<li class="cat">Nenhum banho cadastrado com esta erva.</li>'}
+                            </ul>
+                        </div>
+                    </div>
+                </details>`;
+            }).join('');
+            render(`
+                <h1 class="page-title">Ficha das Ervas</h1>
+                <p>Toque em uma erva para ver suas propriedades, a medida de referência, os cuidados e em quais banhos ela aparece.</p>
+                <div style="margin-top:24px;">${html}</div>
+            `, 'Ficha das Ervas', '#/ervas');
+            if (abrir) {
+                const el = document.getElementById('erva-' + abrir);
+                if (el) requestAnimationFrame(() => { el.scrollIntoView({ block: 'start' }); el.querySelector('summary').focus({ preventScroll: true }); });
+            }
+        }
+
+        function pageTenho() {
+            const tenho = new Set(storageGet().filter(n => fichaByName[n]));
+            const nomes = data.fichas_ervas.map(f => f.nome).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+            const completos = [], quase = [];
+            if (tenho.size) {
+                data.banhos.forEach(b => {
+                    const faltam = b.ervas.filter(e => !tenho.has(e));
+                    if (faltam.length === 0) completos.push(b);
+                    else if (faltam.length === 1) quase.push({ b, falta: faltam[0] });
+                });
+            }
+            const subsQueTenho = nome => {
+                const f = fichaByName[nome];
+                return nomes.filter(n => tenho.has(n) && f && f.substituicao.toLowerCase().includes(n.toLowerCase()));
+            };
+            render(`
+                <h1 class="page-title">Tenho em casa</h1>
+                <p>Marque as ervas que você tem e veja os banhos que já dá para preparar. Sua seleção fica salva neste aparelho.</p>
+                <div class="filters">
+                    <fieldset><legend>Minhas ervas (${tenho.size})</legend><div class="chips">
+                        ${nomes.map(n => `<button type="button" class="chip" data-erva="${esc(n)}" aria-pressed="${tenho.has(n)}">${esc(n)}</button>`).join('')}
+                    </div></fieldset>
+                    ${tenho.size ? '<button type="button" class="btn" data-limpar>Limpar seleção</button>' : ''}
+                </div>
+                <div aria-live="polite">
+                ${!tenho.size ? '' : `
+                    <div class="result-group">
+                        <h2>Você pode preparar (${completos.length})</h2>
+                        ${completos.length ? `<div class="card-list">${completos.map(b => bathCard(b)).join('')}</div>` : '<p>Ainda nenhum banho completo com essas ervas.</p>'}
+                    </div>
+                    <div class="result-group">
+                        <h2>Falta só uma erva (${quase.length})</h2>
+                        <div class="card-list">${quase.map(({ b, falta }) => {
+                            const subs = subsQueTenho(falta);
+                            return bathCard(b).replace(/<\/a>\s*$/, `<p class="missing">Falta: ${esc(falta)}${subs.length ? ` · você pode substituir por ${subs.map(esc).join(' ou ')}` : ''}</p></a>`);
+                        }).join('') || '<p>Nenhum.</p>'}</div>
+                    </div>`}
+                </div>
+            `, 'Tenho em casa', '#/tenho-em-casa');
+
+            container.querySelectorAll('[data-erva]').forEach(ch => ch.addEventListener('click', () => {
+                const n = ch.dataset.erva;
+                tenho.has(n) ? tenho.delete(n) : tenho.add(n);
+                storageSet([...tenho]);
+                const y = main.scrollTop;
+                pageTenho();
+                main.scrollTop = y;
+                container.querySelector(`[data-erva="${CSS.escape(n)}"]`)?.focus();
+            }));
+            container.querySelector('[data-limpar]')?.addEventListener('click', () => { storageSet([]); pageTenho(); });
+        }
+
+        function pageLista(titulo, itens, intro, href) {
+            render(`
+                <h1 class="page-title">${esc(titulo)}</h1>
+                ${intro || ''}
+                <ol class="guide-list">${itens.map(i => `<li><h2>${esc(i.titulo)}</h2><p>${esc(i.texto)}</p></li>`).join('')}</ol>
+            `, titulo, href);
+        }
+
+        function pageSobre() {
+            render(`<h1 class="page-title">Sobre</h1><p>${esc(data.sobre)}</p>${cta()}`, 'Sobre', '#/sobre');
+        }
+
+        function pageNaoEncontrada() {
+            render(`<h1 class="page-title">Página não encontrada</h1><p>Este endereço não existe no guia. <a href="#/">Voltar ao início</a>.</p>`, 'Página não encontrada', null);
+        }
+
+        // ---------------------------------------------------------------- roteamento
+        function route(keepScroll) {
+            const raw = location.hash.replace(/^#\/?/, '');
+            const [path, qs] = raw.split('?');
+            const parts = path.split('/').filter(Boolean);
+            const params = new URLSearchParams(qs || '');
+            if (!keepScroll) main.scrollTop = 0;
+            if (parts[0] !== 'banhos') $('#searchInput').value = '';
+
+            if (!parts.length) pageInicio();
+            else if (parts[0] === 'banho') pageBanho(Number(parts[1]));
+            else if (parts[0] === 'categoria') { const c = catBySlug(parts[1]); c ? pageCategoria(c) : pageNaoEncontrada(); }
+            else if (parts[0] === 'banhos') pageTodos(params.get('q'));
+            else if (parts[0] === 'ervas') pageErvas();
+            else if (parts[0] === 'erva') pageErvas(parts[1]);
+            else if (parts[0] === 'tenho-em-casa') pageTenho();
+            else if (parts[0] === 'como-tomar') pageLista('Como tomar os banhos', data.como_tomar, '<p>Orientações que valem para todos os banhos do guia. Cada banho traz, além disso, a sua frequência e os seus cuidados específicos.</p>', '#/como-tomar');
+            else if (parts[0] === 'seguranca') pageLista('Segurança e Uso Responsável', data.seguranca, '<p>Leia com atenção antes de preparar qualquer banho. Cada banho e cada ficha de erva também indicam os cuidados específicos.</p>', '#/seguranca');
+            else if (parts[0] === 'sobre' && data.sobre) pageSobre();
+            else pageNaoEncontrada();
+
+            if (!keepScroll && document.activeElement !== $('#searchInput')) container.focus({ preventScroll: true });
+        }
+
+        window.addEventListener('hashchange', () => route(false));
+
+        fetch('data/content.json')
+            .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+            .then(json => {
+                data = json;
+                data.fichas_ervas.forEach(f => fichaByName[f.nome] = f);
+                buildSidebar();
+                route(false);
+            })
+            .catch(err => {
+                console.error('Erro ao carregar os dados:', err);
+                container.innerHTML = '<h1 class="page-title">Não foi possível carregar o guia</h1><p>Verifique sua conexão e atualize a página.</p>';
+            });
+    })();
+    </script>
+</body>
+</html>
