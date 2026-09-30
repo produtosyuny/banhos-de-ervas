@@ -259,7 +259,16 @@
 
         .cta { background: var(--accent-rose-dark); color: #fff; border-radius: 6px; padding: 24px; margin: 32px 0 8px; }
         .cta p { margin-bottom: 12px; font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; }
+        .cta-actions { display: flex; flex-wrap: wrap; gap: 8px; }
         .cta .btn { background: #fff; color: var(--accent-rose-dark); border-color: #fff; }
+        .cta .btn.ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.6); }
+        .cta .btn.ghost:hover { background: rgba(255,255,255,0.1); }
+        .aviso { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
+        .sidebar-contact { padding: 14px 24px 18px; border-top: 1px solid var(--border-subtle); display: flex; gap: 8px; flex-wrap: wrap; }
+        .sidebar-contact a { flex: 1; text-align: center; justify-content: center; font-size: 0.82rem; padding: 7px 10px; }
+        .sobre-wrap { display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap; }
+        .sobre-wrap img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--bg-surface); box-shadow: 0 0 0 1px var(--border-subtle); }
+        .sobre-wrap .bio { flex: 1; min-width: 240px; white-space: pre-line; }
 
         .footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-muted); }
 
@@ -327,6 +336,7 @@
             <input type="search" id="searchInput" placeholder="Ex.: alecrim, proteção, amor" autocomplete="off">
         </form>
         <nav class="nav-tree" id="navTree" aria-label="Seções do guia"></nav>
+        <div class="sidebar-contact" id="sidebarContact" hidden></div>
     </aside>
 
     <main class="content-area" id="mainScroll">
@@ -429,12 +439,26 @@
             return `<p class="footer">Uso externo. Leia os <a href="#/seguranca">cuidados de segurança</a> antes de preparar qualquer banho. © ${new Date().getFullYear()} Mundo Cigana Tarot. Todos os direitos reservados.</p>`;
         }
 
+        function contatoLinks() {
+            const c = data.contato || {};
+            return {
+                whats: c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}` + (c.whatsapp_mensagem ? `?text=${encodeURIComponent(c.whatsapp_mensagem)}` : '') : '',
+                insta: c.instagram ? `https://www.instagram.com/${String(c.instagram).replace(/^@/, '')}/` : '',
+                handle: c.instagram ? '@' + String(c.instagram).replace(/^@/, '') : '',
+            };
+        }
+
         function cta() {
             const c = data.contato || {};
-            const link = c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}` : (c.instagram ? `https://instagram.com/${String(c.instagram).replace(/^@/, '')}` : '');
-            if (!link) return '';
-            return `<div class="cta"><p>${esc(c.texto_cta)}</p><a class="btn" href="${esc(link)}" target="_blank" rel="noopener">${c.whatsapp ? 'Falar no WhatsApp' : 'Ver no Instagram'}</a></div>`;
+            const l = contatoLinks();
+            if (!l.whats && !l.insta) return '';
+            return `<div class="cta"><p>${esc(c.texto_cta)}</p><div class="cta-actions">
+                ${l.whats ? `<a class="btn" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>` : ''}
+                ${l.insta ? `<a class="btn ghost" href="${esc(l.insta)}" target="_blank" rel="noopener">Ver no Instagram</a>` : ''}
+            </div></div>`;
         }
+
+        const avisoTradicao = () => data.aviso_tradicao ? `<p class="aviso">${esc(data.aviso_tradicao)}</p>` : '';
 
         // ---------------------------------------------------------------- menu
         function buildSidebar() {
@@ -546,6 +570,7 @@
                     </ul>
                 </div>
                 <div class="note-box"><p><strong>Antes de começar:</strong> leia a página de <a href="#/seguranca">Segurança e Uso</a>. Alguns banhos não são indicados para gestantes, e banhos com cascas cítricas pedem cuidado com o sol.</p></div>
+                ${avisoTradicao()}
                 ${cta()}
             `, '', '#/');
         }
@@ -596,7 +621,7 @@
 
                     ${alertas.length ? `<div class="alert" role="note"><strong>Cuidados com este banho</strong><ul>${alertas.map(a => `<li><b>${esc(a.erva)}:</b> ${esc(a.texto)}</li>`).join('')}</ul></div>` : ''}
 
-                    <h4>Por que estas ervas</h4>
+                    <h4>O que cada erva representa na tradição</h4>
                     <p>${esc(b.explicacao)}</p>
 
                     <div class="intention-box"><small>Intenção</small>“${esc(b.intencao)}”</div>
@@ -608,6 +633,8 @@
                     <p style="margin-bottom:0;">${esc(b.frequencia)}${b.nivel === 'Descarrego' ? ' Sugestão: <a class="herb-link" href="#/banho/18">Reestruturação da Aura</a>.' : ''}</p>
                 </div>
                 ${b.direcionamento !== 'Geral' ? `<div class="note-box"><p>${esc(data.nota_linhagem)}</p></div>` : ''}
+                ${avisoTradicao()}
+                ${cta()}
                 <nav class="pager" aria-label="Outros banhos">
                     ${prev ? `<a class="btn" href="#/banho/${prev.id}">← ${esc(prev.titulo)}</a>` : '<span></span>'}
                     ${next ? `<a class="btn" href="#/banho/${next.id}">${esc(next.titulo)} →</a>` : ''}
@@ -702,6 +729,7 @@
             render(`
                 <h1 class="page-title">Ficha das Ervas</h1>
                 <p>Toque em uma erva para ver suas propriedades, a medida de referência, os cuidados e em quais banhos ela aparece.</p>
+                ${avisoTradicao()}
                 <div style="margin-top:24px;">${html}</div>
             `, 'Ficha das Ervas', '#/ervas');
             if (abrir) {
@@ -771,7 +799,8 @@
         }
 
         function pageSobre() {
-            render(`<h1 class="page-title">Sobre</h1><p>${esc(data.sobre)}</p>${cta()}`, 'Sobre', '#/sobre');
+            const foto = data.sobre_foto ? `<img src="${esc(data.sobre_foto)}" alt="Maria, da Mundo Cigana Tarot" width="150" height="150">` : '';
+            render(`<h1 class="page-title">Sobre</h1><div class="sobre-wrap">${foto}<p class="bio">${esc(data.sobre)}</p></div>${cta()}`, 'Sobre', '#/sobre');
         }
 
         function pageNaoEncontrada() {
@@ -810,6 +839,12 @@
                 data = json;
                 data.fichas_ervas.forEach(f => fichaByName[f.nome] = f);
                 buildSidebar();
+                const l = contatoLinks(), sc = $('#sidebarContact');
+                if (l.whats || l.insta) {
+                    sc.innerHTML = (l.whats ? `<a class="btn primary" href="${esc(l.whats)}" target="_blank" rel="noopener">WhatsApp</a>` : '') +
+                                   (l.insta ? `<a class="btn" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)}</a>` : '');
+                    sc.hidden = false;
+                }
                 route(false);
             })
             .catch(err => {
