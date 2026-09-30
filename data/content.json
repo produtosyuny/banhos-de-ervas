@@ -3,6 +3,7 @@
   "subtitulo": "Guia Prático de Uso Pessoal — Mundo Cigana Tarot",
   "descricao": "48 banhos de ervas organizados por finalidade, com medidas, modo de preparo, intenção e ficha completa de 35 ervas. Um guia da Mundo Cigana Tarot.",
   "como_usar": "Este guia foi criado para quem deseja iniciar ou aprofundar sua prática pessoal. São 48 banhos preparados com flores, folhas, cascas, sementes e raízes, organizados por finalidade. Escolha primeiro o que você quer trabalhar, leia o banho inteiro antes de começar e confira sempre os cuidados indicados. Se tiver só algumas ervas em casa, use a busca \"Tenho em casa\" para descobrir o que dá para preparar.",
+  "aviso_tradicao": "As propriedades e associações descritas neste guia vêm da tradição popular e do uso espiritual das ervas. São referências simbólicas para orientar a sua intenção, e não efeitos comprovados, garantidos ou terapêuticos.",
   "modulos": {
     "mod1": "São preparações feitas com plantas escolhidas de acordo com uma finalidade. A escolha não deve ser aleatória: cada erva precisa ter uma razão para estar naquele banho. A regra de ouro é: a finalidade vem antes da erva.",
     "mod2": "Na tradição popular, as ervas são classificadas como quentes, mornas ou frias, conforme a intensidade do trabalho. Neste guia, essa classificação define como e com que frequência cada banho é tomado. Todo banho que leva ao menos uma erva ou especiaria quente é tomado do pescoço para baixo.",
@@ -87,13 +88,15 @@
     },
     {
       "titulo": "Complemento, não substituto",
-      "texto": "Os banhos de ervas são uma prática espiritual e de autocuidado. Eles não substituem tratamento médico ou psicológico."
+      "texto": "Os banhos de ervas são uma prática espiritual e de autocuidado. As associações descritas aqui são simbólicas, não prometem resultados e não substituem tratamento médico ou psicológico."
     }
   ],
   "sobre": "",
+  "sobre_foto": "",
   "contato": {
-    "instagram": "",
-    "whatsapp": "",
+    "whatsapp": "5511978705684",
+    "whatsapp_mensagem": "Olá, Maria! Vim pelo guia de Banhos de Ervas e gostaria de agendar uma leitura.",
+    "instagram": "mundociganatarot",
     "texto_cta": "Quer uma orientação personalizada? Agende uma leitura de tarot."
   },
   "fichas_ervas": [
@@ -102,7 +105,7 @@
       "tipo": "Erva (Folhas)",
       "classificacao": "Morna/Quente (Ativadora)",
       "energia": "Vitalidade, foco, coragem e limpeza mental",
-      "utilizacao": "Indispensável para quebrar inércia, trazer ânimo pela manhã, estimular a clareza de raciocínio e dar firmeza em propósitos de trabalho e atitude.",
+      "utilizacao": "Muito usado na tradição para quebrar a inércia, trazer ânimo pela manhã, clareza de raciocínio e firmeza de propósito.",
       "dose": "2 ramos frescos (ou 1 colher de sopa seco)",
       "substituicao": "Hortelã (para o frescor e clareza mental) ou Casca de Laranja Seca (para o ânimo e movimento)."
     },
@@ -111,7 +114,7 @@
       "tipo": "Especiaria / Semente",
       "classificacao": "Morna (Expansiva)",
       "energia": "Prosperidade, intuição fina, sincronicidade e abertura espiritual",
-      "utilizacao": "Excelente para atrair oportunidades financeiras, aguçar a intuição antes de leituras ou decisões e elevar o padrão vibratório com elegância.",
+      "utilizacao": "Associado a oportunidades financeiras, à intuição antes de leituras ou decisões e à elevação da vibração.",
       "dose": "3 estrelas",
       "substituicao": "Louro (para conquistas e metas) ou Noz-Moscada."
     },
@@ -119,8 +122,8 @@
       "nome": "Aroeira",
       "tipo": "Erva (Folhas)",
       "classificacao": "Quente (Forte Descarrego)",
-      "energia": "Defesa pesada, quebra de demandas e corte de energias densas",
-      "utilizacao": "Usada em banhos de limpeza profunda e proteção rigorosa contra ataques astrais, inveja pesada e ambientes carregados.",
+      "energia": "Defesa, quebra de demandas e afastamento de energias densas",
+      "utilizacao": "Na tradição, é usada em banhos de limpeza profunda e proteção contra energias negativas, inveja e ambientes carregados.",
       "dose": "1 ramo com cerca de 10 folhas (fresca)",
       "substituicao": "Guiné ou Eucalipto (para limpezas de corte e descarrego).",
       "cuidado": "Use apenas aroeira-vermelha (Schinus terebinthifolia). A aroeira-brava causa alergia de pele grave."
@@ -130,7 +133,7 @@
       "tipo": "Flor",
       "classificacao": "Morna (Ativadora Solar)",
       "energia": "Brilho solar, alegria, merecimento e expansão da abundância",
-      "utilizacao": "Atrai o magnetismo da prosperidade, eleva o otimismo e favorece o destaque e o reconhecimento profissional e pessoal.",
+      "utilizacao": "Associada ao magnetismo da prosperidade, ao otimismo e a brilho e reconhecimento, no trabalho e na vida pessoal.",
       "dose": "1 colher de sopa de flores secas",
       "substituicao": "Rosa Amarela ou Casca de Laranja Seca."
     },
@@ -139,16 +142,16 @@
       "tipo": "Flor",
       "classificacao": "Fria (Apaziguadora)",
       "energia": "Calma, acolhimento, suavização e paz emocional",
-      "utilizacao": "Tradicionalmente usada para acalmar o campo emocional, suavizar mágoas e preparar para um descanso tranquilo.",
+      "utilizacao": "Tradicionalmente usada para acolher o campo emocional, acolher mágoas e acompanhar um momento de relaxamento.",
       "dose": "1 colher de sopa de flores secas",
       "substituicao": "Lavanda (Alfazema) ou Folha de Laranjeira."
     },
     {
       "nome": "Canela em Casca",
       "tipo": "Casca",
-      "classificacao": "Quente (Aceleradora)",
+      "classificacao": "Quente (Dinamizadora)",
       "energia": "Fogo, dinamismo, sucesso financeiro e calor magnético",
-      "utilizacao": "Potencializa banhos de prosperidade, acelera resultados materiais e aquece o magnetismo pessoal e de atração.",
+      "utilizacao": "Associada ao calor e ao movimento: reforça banhos de prosperidade, direciona a intenção para movimento e ação e aquece o magnetismo pessoal.",
       "dose": "1 pau de cerca de 5 cm",
       "substituicao": "Cravo-da-Índia (para fixação e força) ou Casca de Laranja Seca.",
       "cuidado": "Pode irritar peles sensíveis."
@@ -156,9 +159,9 @@
     {
       "nome": "Canela em Pó",
       "tipo": "Pó",
-      "classificacao": "Quente (Aceleradora)",
-      "energia": "Fogo rápido, atração de vendas e dinamismo comercial",
-      "utilizacao": "Usada para dinamizar rapidamente os ganhos financeiros e intensificar o valor pessoal e o respeito alheio.",
+      "classificacao": "Quente (Dinamizadora)",
+      "energia": "Fogo rápido, movimento nas vendas e dinamismo comercial",
+      "utilizacao": "Associada ao dinamismo dos ganhos e ao fortalecimento do valor pessoal e do respeito.",
       "dose": "1 pitada (¼ de colher de chá)",
       "substituicao": "Canela em Casca ou Noz-Moscada.",
       "cuidado": "Irritante para a pele: use só a pitada indicada e coe em pano fino."
@@ -177,7 +180,7 @@
       "tipo": "Casca Cítrica",
       "classificacao": "Morna (Estimulante)",
       "energia": "Desbloqueio financeiro, ânimo e movimento material",
-      "utilizacao": "Atua limpando bloqueios de escassez e injetando otimismo e clareza para tomadas de decisões econômicas.",
+      "utilizacao": "Associada à limpeza de bloqueios de escassez, ao otimismo e à clareza em decisões financeiras.",
       "dose": "casca de ½ bergamota (só a parte colorida)",
       "substituicao": "Casca de Tangerina ou Casca de Laranja Seca.",
       "cuidado": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
@@ -197,7 +200,7 @@
       "tipo": "Casca Cítrica",
       "classificacao": "Quente/Morna (Limpeza)",
       "energia": "Varredura ácida, limpeza de resíduos densos e frescor",
-      "utilizacao": "Utilizada para dissolver miasmas pesados, limpar ambientes áuricos estagnados e renovar o campo.",
+      "utilizacao": "Na tradição, é usada para dissolver cargas pesadas, limpar um campo estagnado e renovar a energia.",
       "dose": "casca de ½ limão (só a parte amarela)",
       "substituicao": "Eucalipto ou Aroeira.",
       "cuidado": "Fotossensibilizante: faça o banho à noite e evite sol na pele por 12 horas."
@@ -207,7 +210,7 @@
       "tipo": "Casca Cítrica",
       "classificacao": "Morna (Movimento)",
       "energia": "Abertura de caminhos de expansão e quebra de estagnação",
-      "utilizacao": "Rompimento de barreiras financeiras e atração de novas oportunidades profissionais.",
+      "utilizacao": "Associada ao rompimento de barreiras financeiras e à abertura para novas oportunidades profissionais.",
       "dose": "casca de 1 tangerina",
       "substituicao": "Casca de Bergamota ou Casca de Laranja Seca.",
       "cuidado": "Em peles claras, prefira fazer o banho à noite."
@@ -216,8 +219,8 @@
       "nome": "Cravo-da-Índia",
       "tipo": "Especiaria (Capulho)",
       "classificacao": "Quente (Defesa e Fixação)",
-      "energia": "Blindagem, corte de miasmas, fixação energética e respeito",
-      "utilizacao": "Atua como um selo de proteção contra vampirismo astral e fixa a frequência de poder e autoridade pessoal.",
+      "energia": "Proteção, fixação energética e respeito",
+      "utilizacao": "Associado a um selo de proteção contra a drenagem de energia e à firmeza da autoridade pessoal.",
       "dose": "5 cravos",
       "substituicao": "Canela em Casca (para aquecimento) ou Semente de Girassol.",
       "cuidado": "Pode irritar peles sensíveis."
@@ -226,8 +229,8 @@
       "nome": "Eucalipto",
       "tipo": "Erva (Folhas)",
       "classificacao": "Quente (Descarrego)",
-      "energia": "Desobstrução áurica e limpeza mental profunda",
-      "utilizacao": "Abre espaço na aura para circulação da energia vital e remove miasmas pesados acumulados.",
+      "energia": "Desobstrução áurica e limpeza mental",
+      "utilizacao": "Associado à abertura da aura para a circulação da energia e à remoção de cargas acumuladas.",
       "dose": "4 folhas",
       "substituicao": "Hortelã ou Aroeira.",
       "cuidado": "Evite em crianças pequenas."
@@ -236,8 +239,8 @@
       "nome": "Espada-de-São-Jorge",
       "tipo": "Erva (Folhas em Tiras)",
       "classificacao": "Quente (Forte Defesa)",
-      "energia": "Corte implacável, escudo de defesa e proteção de caminhos",
-      "utilizacao": "Fatiada finamente em banhos de limpeza profunda para cortar cordões astrais negativos, inveja crônica e oposição direta.",
+      "energia": "Corte, escudo de defesa e proteção de caminhos",
+      "utilizacao": "Na tradição, é fatiada em tiras finas em banhos de limpeza profunda, associados ao corte de laços negativos, da inveja e da oposição.",
       "dose": "1 folha de cerca de 15 cm, em tiras finas",
       "substituicao": "Guiné ou Aroeira.",
       "cuidado": "Tóxica se ingerida, inclusive para cães e gatos. Se tiver pele sensível, corte com luvas."
@@ -247,7 +250,7 @@
       "tipo": "Erva (Folhas)",
       "classificacao": "Morna (Prosperadora)",
       "energia": "Fartura, abertura de caminhos materiais e circulação de prosperidade",
-      "utilizacao": "Selamento de egrégoras de riqueza contínua e atração de abundância nos negócios.",
+      "utilizacao": "Associada à fartura contínua e à abundância nos negócios.",
       "dose": "3 folhas",
       "substituicao": "Louro ou Folha de Laranjeira."
     },
@@ -256,7 +259,7 @@
       "tipo": "Erva (Folhas)",
       "classificacao": "Fria/Morna (Acolhedora)",
       "energia": "Paz reconfortante, alegria suave e harmonia afetiva",
-      "utilizacao": "Desfaz tensões emocionais, traz alegria íntima e pacifica conflitos nos relacionamentos.",
+      "utilizacao": "Associada ao alívio de tensões emocionais, à alegria íntima e à paz nos relacionamentos.",
       "dose": "5 folhas",
       "substituicao": "Camomila ou Capim-Limão."
     },
@@ -264,8 +267,8 @@
       "nome": "Guiné",
       "tipo": "Erva (Folhas)",
       "classificacao": "Quente (Descarrego Profundo)",
-      "energia": "Varredura de larvas astrais, defesa e desmanche de cargas",
-      "utilizacao": "Poderosa aliada na quebra de egrégoras densas e afastamento de influências espirituais nocivas.",
+      "energia": "Limpeza de cargas densas, defesa e desmanche de energias negativas",
+      "utilizacao": "Muito usada na tradição para quebrar egrégoras densas e afastar influências espirituais negativas.",
       "dose": "1 ramo com cerca de 7 folhas (fresca)",
       "substituicao": "Aroeira ou Espada-de-São-Jorge.",
       "cuidado": "Contraindicada para gestantes e lactantes. Tóxica para animais se ingerida."
@@ -275,7 +278,7 @@
       "tipo": "Flor",
       "classificacao": "Morna (Ativadora de Presença)",
       "energia": "Expansão da aura, destaque pessoal e atração visual",
-      "utilizacao": "Exalta a beleza, a autoconfiança magnética e a presença marcante em qualquer ambiente.",
+      "utilizacao": "Associado à beleza, à autoconfiança e a uma presença marcante.",
       "dose": "1 colher de sopa de flores secas",
       "substituicao": "Rosa Vermelha ou Macassá."
     },
@@ -284,7 +287,7 @@
       "tipo": "Erva (Folhas)",
       "classificacao": "Morna/Fria (Refrescante)",
       "energia": "Frescor mental, raciocínio rápido e limpeza de pensamentos fixos",
-      "utilizacao": "Ajuda a dissipar o peso mental, esfria ideias obsessivas de escassez e traz clareza operacional.",
+      "utilizacao": "Associada à clareza operacional e a esfriar pensamentos fixos de escassez.",
       "dose": "1 ramo com cerca de 10 folhas",
       "substituicao": "Alecrim ou Eucalipto."
     },
@@ -293,7 +296,7 @@
       "tipo": "Flor",
       "classificacao": "Morna (Sutilizadora)",
       "energia": "Intuição refinada, sofisticação espiritual e conexões verdadeiras",
-      "utilizacao": "Atrai parcerias alinhadas, eleva a autoestima espiritual e aguça a percepção intuitiva.",
+      "utilizacao": "Associado a parcerias alinhadas, à autoestima espiritual e à percepção intuitiva.",
       "dose": "1 colher de sopa de flores secas (ou 7 flores frescas)",
       "substituicao": "Rosa Amarela ou Macassá."
     },
@@ -302,7 +305,7 @@
       "tipo": "Flor",
       "classificacao": "Fria (Transmutadora)",
       "energia": "Transmutação mental, serenidade, limpeza sutil e elevação",
-      "utilizacao": "Limpa pensamentos obsessivos, transmuta o estresse acumulado em paz e prepara o campo para intuições claras.",
+      "utilizacao": "Associada à limpeza de pensamentos repetitivos, à transmutação do estresse em paz e à abertura para a intuição.",
       "dose": "1 colher de sopa de flores secas",
       "substituicao": "Camomila ou Rosa Branca."
     },
@@ -311,7 +314,7 @@
       "tipo": "Folha",
       "classificacao": "Morna (Realizadora)",
       "energia": "Realização, vitória, foco em metas e coroa de sucesso",
-      "utilizacao": "Utilizada em rituais de prosperidade, conquistas profissionais, clareza de objetivos e blindagem de mérito.",
+      "utilizacao": "Usado na tradição em banhos de prosperidade, conquistas profissionais, clareza de objetivos e proteção do mérito.",
       "dose": "3 folhas",
       "substituicao": "Anis-Estrelado (para caminhos) ou Semente de Girassol."
     },
@@ -319,8 +322,8 @@
       "nome": "Macassá",
       "tipo": "Erva / Perfume",
       "classificacao": "Morna (Magnetismo)",
-      "energia": "Fascínio, doçura magnética, convencimento e poder de Pombagira",
-      "utilizacao": "Erva clássica de encanto, atração de respeito, doçura no trato social e empoderamento pessoal.",
+      "energia": "Fascínio, doçura, comunicação e autoconfiança, e força de Pombagira",
+      "utilizacao": "Erva clássica de encanto na tradição, associada ao respeito, à doçura no trato social e ao empoderamento pessoal.",
       "dose": "1 ramo pequeno (ou 1 colher de sopa seco)",
       "substituicao": "Jasmim ou Rosa Vermelha."
     },
@@ -329,7 +332,7 @@
       "tipo": "Especiaria / Semente",
       "classificacao": "Morna (Expansiva)",
       "energia": "Intuição comercial, ganhos inesperados e percepção aguçada",
-      "utilizacao": "Favorece a visão estratégica em negócios e amplia a percepção intuitiva dos ambientes.",
+      "utilizacao": "Associada à visão estratégica nos negócios e a uma percepção intuitiva mais aguçada.",
       "dose": "1 pitada ralada",
       "substituicao": "Anis-Estrelado ou Canela em Pó.",
       "cuidado": "Use apenas uma pitada."
@@ -339,7 +342,7 @@
       "tipo": "Erva (Folhas)",
       "classificacao": "Morna (Clareza Mental)",
       "energia": "Limpeza de registros mentais de derrota e foco de rumo",
-      "utilizacao": "Remove confusões mentais que geram paralisia e protege o campo contra armadilhas energéticas sutis.",
+      "utilizacao": "Associado à limpeza de confusões mentais que paralisam e à proteção contra armadilhas energéticas sutis.",
       "dose": "1 ramo pequeno (ou 1 colher de sopa seco)",
       "substituicao": "Alecrim ou Hortelã.",
       "cuidado": "Contraindicado para gestantes e lactantes."
@@ -349,7 +352,7 @@
       "tipo": "Raiz",
       "classificacao": "Quente (Estimulante)",
       "energia": "Fogo interno, vigor, quebra de apatia e ação rápida",
-      "utilizacao": "Ralada em pequenas quantidades para despertar ânimo em momentos de cansaço e estagnação.",
+      "utilizacao": "Ralada em pequenas quantidades, é associada ao ânimo em momentos de cansaço e estagnação.",
       "dose": "1 colher de chá ralada (cerca de 2 cm)",
       "substituicao": "Alecrim ou Cravo-da-Índia.",
       "cuidado": "Pode avermelhar peles sensíveis."
@@ -359,7 +362,7 @@
       "tipo": "Raiz",
       "classificacao": "Morna/Quente (Aterradora)",
       "energia": "Aterramento bruto, profundidade, estrutura e firmeza material",
-      "utilizacao": "Excelente para tirar a instabilidade emocional, firmar os passos na matéria e estancar dispersões de energia.",
+      "utilizacao": "Associada ao aterramento, à estabilidade emocional e à firmeza nos passos materiais.",
       "dose": "1 colher de sopa de raiz picada",
       "substituicao": "Cravo-da-Índia ou Semente de Girassol."
     },
@@ -368,7 +371,7 @@
       "tipo": "Flor",
       "classificacao": "Morna (Expansiva)",
       "energia": "Brilho relacional, alegria, autoconfiança e valor próprio",
-      "utilizacao": "Ilumina a expressão pessoal, atrai conexões felizes e fortalece a independência emocional.",
+      "utilizacao": "Associada à expressão pessoal, a conexões felizes e à independência emocional.",
       "dose": "pétalas de 1 rosa",
       "substituicao": "Calêndula ou Jasmim."
     },
@@ -376,8 +379,8 @@
       "nome": "Rosa Branca",
       "tipo": "Flor",
       "classificacao": "Fria (Apaziguadora)",
-      "energia": "Paz espiritual, purificação suave, acolhimento e cura",
-      "utilizacao": "Acolhe o coração ferido, limpa mágoas profundas, purifica a aura e sintoniza com frequências de harmonia.",
+      "energia": "Paz espiritual, purificação suave, acolhimento e renovação",
+      "utilizacao": "Associada ao acolhimento do coração ferido, a acolher mágoas, à purificação da aura e à harmonia.",
       "dose": "pétalas de 1 rosa",
       "substituicao": "Camomila ou Lavanda."
     },
@@ -386,7 +389,7 @@
       "tipo": "Flor",
       "classificacao": "Morna (Ativadora de Afeto)",
       "energia": "Paixão, amor-próprio inegociável, força vital e magnetismo",
-      "utilizacao": "Desperta a autoestima, exalta a presença magnética e fortalece o poder de sedução e autovalorização.",
+      "utilizacao": "Associada à autoestima, à presença magnética e à autovalorização.",
       "dose": "pétalas de 1 rosa",
       "substituicao": "Hibisco ou Macassá."
     },
@@ -395,7 +398,7 @@
       "tipo": "Mineral",
       "classificacao": "Quente (Neutralizador)",
       "energia": "Neutralização e descarrego denso",
-      "utilizacao": "Usado em quantidade mínima para neutralizar cargas pesadas no campo áurico.",
+      "utilizacao": "Usado em quantidade mínima, na tradição, para neutralizar cargas pesadas no campo áurico.",
       "dose": "1 colher de chá rasa",
       "substituicao": "Aroeira ou Guiné.",
       "cuidado": "Resseca a pele: use só a medida indicada."
@@ -405,7 +408,7 @@
       "tipo": "Semente",
       "classificacao": "Morna (Harmonizadora)",
       "energia": "Limpeza de repetições intrusas e resistência alheia",
-      "utilizacao": "Limpa resistências de terceiros às suas ideias e remove padrões mentais repetitivos.",
+      "utilizacao": "Associada à limpeza de resistências de terceiros às suas ideias e de padrões mentais repetitivos.",
       "dose": "1 colher de chá, levemente amassada",
       "substituicao": "Semente de Funcho ou Louro."
     },
@@ -414,7 +417,7 @@
       "tipo": "Semente",
       "classificacao": "Morna (Suavizadora)",
       "energia": "Doçura harmoniosa, ponderação e limites saudáveis",
-      "utilizacao": "Traz doçura ao trato sem perda de limites e harmoniza interações relacionais.",
+      "utilizacao": "Associada à doçura no trato sem perda de limites e à harmonia nas relações.",
       "dose": "1 colher de chá",
       "substituicao": "Semente de Coentro ou Folha de Laranjeira."
     },
@@ -423,7 +426,7 @@
       "tipo": "Semente",
       "classificacao": "Morna (Altiva)",
       "energia": "Altivez, expansão da aura e postura segura",
-      "utilizacao": "Firma a postura perante os outros, devolve o brilho áurico e apoia o crescimento sustentável.",
+      "utilizacao": "Associada a uma postura firme, ao brilho da aura e ao crescimento sustentável.",
       "dose": "1 colher de sopa (sem sal)",
       "substituicao": "Raiz de Vetiver ou Louro."
     }
@@ -453,7 +456,7 @@
         "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
         "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
       },
-      "explicacao": "O alecrim traz disposição e clareza de rumo; a raiz de gengibre injeta vitalidade física e quebra a apatia; a casca de laranja seca atrai movimento material e alegria de atitude; o poejo limpa a mente de confusões que geram paralisia.",
+      "explicacao": "O alecrim é associado à disposição e à clareza de rumo; a raiz de gengibre, ao ânimo que quebra a apatia; a casca de laranja seca, ao movimento material e à alegria de atitude; o poejo, à limpeza das confusões mentais que paralisam.",
       "intencao": "Desperto a coragem que estava parada em mim. Sei para onde vou e dou hoje o primeiro passo.",
       "preparo": "Em uma panela com 1,5 litro de água, coloque a raiz de gengibre ralada e as cascas de laranja seca. Ferva por 4 minutos. Desligue o fogo, adicione o alecrim e o poejo. Cubra e abafe por 10 minutos. Coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -499,7 +502,7 @@
         "Semente de Coentro": "1 colher de chá, levemente amassada",
         "Cravo-da-Índia": "5 cravos"
       },
-      "explicacao": "A aroeira atua como forte elemento de quebra de demandas densas; a guiné afasta larvas astrais e invejas pesadas; a semente de coentro limpa a repetição de energias intrusas; o cravo-da-índia blinda e fixa a nova frequência de proteção.",
+      "explicacao": "A aroeira é tradicionalmente usada para quebrar demandas densas; a guiné, para afastar cargas negativas e invejas; a semente de coentro, para limpar energias intrusas que se repetem; o cravo-da-índia, para fixar a nova frequência de proteção.",
       "intencao": "O que pesava sobre mim é cortado e fica para trás. Meu caminho está aberto e meus pés estão firmes nele.",
       "preparo": "Ferva 1 litro de água com os cravos-da-índia e as sementes de coentro levemente amassadas por 3 minutos. Desligue, adicione as folhas de aroeira e guiné. Abafe por 15 minutos com tampa, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -580,7 +583,7 @@
         "Louro": "3 folhas",
         "Semente de Girassol": "1 colher de sopa (sem sal)"
       },
-      "explicacao": "A raiz de vetiver promove um aterramento profundo e físico; a aroeira corta energias de oposição; o louro direciona a energia para a realização firme; a semente de girassol devolve a expansão e a altivez ao campo áurico.",
+      "explicacao": "A raiz de vetiver é associada ao aterramento profundo; a aroeira, ao corte de energias de oposição; o louro, à realização firme; a semente de girassol, à expansão e à altivez do campo áurico.",
       "intencao": "Tenho raízes firmes no meu chão. O que não é meu não me alcança, e o que é meu floresce.",
       "preparo": "Ferva 2 litros de água com a raiz de vetiver picada e as folhas de louro por 5 minutos. Desligue o fogo, junte a aroeira e as sementes de girassol. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -602,7 +605,7 @@
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
       "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
-      "finalidade": "Limpeza de miasmas de recuo e retomada de atitude.",
+      "finalidade": "Limpeza de energias de recuo e retomada de atitude.",
       "ervas": [
         "Poejo",
         "Guiné",
@@ -656,7 +659,7 @@
         "Raiz de Gengibre": "1 colher de chá ralada (cerca de 2 cm)",
         "Louro": "3 folhas"
       },
-      "explicacao": "A folha de abacateiro atrai a energia de fartura e abertura de caminhos materiais; o cravo-da-índia blinda contra sabotagens nos negócios; a raiz de gengibre acelera a execução prática; o louro coroa com a vitória e conquista.",
+      "explicacao": "A folha de abacateiro é associada à fartura e à abertura de caminhos materiais; o cravo-da-índia, à proteção dos negócios; a raiz de gengibre direciona a intenção para a ação prática; o louro simboliza vitória e conquista.",
       "intencao": "Meus projetos andam com foco e firmeza. O que construo prospera, e ninguém desvia o meu trabalho.",
       "preparo": "Ferva 2 litros de água com os cravos, a raiz de gengibre ralada e as folhas de louro por 4 minutos. Desligue, acrescente as folhas de abacateiro. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -679,7 +682,7 @@
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
       "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
-      "finalidade": "Magnetismo pessoal e atração de respeito inabalável.",
+      "finalidade": "Magnetismo pessoal e atração de respeito.",
       "ervas": [
         "Rosa Vermelha",
         "Macassá",
@@ -692,7 +695,7 @@
         "Cravo-da-Índia": "5 cravos",
         "Semente de Girassol": "1 colher de sopa (sem sal)"
       },
-      "explicacao": "A rosa vermelha desperta a paixão e o amor-próprio; o macassá traz o perfume clássico de fascínio e convencimento; o cravo-da-índia impõe respeito e blindagem magnética; a semente de girassol projeta a presença com altivez.",
+      "explicacao": "A rosa vermelha é associada à paixão e ao amor-próprio; o macassá, ao encanto, à comunicação e à autoconfiança; o cravo-da-índia, ao respeito e à proteção; a semente de girassol, a uma presença altiva.",
       "intencao": "Minha presença é notada e respeitada. Encanto sem me diminuir e me posiciono sem pedir licença.",
       "preparo": "Ferva 1 litro de água com os cravos-da-índia e as sementes de girassol por 3 minutos. Desligue o fogo, adicione o macassá e as pétalas de rosa vermelha. Abafe por 10 minutos, coe delicadamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -797,7 +800,7 @@
         "Cravo-da-Índia": "5 cravos",
         "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)"
       },
-      "explicacao": "A rosa vermelha mexe com a força vital do coração; a lavanda pacifica a ansiedade e o excesso de expectativas; o cravo-da-índia blinda contra chantagens emocionais; a casca de laranja injeta entusiasmo e leveza.",
+      "explicacao": "A rosa vermelha é associada à força vital do coração; a lavanda, à calma diante do excesso de expectativas; o cravo-da-índia, à proteção contra jogos emocionais; a casca de laranja, ao entusiasmo e à leveza.",
       "intencao": "Meu coração arde sem me queimar. Sinto com intensidade e sigo em paz, longe de jogos emocionais.",
       "preparo": "Ferva 1,5 litro de água com as cascas de laranja e os cravos por 3 minutos. Desligue, acrescente a lavanda e as pétalas de rosa vermelha. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -886,7 +889,7 @@
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
       "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
-      "finalidade": "Limpeza pesada de larvas astrais e inveja estagnada.",
+      "finalidade": "Limpeza profunda de cargas densas e de inveja.",
       "ervas": [
         "Guiné",
         "Aroeira",
@@ -899,7 +902,7 @@
         "Espada-de-São-Jorge": "1 folha de cerca de 15 cm, em tiras finas",
         "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
       },
-      "explicacao": "A guiné devora miasmas e energias de inveja; a aroeira quebra correntes astrais densas; a espada-de-são-jorge atua como espada de corte implacável contra o malfeito; o poejo limpa o campo mental associado à carga.",
+      "explicacao": "Na tradição, a guiné é usada para afastar cargas densas e inveja; a aroeira, para quebrar energias pesadas; a espada-de-são-jorge, como símbolo de corte e defesa; o poejo, para limpar o campo mental associado à carga.",
       "intencao": "Tudo o que é denso, invejoso ou alheio a mim é retirado agora. Meu corpo e meu campo ficam limpos.",
       "preparo": "Ferva 2 litros de água, desligue o fogo e adicione imediatamente as ervas frescas picadas (Guiné, Aroeira, Espada-de-São-Jorge em tiras finas e Poejo). Abafe por 15 minutos, coe muito bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo, de preferência antes do pôr do sol.",
       "alertas": [
@@ -942,7 +945,7 @@
         "Casca de Limão Siciliano": "casca de ½ limão (só a parte amarela)",
         "Sal Grosso": "1 colher de chá rasa"
       },
-      "explicacao": "O eucalipto desobstrui a aura de miasmas pesados; a hortelã esfria e limpa o excesso de agitação mental; a casca de limão siciliano dissolve resíduos densos; o sal grosso neutraliza a carga acumulada.",
+      "explicacao": "O eucalipto é associado à desobstrução da aura; a hortelã, a esfriar o excesso de agitação mental; a casca de limão siciliano, à dissolução de resíduos densos; o sal grosso, à neutralização da carga acumulada.",
       "intencao": "Minha mente se esvazia do excesso. Solto o peso que não é meu e respiro com leveza.",
       "preparo": "Ferva 1,5 litro de água com as cascas de limão siciliano e o sal grosso por 3 minutos. Desligue, junte as folhas de eucalipto e a hortelã. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -985,7 +988,7 @@
         "Folha de Laranjeira": "5 folhas",
         "Capim-Limão": "3 folhas frescas cortadas"
       },
-      "explicacao": "A lavanda transmuta o estresse em tranquilidade; a camomila acolhe o campo emocional ferido; a folha de laranjeira traz uma alegria suave e reconfortante; o capim-limão traz relaxamento e leveza ao campo.",
+      "explicacao": "A lavanda é associada à transmutação do estresse em tranquilidade; a camomila, ao acolhimento do campo emocional; a folha de laranjeira, a uma alegria suave; o capim-limão, à leveza e ao relaxamento.",
       "intencao": "Desacelero. Meu corpo relaxa, minhas emoções se aquietam e a paz volta a morar em mim.",
       "preparo": "Ferva 1,5 litro de água, desligue o fogo e adicione o capim-limão, a folha de laranjeira, a camomila e a lavanda. Abafe por 10 minutos para preservar os óleos essenciais, coe com cuidado. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
       "alertas": []
@@ -1044,7 +1047,7 @@
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
       "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
-      "finalidade": "Corte definitivo de miasmas e energias de oposição sutil.",
+      "finalidade": "Corte de energias de oposição sutil.",
       "ervas": [
         "Espada-de-São-Jorge",
         "Guiné",
@@ -1057,7 +1060,7 @@
         "Eucalipto": "4 folhas",
         "Cravo-da-Índia": "5 cravos"
       },
-      "explicacao": "A espada-de-são-jorge fatia cordões energéticos negativos; a guiné desmancha larvas astrais; o eucalipto abre espaço para a livre circulação da energia vital; o cravo-da-índia sela e protege o campo recém-limpo.",
+      "explicacao": "A espada-de-são-jorge é associada ao corte de laços energéticos negativos; a guiné, ao desmanche de cargas densas; o eucalipto, à livre circulação da energia; o cravo-da-índia, a selar e proteger o campo recém-limpo.",
       "intencao": "Cortam-se os fios que me prendem ao que me atrasa. Meu campo fica livre e selado.",
       "preparo": "Ferva 1,5 litro de água com os cravos-da-índia por 3 minutos. Desligue, junte as tiras de espada-de-são-jorge, a guiné e o eucalipto. Abafe por 12 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -1145,14 +1148,14 @@
     },
     {
       "id": 20,
-      "titulo": "Cura do Coração",
+      "titulo": "Acolhimento do Coração",
       "direcionamento": "Geral",
       "categoria": "Amor e Magnetismo",
       "finalidades_extras": [],
       "nivel": "Harmonização",
       "corpo": "Cabeça aos pés",
       "frequencia": "Sempre que sentir necessidade.",
-      "finalidade": "Cuidado profundo com o amor-próprio e cicatrização de mágoas.",
+      "finalidade": "Cuidado com o amor-próprio e acolhimento de mágoas.",
       "ervas": [
         "Rosa Branca",
         "Lavanda",
@@ -1165,8 +1168,8 @@
         "Camomila": "1 colher de sopa de flores secas",
         "Semente de Funcho": "1 colher de chá"
       },
-      "explicacao": "A rosa branca limpa a culpa e traz leveza ao coração; a lavanda transmuta ressentimentos passados; a camomila acolhe a criança interior ferida; a semente de funcho devolve a doçura e o respeito consigo mesma.",
-      "intencao": "Acolho minhas mágoas com carinho e deixo que cicatrizem. Eu mereço o meu próprio amor.",
+      "explicacao": "A rosa branca é associada à leveza do coração e ao alívio da culpa; a lavanda, à transmutação de ressentimentos; a camomila, ao acolhimento da criança interior; a semente de funcho, à doçura e ao respeito consigo mesma.",
+      "intencao": "Acolho minhas mágoas com carinho e deixo que se aquietem. Eu mereço o meu próprio amor.",
       "preparo": "Ferva 1 litro de água com as sementes de funcho por 3 minutos. Desligue, adicione a lavanda, a camomila e as pétalas de rosa branca. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
       "alertas": []
     },
@@ -1225,7 +1228,7 @@
         "Cravo-da-Índia": "5 cravos",
         "Noz-Moscada": "1 pitada ralada"
       },
-      "explicacao": "O hibisco expande o poder de atração visual e energética; a rosa vermelha intensifica os sentimentos de afeto; o cravo-da-índia protege a união de interferências externas; a noz-moscada desperta a cumplicidade intuitiva.",
+      "explicacao": "O hibisco é associado ao poder de atração; a rosa vermelha, à intensidade dos sentimentos; o cravo-da-índia, à proteção da relação contra interferências externas; a noz-moscada, à cumplicidade intuitiva.",
       "intencao": "Vivo o amor com intensidade e consciência. Eu me entrego sem me perder.",
       "preparo": "Ferva 1,5 litro de água com os cravos-da-índia e a noz-moscada ralada por 3 minutos. Desligue, adicione o hibisco e as pétalas de rosa vermelha. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -1384,7 +1387,7 @@
         "Canela em Casca": "1 pau de cerca de 5 cm",
         "Calêndula": "1 colher de sopa de flores secas"
       },
-      "explicacao": "O anis-estrelado atrai boa sorte e intuição estratégica; o louro coroa a realização de metas; a canela em casca acelera resultados financeiros e profissionais; a calêndula garante destaque e reconhecimento merecido.",
+      "explicacao": "O anis-estrelado é associado à boa sorte e à intuição estratégica; o louro, à realização de metas; a canela em casca direciona a intenção para movimento e ação; a calêndula é associada a brilho e reconhecimento.",
       "intencao": "Meu esforço é visto e recompensado. Alcanço o que planejei, passo a passo.",
       "preparo": "Ferva 1,5 litro de água com a canela em casca, os anis-estrelados e o louro por 4 minutos. Desligue, adicione a calêndula. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -1417,7 +1420,7 @@
         "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
         "Semente de Girassol": "1 colher de sopa (sem sal)"
       },
-      "explicacao": "O capim-limão acalma a pressão do ambiente corporativo; o alecrim estrutura a ordem mental; a casca de laranja traz leveza e ânimo para executar tarefas; a semente de girassol firma a produtividade com foco.",
+      "explicacao": "O capim-limão é associado ao alívio da pressão no trabalho; o alecrim, à ordem mental; a casca de laranja, à leveza e ao ânimo para executar tarefas; a semente de girassol, ao foco e à produtividade.",
       "intencao": "Organizo pensamentos e tarefas com calma. Faço uma coisa de cada vez, e faço bem.",
       "preparo": "Ferva 1,5 litro de água com as cascas de laranja e as sementes de girassol por 3 minutos. Desligue, junte o capim-limão e o alecrim. Abafe por 10 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
       "alertas": [
@@ -1430,7 +1433,7 @@
     },
     {
       "id": 29,
-      "titulo": "Blindagem Corporativa",
+      "titulo": "Blindagem no Trabalho",
       "direcionamento": "Geral",
       "categoria": "Trabalho e Caminhos",
       "finalidades_extras": [
@@ -1439,7 +1442,7 @@
       "nivel": "Descarrego",
       "corpo": "Pescoço para baixo",
       "frequencia": "No máximo 1 vez por semana. Faça em seguida um banho de harmonização.",
-      "finalidade": "Proteção contra concorrência desleal e ambientes corporativos densos.",
+      "finalidade": "Proteção energética em ambientes de trabalho densos e competitivos.",
       "ervas": [
         "Espada-de-São-Jorge",
         "Louro",
@@ -1452,7 +1455,7 @@
         "Aroeira": "1 ramo com cerca de 10 folhas (fresca)",
         "Cravo-da-Índia": "5 cravos"
       },
-      "explicacao": "A espada-de-são-jorge bloqueia energias mal intencionadas de colegas ou concorrentes; o louro mantém sua vitória em foco; a aroeira repele vibrações de olho gordo; o cravo-da-índia blinda seu espaço de atuação.",
+      "explicacao": "A espada-de-são-jorge é associada à defesa contra energias mal-intencionadas; o louro, ao foco na conquista; a aroeira, ao afastamento do olho gordo; o cravo-da-índia, à proteção do seu espaço de atuação.",
       "intencao": "Meu espaço de trabalho está protegido. Intrigas e olho grande não me alcançam.",
       "preparo": "Ferva 1,5 litro de água com os cravos-da-índia e as folhas de louro por 3 minutos. Desligue, adicione as tiras de espada-de-são-jorge e a aroeira. Abafe por 12 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -1530,7 +1533,7 @@
         "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
         "Canela em Casca": "1 pau de cerca de 5 cm"
       },
-      "explicacao": "O anis-estrelado atrai correntes de riqueza e sincronicidade; a calêndula brilha o aspecto solar da abundância; a casca de laranja seca movimenta o fluxo monetário parado; a canela em casca acelera a concretização de ganhos.",
+      "explicacao": "O anis-estrelado é associado à prosperidade e à sincronicidade; a calêndula, ao aspecto solar da abundância; a casca de laranja seca, ao movimento do dinheiro parado; a canela em casca direciona a intenção para movimento e ação.",
       "intencao": "As oportunidades me encontram e eu sei reconhecê-las. A abundância flui em minha direção.",
       "preparo": "Ferva 1,5 litro de água com as cascas de laranja, a canela em casca e os anis-estrelados por 4 minutos. Desligue, adicione a calêndula. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -1672,7 +1675,7 @@
         "Casca de Laranja Seca": "1 colher de sopa (ou a casca de ½ laranja)",
         "Rosa Amarela": "pétalas de 1 rosa"
       },
-      "explicacao": "O anis-estrelado atrai oportunidades valiosas; a noz-moscada favorece a intuição comercial; a casca de laranja energiza a alegria de produzir; a rosa amarela garante que seu valor pessoal seja reconhecido financeiramente.",
+      "explicacao": "O anis-estrelado é associado a boas oportunidades; a noz-moscada, à intuição comercial; a casca de laranja, à alegria de produzir; a rosa amarela, a brilho e reconhecimento do seu valor.",
       "intencao": "Meu trabalho tem valor e é reconhecido. Recebo com justiça pelo que entrego.",
       "preparo": "Ferva 1,5 litro de água com as cascas de laranja, os anis-estrelados e a noz-moscada ralada por 3 minutos. Desligue, adicione as pétalas de rosa amarela. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
       "alertas": [
@@ -1712,7 +1715,7 @@
         "Semente de Girassol": "1 colher de sopa (sem sal)",
         "Casca de Bergamota": "casca de ½ bergamota (só a parte colorida)"
       },
-      "explicacao": "A raiz de vetiver garante solidez e estrutura para guardar e multiplicar recursos; o louro sela o sucesso financeiro; a semente de girassol foca no crescimento constante; a casca de bergamota movimenta novas fontes de ganho.",
+      "explicacao": "A raiz de vetiver é associada à solidez e à estrutura para cuidar dos recursos; o louro, ao sucesso financeiro; a semente de girassol, ao crescimento constante; a casca de bergamota, ao movimento de novas fontes de ganho.",
       "intencao": "Construo sobre chão firme. O que ergo hoje sustenta o meu amanhã.",
       "preparo": "Ferva 2 litros de água com a raiz de vetiver picada, as cascas de bergamota e o louro por 5 minutos. Desligue, junte as sementes de girassol. Abafe por 10 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
       "alertas": [
@@ -1794,7 +1797,7 @@
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
       "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
-      "finalidade": "Força de vontade inabalável e coragem para ocupar espaço.",
+      "finalidade": "Força de vontade e coragem para ocupar espaço.",
       "ervas": [
         "Raiz de Gengibre",
         "Alecrim",
@@ -1807,7 +1810,7 @@
         "Cravo-da-Índia": "5 cravos",
         "Louro": "3 folhas"
       },
-      "explicacao": "A raiz de gengibre desperta o fogo interno de atitude; o alecrim traz firmeza de propósitos; o cravo-da-índia protege sua coragem contra opiniões alheias; o louro garante a vitória ao ocupar seu espaço de direito.",
+      "explicacao": "A raiz de gengibre é associada ao fogo interno de atitude; o alecrim, à firmeza de propósitos; o cravo-da-índia, à proteção diante de opiniões alheias; o louro, à vitória ao ocupar o seu espaço.",
       "intencao": "Acendo o meu fogo interno. Ocupo o meu espaço com coragem, sem pedir desculpas por existir.",
       "preparo": "Ferva 2 litros de água com a raiz de gengibre ralada, os cravos e o louro por 4 minutos. Desligue, junte o alecrim. Abafe por 10 minutos, coe. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -1908,7 +1911,7 @@
         "Folha de Laranjeira": "5 folhas",
         "Jasmim": "1 colher de sopa de flores secas (ou 7 flores frescas)"
       },
-      "explicacao": "A camomila suaviza a relação com o próprio corpo e mente; a rosa amarela ilumina a expressão sutil; a folha de laranjeira traz paz e alegria íntima; o jasmim eleva a percepção da própria essência espiritual.",
+      "explicacao": "A camomila é associada à suavidade na relação consigo mesma; a rosa amarela, à expressão sutil; a folha de laranjeira, à paz e à alegria íntima; o jasmim, à percepção da própria essência espiritual.",
       "intencao": "Reconheço a beleza que existe em mim. Sou suave comigo e deixo minha essência florescer.",
       "preparo": "Ferva 1,5 litro de água, desligue o fogo e acrescente a camomila, a folha de laranjeira, o jasmim e as pétalas de rosa amarela. Abafe por 10 minutos, coe delicadamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje da cabeça aos pés (ou do pescoço para baixo, se preferir).",
       "alertas": []
@@ -1935,7 +1938,7 @@
         "Espada-de-São-Jorge": "1 folha de cerca de 15 cm, em tiras finas",
         "Alecrim": "2 ramos frescos (ou 1 colher de sopa seco)"
       },
-      "explicacao": "A guiné intercepta e consome cargas densas; a aroeira fecha o corpo contra influências nocivas; a espada-de-são-jorge atua como barreira intransponível; o alecrim mantém a vibração elevada e protegida.",
+      "explicacao": "Na tradição, a guiné é usada para afastar cargas densas; a aroeira, para fechar o corpo a influências negativas; a espada-de-são-jorge, como símbolo de barreira e defesa; o alecrim, para manter a vibração elevada.",
       "intencao": "Meu corpo se fecha ao que é denso. Por onde eu for, a proteção vai comigo.",
       "preparo": "Ferva 2 litros de água, desligue o fogo e adicione as ervas frescas picadas (Guiné, Aroeira, tiras de Espada-de-São-Jorge e Alecrim). Abafe por 15 minutos com tampa, coe rigorosamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -1958,14 +1961,14 @@
     },
     {
       "id": 44,
-      "titulo": "Blindagem Anti-Vampirismo",
+      "titulo": "Blindagem Energética",
       "direcionamento": "Geral",
       "categoria": "Proteção",
       "finalidades_extras": [],
       "nivel": "Ativação",
       "corpo": "Pescoço para baixo",
       "frequencia": "Ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
-      "finalidade": "Blindagem e aterramento contra vampirismo astral.",
+      "finalidade": "Proteção e aterramento contra a drenagem de energia.",
       "ervas": [
         "Raiz de Vetiver",
         "Cravo-da-Índia",
@@ -1978,7 +1981,7 @@
         "Louro": "3 folhas",
         "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
       },
-      "explicacao": "A raiz de vetiver ancora o campo magnético contra drenagens; o cravo-da-índia blinda e sela os chakras inferiores; o louro direciona a energia para a soberania pessoal; o poejo limpa os pensamentos de interferências externas.",
+      "explicacao": "A raiz de vetiver é associada ao aterramento do campo; o cravo-da-índia, à proteção contra a drenagem de energia; o louro, à soberania pessoal; o poejo, à limpeza de interferências nos pensamentos.",
       "intencao": "Minha energia é minha. Ninguém a drena: ela permanece comigo.",
       "preparo": "Ferva 2 litros de água com a raiz de vetiver picada, os cravos e o louro por 5 minutos. Desligue, junte o poejo. Abafe por 10 minutos, coe com cuidado. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -2045,7 +2048,7 @@
         "Casca de Limão Siciliano": "casca de ½ limão (só a parte amarela)",
         "Guiné": "1 ramo com cerca de 7 folhas (fresca)"
       },
-      "explicacao": "A aroeira quebra e afasta correntes pesadas; o eucalipto desinfeta o campo áurico de miasmas; a casca de limão siciliano neutraliza resíduos de ambientes densos; a guiné garante o fechamento definitivo do corpo.",
+      "explicacao": "Na tradição, a aroeira é usada para afastar energias pesadas; o eucalipto, para limpar o campo áurico; a casca de limão siciliano, para neutralizar resíduos de ambientes densos; a guiné, para o fechamento de corpo.",
       "intencao": "Limpo o que é pesado e fecho o meu corpo. Nada de mal entra, nada de bom sai.",
       "preparo": "Ferva 1,5 litro de água com as cascas de limão siciliano por 3 minutos. Desligue, junte a aroeira, o eucalipto e a guiné. Abafe por 12 minutos, coe bem. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
@@ -2120,7 +2123,7 @@
         "Cravo-da-Índia": "5 cravos",
         "Poejo": "1 ramo pequeno (ou 1 colher de sopa seco)"
       },
-      "explicacao": "A espada-de-são-jorge afasta fofocas e intrigas maliciosas; a raiz de vetiver ancora o praticante na sua verdade; o cravo-da-índia blinda o campo contra ataques sutis; o poejo limpa o ambiente mental de armadilhas energéticas.",
+      "explicacao": "A espada-de-são-jorge é associada ao afastamento de fofocas e intrigas; a raiz de vetiver, à firmeza na própria verdade; o cravo-da-índia, à proteção do campo; o poejo, à limpeza de armadilhas energéticas no ambiente mental.",
       "intencao": "Fofocas e intrigas se desfazem antes de me alcançar. Sigo firme na minha verdade.",
       "preparo": "Ferva 2 litros de água com a raiz de vetiver picada e os cravos-da-índia por 5 minutos. Desligue, adicione as tiras de espada-de-são-jorge e o poejo. Abafe por 12 minutos, coe perfeitamente. Espere amornar até uma temperatura agradável e, depois do banho de higiene, despeje do pescoço para baixo.",
       "alertas": [
