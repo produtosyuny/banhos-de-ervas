@@ -25,33 +25,75 @@
   "nota_linhagem": "Os banhos com direcionamento a Exu e Pombagira se inspiram em práticas populares das religiões afro-brasileiras. Eles não substituem os fundamentos, as firmezas e as orientações de um terreiro. Se você é de uma casa de axé, converse com sua zeladora ou seu zelador antes de fazê-los.",
   "como_tomar": [
     {
-      "titulo": "Erva fresca ou seca",
-      "texto": "As medidas indicam a forma mais comum de cada erva. Se for trocar fresca por seca, use cerca de um terço da quantidade (1 colher de sopa de erva seca equivale a um punhado de erva fresca)."
+      "titulo": "Escolha o banho",
+      "texto": "A finalidade vem antes da erva. Defina o que você quer trabalhar agora e escolha um banho de cada vez.",
+      "itens": [
+        "Use o menu \"Banhos por Finalidade\" ou a busca para encontrar o banho certo.",
+        "Se está começando, prefira um banho de Harmonização ou de Ativação antes de um Descarrego.",
+        "Leia o banho inteiro, inclusive o quadro de cuidados. Alguns não são indicados para gestantes, e os que levam cascas cítricas pedem atenção ao sol."
+      ]
     },
     {
-      "titulo": "Água e panela",
-      "texto": "Use água filtrada e panela de inox, ágata ou barro. Cascas, raízes, sementes e especiarias vão na fervura. Folhas e flores entram depois de desligar o fogo, para não perder o aroma."
+      "titulo": "Separe os ingredientes",
+      "texto": "Reúna tudo antes de acender o fogo.",
+      "itens": [
+        "Compre ervas em casas de confiança e confira se é a planta certa, principalmente a aroeira.",
+        "As medidas de cada banho indicam a forma mais comum da erva. Para trocar fresca por seca, use cerca de um terço da quantidade.",
+        "Faltou alguma erva? A ficha de cada erva sugere substitutos, e a página \"Tenho em casa\" mostra o que dá para fazer com o que você já tem."
+      ]
     },
     {
-      "titulo": "Temperatura",
-      "texto": "Nunca use o banho quente. Depois de coar, espere até que a água fique morna e agradável ao toque. Teste no pulso antes de despejar."
+      "titulo": "Prepare",
+      "texto": "Siga o modo de preparo do banho escolhido.",
+      "itens": [
+        "Use água filtrada e panela de inox, ágata ou barro.",
+        "Cascas, raízes, sementes e especiarias vão na fervura. Folhas e flores entram depois de desligar o fogo, para preservar o aroma.",
+        "Tampe a panela e deixe abafar pelo tempo indicado.",
+        "Coe bem. Se o banho leva canela em pó, coe em pano fino ou filtro de papel."
+      ]
     },
     {
-      "titulo": "Quando tomar",
-      "texto": "Tome primeiro o seu banho de higiene normal. Em seguida, com o chuveiro desligado, despeje o banho de ervas devagar, mentalizando a intenção. Banhos com cascas cítricas devem ser feitos à noite."
+      "titulo": "Aplique",
+      "texto": "É o momento mais importante: faça com calma e presença.",
+      "itens": [
+        "Tome primeiro o seu banho de higiene normal.",
+        "Espere o preparo amornar e teste a temperatura no pulso. Nunca use o banho quente.",
+        "Com o chuveiro desligado, despeje devagar, mentalizando a intenção do banho.",
+        "Respeite a indicação de cada banho: \"Pescoço para baixo\" ou \"Cabeça aos pés\".",
+        "Banhos com cascas cítricas devem ser feitos à noite."
+      ]
+    },
+    {
+      "titulo": "Respeite a frequência",
+      "texto": "Cada banho indica a sua frequência. Em resumo:",
+      "itens": [
+        "Descarrego: no máximo uma vez por semana, sempre seguido de um banho de Harmonização.",
+        "Ativação: em ciclos de 3 ou 7 dias seguidos, com pausa entre os ciclos.",
+        "Harmonização: sempre que sentir necessidade."
+      ]
     },
     {
       "titulo": "Depois do banho",
-      "texto": "Deixe o corpo secar naturalmente ou seque com leves toques de toalha, sem esfregar. Vista roupas limpas e, se puder, claras."
+      "texto": "Cuide do que vem em seguida.",
+      "itens": [
+        "Deixe o corpo secar naturalmente ou seque com leves toques de toalha, sem esfregar.",
+        "Vista roupas limpas e, se puder, claras. Se possível, reserve alguns minutos de calma.",
+        "Devolva as ervas usadas à natureza, em um jardim, um vaso ou na terra, ou descarte no lixo orgânico.",
+        "Não guarde o banho pronto de um dia para o outro."
+      ]
     },
     {
-      "titulo": "Frequência",
-      "texto": "Siga a indicação de cada banho: descarrego no máximo uma vez por semana e sempre seguido de harmonização; ativação em ciclos de 3 ou 7 dias; harmonização quando sentir necessidade."
-    },
-    {
-      "titulo": "O que fazer com as ervas",
-      "texto": "Devolva as ervas usadas à natureza, em um jardim, um vaso ou na terra, ou descarte no lixo orgânico. Não reaproveite e não guarde o banho pronto de um dia para o outro."
+      "titulo": "Registre a sua experiência",
+      "texto": "Anotar ajuda a perceber o que faz sentido para você e a escolher melhor os próximos banhos. Use o diário abaixo, no caderno ou impresso.",
+      "itens": []
     }
+  ],
+  "diario": [
+    "Data e nome do banho",
+    "Qual era a minha intenção?",
+    "Como me senti durante o banho?",
+    "O que percebi nas horas e nos dias seguintes?",
+    "Eu repetiria? O que mudaria?"
   ],
   "seguranca": [
     {
@@ -95,7 +137,8 @@
   "sobre_foto": "",
   "contato": {
     "whatsapp": "5511978705684",
-    "whatsapp_mensagem": "Olá, Maria! Vim pelo guia de Banhos de Ervas e gostaria de agendar uma leitura.",
+    "mensagem_leitura": "Olá, Maria! Vim pelo guia de Banhos de Ervas e gostaria de agendar uma leitura de tarot.",
+    "mensagem_suporte": "Olá, Maria! Estou usando o guia de Banhos de Ervas e tenho uma dúvida:",
     "instagram": "mundociganatarot",
     "texto_cta": "Quer uma orientação personalizada? Agende uma leitura de tarot."
   },
