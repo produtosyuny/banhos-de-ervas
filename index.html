@@ -6,6 +6,7 @@
     <title>Banhos de Ervas — Guia Digital | Mundo Cigana Tarot</title>
     <meta name="description" content="48 banhos de ervas organizados por finalidade, com medidas, modo de preparo, intenção e ficha completa de 35 ervas. Um guia da Mundo Cigana Tarot.">
     <meta name="theme-color" content="#6e4141">
+    <meta name="robots" content="noindex, nofollow">
 
     <!-- Pré-visualização em WhatsApp, Instagram e redes sociais.
          Se o site mudar de endereço, atualize as duas URLs absolutas abaixo. -->
@@ -305,6 +306,8 @@
             .ficha-grid { grid-template-columns: 1fr; }
             .journey > li { padding: 18px 18px 18px 60px; }
             .journey > li::before { left: 16px; }
+            .login-card { padding: 26px 20px; }
+            .login-card h1 { font-size: 1.9rem; }
         }
         @media print {
             .facts { grid-template-columns: repeat(4, 1fr); }
@@ -313,9 +316,9 @@
             .diario td { height: 80px; }
         }
         /* Login */
-        .login-screen { position: fixed; inset: 0; z-index: 500; background: var(--bg-primary); display: flex; align-items: center; justify-content: center; padding: 20px; overflow-y: auto; }
+        .login-screen { position: fixed; inset: 0; z-index: 500; background: var(--bg-primary); display: flex; align-items: flex-start; justify-content: center; padding: 20px; overflow-y: auto; }
         .login-screen[hidden] { display: none; }
-        .login-card { width: 100%; max-width: 400px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 34px 30px; box-shadow: 0 10px 40px rgba(110,65,65,0.08); }
+        .login-card { margin: auto; width: 100%; max-width: 400px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 34px 30px; box-shadow: 0 10px 40px rgba(110,65,65,0.08); }
         .login-card h1 { font-size: 2.2rem; color: var(--accent-rose-dark); text-align: center; }
         .login-card .marca { text-align: center; font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--text-muted); margin-bottom: 22px; }
         .login-card label { display: block; font-size: 0.85rem; font-weight: 500; margin: 14px 0 4px; }
@@ -341,7 +344,26 @@
         .related-grid span { font-size: 0.8rem; color: var(--text-muted); }
         .glossario dt { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; color: var(--accent-rose-dark); margin-top: 16px; }
         .glossario dd { margin: 2px 0 0; padding-bottom: 14px; border-bottom: 1px solid var(--border-subtle); }
-        @media (max-width: 768px) { .start-grid, .related-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) {
+            .start-grid, .related-grid { grid-template-columns: 1fr; }
+            .diario, .diario tbody, .diario tr, .diario th, .diario td { display: block; width: 100%; }
+            .diario tr { margin-bottom: 10px; }
+            .diario th { border-bottom: none; }
+            .diario td { height: 70px; }
+        }
+        .diario-cabecalho { display: none; }
+        @media print {
+            body.print-diario .content-container > *:not(#diario) { display: none !important; }
+            body.print-diario #diario { border: none; padding: 0; margin: 0; }
+            body.print-diario #diario .actions, body.print-diario #diario > p { display: none; }
+            body.print-diario #diario > p.diario-cabecalho { display: block; margin-bottom: 12px; }
+            body.print-diario .diario td { height: 110px; }
+            body.print-diario .diario { display: table; }
+            body.print-diario .diario tbody { display: table-row-group; }
+            body.print-diario .diario tr { display: table-row; }
+            body.print-diario .diario th, body.print-diario .diario td { display: table-cell; }
+            body.print-diario .diario th { width: 32%; border-bottom: 1px solid #ccc; }
+        }
         .aviso { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
         .sidebar-contact { padding: 14px 24px 18px; border-top: 1px solid var(--border-subtle); display: flex; gap: 8px; flex-wrap: wrap; }
         .sidebar-contact a { flex: 1; text-align: center; justify-content: center; font-size: 0.8rem; padding: 7px 8px; white-space: nowrap; }
@@ -407,9 +429,9 @@
 <body>
     <a class="skip-link" href="#contentContainer">Pular para o conteúdo</a>
 
-    <div class="login-screen" id="loginScreen" hidden>
+    <div class="login-screen" id="loginScreen" role="dialog" aria-modal="true" aria-labelledby="loginTitulo" hidden>
         <form class="login-card" id="loginForm" novalidate>
-            <h1>Banhos de Ervas</h1>
+            <h1 id="loginTitulo">Banhos de Ervas</h1>
             <p class="marca">Mundo Cigana Tarot</p>
             <p style="font-size:0.92rem;margin-bottom:4px;">Entre com o e-mail e a senha que você recebeu ao adquirir o guia.</p>
             <label for="loginEmail">E-mail</label>
@@ -567,6 +589,7 @@
         }
 
         const avisoTradicao = () => data.aviso_tradicao ? `<p class="aviso">${esc(data.aviso_tradicao)}</p>` : '';
+        const avisoCurto = () => data.aviso_curto ? `<p class="aviso">${esc(data.aviso_curto)} <a href="#/sobre">Entenda a perspectiva do guia</a>.</p>` : avisoTradicao();
 
         // ---------------------------------------------------------------- menu
         function buildSidebar() {
@@ -692,7 +715,7 @@
                 <p class="breadcrumb"><a href="#/banhos">Todos os banhos</a> › ${isDir ? 'Direcionamentos' : 'Finalidade'}</p>
                 <h1 class="page-title">${isDir ? 'Banhos de ' : ''}${esc(cat)}</h1>
                 ${isDir ? `<div class="note-box"><p>${esc(data.nota_linhagem)}</p></div>` : ''}
-                <p class="result-count">${lista.length} banhos</p>
+                <p class="result-count">${lista.length} banhos${isDir ? '' : ', incluindo os que também atendem esta finalidade'}</p>
                 <div class="card-list">${lista.map(b => bathCard(b, cat)).join('')}</div>
             `, (isDir ? 'Banhos de ' : '') + cat, '#/categoria/' + catSlug(cat));
         }
@@ -758,12 +781,12 @@
 
                 ${bloco('Frequência', `<p>${esc(b.frequencia)}${b.nivel === 'Descarrego' ? ' Sugestão de harmonização: <a class="herb-link" href="#/banho/18">Reestruturação da Aura</a>.' : ''}</p>`)}
 
-                ${bloco('O que cada erva representa na tradição', `<p>${esc(b.explicacao)}</p>`)}
+                ${bloco('Associação de cada erva neste guia', `<p>${esc(b.explicacao)}</p>`)}
 
                 ${b.direcionamento !== 'Geral' ? `<div class="note-box"><p>${esc(data.nota_linhagem)}</p></div>` : ''}
                 ${relacionados.length ? `<h3>Banhos relacionados</h3><div class="related-grid">${relacionados.map(({ x, comuns }) =>
                     `<a href="#/banho/${x.id}"><strong>${esc(x.titulo)}</strong><span>${comuns ? comuns + (comuns === 1 ? ' erva em comum' : ' ervas em comum') + ' · ' : ''}${esc(x.categoria)}</span></a>`).join('')}</div>` : ''}
-                ${avisoTradicao()}
+                ${avisoCurto()}
                 ${cta()}
                 <nav class="pager" aria-label="Outros banhos">
                     ${prev ? `<a class="btn" href="#/banho/${prev.id}">← ${esc(prev.titulo)}</a>` : '<span></span>'}
@@ -817,6 +840,7 @@
                 </div>
                 ${ervasEncontradas.length ? `<p>Fichas de ervas: ${ervasEncontradas.map(f => `<a class="herb-link" href="#/erva/${slug(f.nome)}">${esc(f.nome)}</a>`).join(', ')}</p>` : ''}
                 <p class="result-count" aria-live="polite">${lista.length} ${lista.length === 1 ? 'banho encontrado' : 'banhos encontrados'}${(filtros.finalidade || filtros.nivel || filtros.direcionamento || q || ervaFiltro) ? ' · <a href="#/banhos" data-clear>limpar filtros</a>' : ''}</p>
+                ${!q && !ervaFiltro && !filtros.finalidade && !filtros.nivel && !filtros.direcionamento ? '<p class="aviso">O guia tem 48 banhos únicos. Nas finalidades do menu, um mesmo banho pode aparecer em mais de uma categoria quando atende a mais de um objetivo.</p>' : ''}
                 <div class="card-list">${lista.map(b => bathCard(b)).join('') || '<p>Nenhum banho com esses critérios. Tente outra palavra ou limpe os filtros.</p>'}</div>
             `, q ? 'Busca' : 'Todos os banhos', q ? null : '#/banhos');
 
@@ -851,7 +875,7 @@
                         <p><strong>Energia predominante:</strong> ${esc(f.energia)}</p>
                         <p><strong>Uso tradicional:</strong> ${esc(f.utilizacao)}</p>
                         <p><strong>Medida de referência:</strong> ${esc(f.dose)}</p>
-                        <p><strong>Substituição:</strong> <em>${linkifyErvas(f.substituicao) || 'Nenhuma sugerida.'}</em></p>
+                        <p><strong>Substituição aproximada:</strong> <em>${linkifyErvas(f.substituicao) || 'Nenhuma sugerida.'}</em><br><small style="color:var(--text-muted);">Alternativa de finalidade parecida, na mesma medida. O banho fica próximo do original, mas não idêntico.</small></p>
                         ${f.cuidado ? `<div class="alert" role="note"><strong>Cuidado</strong>${esc(f.cuidado)}</div>` : ''}
                         ${rel.length ? `<div class="ficha-grid">
                             <div><h3>Combina mais com</h3><div class="tag-row">${combina.map(([e, c]) => `<a href="#/erva/${slug(e)}">${esc(e)}<span class="c">${c}×</span></a>`).join('')}</div></div>
@@ -870,7 +894,7 @@
             render(`
                 <h1 class="page-title">Ficha das Ervas</h1>
                 <p>Toque em uma erva para ver suas propriedades, a medida de referência, os cuidados e em quais banhos ela aparece.</p>
-                ${avisoTradicao()}
+                ${avisoCurto()}
                 <div style="margin-top:24px;">${html}</div>
             `, 'Ficha das Ervas', '#/ervas');
             if (abrir) {
@@ -882,18 +906,23 @@
         function pageTenho() {
             const tenho = new Set(storageGet().filter(n => fichaByName[n]));
             const nomes = data.fichas_ervas.map(f => f.nome).sort((a, b) => a.localeCompare(b, 'pt-BR'));
-            const completos = [], quase = [];
+            const completos = [], quase = [], quase2 = [];
             if (tenho.size) {
                 data.banhos.forEach(b => {
                     const faltam = b.ervas.filter(e => !tenho.has(e));
                     if (faltam.length === 0) completos.push(b);
-                    else if (faltam.length === 1) quase.push({ b, falta: faltam[0] });
+                    else if (faltam.length === 1) quase.push({ b, faltam });
+                    else if (faltam.length === 2) quase2.push({ b, faltam });
                 });
             }
             const subsQueTenho = nome => {
                 const f = fichaByName[nome];
                 return nomes.filter(n => tenho.has(n) && f && f.substituicao.toLowerCase().includes(n.toLowerCase()));
             };
+            const faltaCard = ({ b, faltam }) => bathCard(b).replace(/<\/a>\s*$/, `<p class="missing">${faltam.map(f => {
+                const subs = subsQueTenho(f);
+                return `Falta: ${esc(f)}${subs.length ? ` · substituto aproximado que você tem: ${subs.map(esc).join(' ou ')}` : ''}`;
+            }).join('<br>')}</p></a>`);
             render(`
                 <h1 class="page-title">Tenho em casa</h1>
                 <p>Marque as ervas que você tem e veja os banhos que já dá para preparar. Sua seleção fica salva neste aparelho.</p>
@@ -911,11 +940,13 @@
                     </div>
                     <div class="result-group">
                         <h2>Falta só uma erva (${quase.length})</h2>
-                        <div class="card-list">${quase.map(({ b, falta }) => {
-                            const subs = subsQueTenho(falta);
-                            return bathCard(b).replace(/<\/a>\s*$/, `<p class="missing">Falta: ${esc(falta)}${subs.length ? ` · você pode substituir por ${subs.map(esc).join(' ou ')}` : ''}</p></a>`);
-                        }).join('') || '<p>Nenhum.</p>'}</div>
-                    </div>`}
+                        <div class="card-list">${quase.map(faltaCard).join('') || '<p>Nenhum.</p>'}</div>
+                    </div>
+                    ${quase2.length ? `<div class="result-group">
+                        <h2>Faltam duas ervas (${quase2.length})</h2>
+                        <div class="card-list">${quase2.map(faltaCard).join('')}</div>
+                    </div>` : ''}
+                    <p class="aviso">Substituições são alternativas aproximadas, de finalidade parecida. Use a mesma medida da erva original.</p>`}
                 </div>
             `, 'Tenho em casa', '#/tenho-em-casa');
 
@@ -950,19 +981,26 @@
                 ${(data.diario || []).length ? `
                 <div class="module-box" id="diario">
                     <h3>Diário do banho</h3>
+                    <p class="diario-cabecalho">Banhos de Ervas · Mundo Cigana Tarot</p>
                     <p>Preencha logo depois do banho e volte a ele nos dias seguintes.</p>
-                    <div class="actions"><button class="btn" type="button" data-print>Imprimir o diário</button></div>
+                    <div class="actions"><button class="btn" type="button" data-print-diario>Imprimir o diário</button></div>
                     <table class="diario"><tbody>${data.diario.map(q => `<tr><th scope="row">${esc(q)}</th><td></td></tr>`).join('')}</tbody></table>
                 </div>` : ''}
                 ${suporte()}
             `, 'Como tomar os banhos', '#/como-tomar');
-            container.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+            container.querySelector('[data-print-diario]')?.addEventListener('click', () => {
+                document.body.classList.add('print-diario');
+                const limpar = () => { document.body.classList.remove('print-diario'); window.removeEventListener('afterprint', limpar); };
+                window.addEventListener('afterprint', limpar);
+                window.print();
+                setTimeout(limpar, 1000);
+            });
         }
 
         function pageGlossario() {
             render(`
                 <h1 class="page-title">Glossário</h1>
-                <p>Os termos usados no guia, explicados de forma simples.</p>
+                <p>${esc(data.glossario_intro || 'Os termos usados no guia, explicados de forma simples.')}</p>
                 <dl class="glossario">${(data.glossario || []).map(g => `<dt>${esc(g.termo)}</dt><dd>${esc(g.texto)}</dd>`).join('')}</dl>
             `, 'Glossário', '#/glossario');
         }
@@ -978,7 +1016,11 @@
                         <p class="bio">${esc(data.sobre)}</p>
                         ${l.insta ? `<p><a class="herb-link" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)} no Instagram</a></p>` : ''}
                     </div>
-                </div>${cta()}`, 'Sobre', '#/sobre');
+                </div>
+                <h3>A perspectiva deste guia</h3>
+                <p>${esc(data.aviso_tradicao)}</p>
+                <p>${esc(data.nota_linhagem)}</p>
+                ${cta()}`, 'Sobre', '#/sobre');
         }
 
         function pageNaoEncontrada() {
@@ -1057,8 +1099,7 @@
                 (compra ? `<span>Ainda não tem acesso? <a href="${esc(compra)}" target="_blank" rel="noopener">Quero adquirir o guia</a></span>` : '');
             $('#loginErro').textContent = msg || '';
             $('#loginScreen').hidden = false;
-            $('#sidebar').setAttribute('aria-hidden', 'true');
-            $('#mainScroll').setAttribute('aria-hidden', 'true');
+            ['#sidebar', '#mainScroll', '#menuBtn'].forEach(sel => { $(sel).setAttribute('aria-hidden', 'true'); $(sel).inert = true; });
             setTimeout(() => $('#loginEmail').focus(), 50);
         }
 
@@ -1081,8 +1122,7 @@
                     const s = { email, token: res.token, nome: res.nome || '' };
                     sessaoSet(s);
                     $('#loginScreen').hidden = true;
-                    $('#sidebar').removeAttribute('aria-hidden');
-                    $('#mainScroll').removeAttribute('aria-hidden');
+                    ['#sidebar', '#mainScroll', '#menuBtn'].forEach(sel => { $(sel).removeAttribute('aria-hidden'); $(sel).inert = false; });
                     abrirGuia(s);
                 } else {
                     erro.textContent = MOTIVOS[res && res.motivo] || 'Não foi possível entrar. Tente novamente.';
