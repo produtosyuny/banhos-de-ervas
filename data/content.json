@@ -1,7 +1,6 @@
 {
   "titulo": "Banhos de Ervas",
   "subtitulo": "Guia Prático de Uso Pessoal — Mundo Cigana Tarot",
-  "descricao": "48 banhos de ervas organizados por finalidade, com medidas, modo de preparo, intenção e ficha completa de 35 ervas. Um guia da Mundo Cigana Tarot.",
   "versao": "Versão 1.3 · setembro de 2026",
   "acesso": {
     "url": "https://script.google.com/macros/s/AKfycbyjTeaWIsrqJiGcdoJ3DUusWChGlmTm9RoTWfACkhW4YgWX2Q0u9Ozf6keTzW9m8J0/exec",
@@ -14,7 +13,7 @@
   "aviso_curto": "As associações deste guia refletem a perspectiva da Maria e não são efeitos garantidos.",
   "modulos": {
     "mod1": "São preparações feitas com plantas escolhidas de acordo com uma finalidade. A escolha não deve ser aleatória: cada erva precisa ter uma razão para estar naquele banho. A regra de ouro é: a finalidade vem antes da erva.",
-    "mod2": "Na tradição popular, as ervas são classificadas como quentes, mornas ou frias, conforme a intensidade do trabalho. Neste guia, essa classificação define como e com que frequência cada banho é tomado. Todo banho que leva ao menos uma erva ou especiaria quente é tomado do pescoço para baixo.",
+    "mod2": "Na tradição popular, as ervas são classificadas como quentes, mornas ou frias, conforme a intensidade do trabalho. Neste guia, essa classificação define como e com que frequência cada banho é tomado. Vale a classificação principal, que é a primeira palavra na ficha da erva: todo banho com ao menos uma erva de classificação principal Quente (por exemplo, \"Quente\" ou \"Quente/Morna\") é tomado do pescoço para baixo. Ervas \"Morna/Quente\", como alecrim e vetiver, são predominantemente mornas e não mudam a forma de aplicação.",
     "mod2_regras": [
       {
         "nivel": "Descarrego",
@@ -115,6 +114,10 @@
     {
       "termo": "Erva fria",
       "texto": "Erva suave, usada para acalmar, acolher e harmonizar."
+    },
+    {
+      "termo": "Classificação dupla (ex.: Morna/Quente)",
+      "texto": "A primeira palavra é a classificação principal e é ela que define a aplicação do banho. \"Morna/Quente\" é uma erva morna com um toque quente; \"Quente/Morna\" é uma erva quente, de aplicação do pescoço para baixo."
     },
     {
       "termo": "Descarrego",
