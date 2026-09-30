@@ -11,6 +11,7 @@
   },
   "como_usar": "Este guia foi criado para quem deseja iniciar ou aprofundar sua prática pessoal. São 48 banhos preparados com flores, folhas, cascas, sementes e raízes, organizados por finalidade. Escolha primeiro o que você quer trabalhar, leia o banho inteiro antes de começar e confira sempre os cuidados indicados. Se tiver só algumas ervas em casa, use a busca \"Tenho em casa\" para descobrir o que dá para preparar.",
   "aviso_tradicao": "As associações apresentadas neste guia refletem a prática e a perspectiva da Maria, baseadas na tradição popular e no uso espiritual das ervas. São uma entre várias interpretações possíveis: referências simbólicas para orientar a sua intenção, e não efeitos comprovados, garantidos ou terapêuticos.",
+  "aviso_curto": "As associações deste guia refletem a perspectiva da Maria e não são efeitos garantidos.",
   "modulos": {
     "mod1": "São preparações feitas com plantas escolhidas de acordo com uma finalidade. A escolha não deve ser aleatória: cada erva precisa ter uma razão para estar naquele banho. A regra de ouro é: a finalidade vem antes da erva.",
     "mod2": "Na tradição popular, as ervas são classificadas como quentes, mornas ou frias, conforme a intensidade do trabalho. Neste guia, essa classificação define como e com que frequência cada banho é tomado. Todo banho que leva ao menos uma erva ou especiaria quente é tomado do pescoço para baixo.",
@@ -136,6 +137,10 @@
       "texto": "Estabilidade espiritual: a sensação de estar com os pés no chão e o campo protegido."
     },
     {
+      "termo": "Abertura de picada",
+      "texto": "Expressão de terreiro que vem da imagem de abrir uma trilha no mato: abrir caminho onde antes estava fechado."
+    },
+    {
       "termo": "Intenção",
       "texto": "A frase que você mentaliza ou diz enquanto despeja o banho. É ela que dá direção às ervas."
     },
@@ -154,8 +159,13 @@
     {
       "termo": "Fechamento de corpo",
       "texto": "Expressão tradicional para a proteção do campo energético contra influências negativas."
+    },
+    {
+      "termo": "Substituição",
+      "texto": "Troca de uma erva por outra de finalidade parecida, usando a mesma medida. É uma alternativa aproximada: o banho fica próximo do original, mas não idêntico."
     }
   ],
+  "glossario_intro": "Os termos abaixo estão explicados do jeito que são usados neste guia, dentro da perspectiva da Maria. Outras casas e tradições podem usá-los de forma diferente.",
   "seguranca": [
     {
       "titulo": "Uso externo apenas",
